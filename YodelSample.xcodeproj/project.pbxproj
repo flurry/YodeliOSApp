@@ -1,0 +1,712 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		714913C11A9422C600C6BB19 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 714913C01A9422C600C6BB19 /* AppDelegate.m */; };
+		714913E31A94236500C6BB19 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 714913E11A94236500C6BB19 /* Images.xcassets */; };
+		714913F41A94242B00C6BB19 /* ImageCarouselCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 714913E91A94242B00C6BB19 /* ImageCarouselCell.m */; };
+		714913F51A94242B00C6BB19 /* ImageCarouselCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 714913EA1A94242B00C6BB19 /* ImageCarouselCell.xib */; };
+		714913F61A94242B00C6BB19 /* SearchResultCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 714913EC1A94242B00C6BB19 /* SearchResultCell.m */; };
+		714913F71A94242B00C6BB19 /* SearchResultCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 714913ED1A94242B00C6BB19 /* SearchResultCell.xib */; };
+		714913F81A94242B00C6BB19 /* CardCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 714913EF1A94242B00C6BB19 /* CardCell.m */; };
+		714913F91A94242B00C6BB19 /* CardCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 714913F01A94242B00C6BB19 /* CardCell.xib */; };
+		714913FA1A94242B00C6BB19 /* CarouselCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 714913F21A94242B00C6BB19 /* CarouselCell.m */; };
+		714913FB1A94242B00C6BB19 /* CarouselCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 714913F31A94242B00C6BB19 /* CarouselCell.xib */; };
+		714914081A94246000C6BB19 /* CardTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 714913FE1A94246000C6BB19 /* CardTableViewController.m */; };
+		714914091A94246000C6BB19 /* CarouselCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 714914001A94246000C6BB19 /* CarouselCollectionViewController.m */; };
+		7149140A1A94246000C6BB19 /* ContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 714914021A94246000C6BB19 /* ContainerViewController.m */; };
+		7149140B1A94246000C6BB19 /* ImageCarouselViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 714914041A94246000C6BB19 /* ImageCarouselViewController.m */; };
+		7149140C1A94246000C6BB19 /* SearchBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 714914061A94246000C6BB19 /* SearchBarViewController.m */; };
+		7149140D1A94246000C6BB19 /* SearchBarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 714914071A94246000C6BB19 /* SearchBarViewController.xib */; };
+		714914281A94253900C6BB19 /* ContentItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 714914271A94253900C6BB19 /* ContentItem.m */; };
+		714914341A94256000C6BB19 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 714914291A94255F00C6BB19 /* back.png */; };
+		714914351A94256000C6BB19 /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = 7149142A1A94255F00C6BB19 /* close.png */; };
+		714914361A94256000C6BB19 /* gallery.png in Resources */ = {isa = PBXBuildFile; fileRef = 7149142B1A94255F00C6BB19 /* gallery.png */; };
+		714914371A94256000C6BB19 /* header.png in Resources */ = {isa = PBXBuildFile; fileRef = 7149142C1A94255F00C6BB19 /* header.png */; };
+		714914381A94256000C6BB19 /* like.png in Resources */ = {isa = PBXBuildFile; fileRef = 7149142D1A94255F00C6BB19 /* like.png */; };
+		714914391A94256000C6BB19 /* more-on-the-web-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 7149142E1A94255F00C6BB19 /* more-on-the-web-button.png */; };
+		7149143A1A94256000C6BB19 /* reblog.png in Resources */ = {isa = PBXBuildFile; fileRef = 7149142F1A94255F00C6BB19 /* reblog.png */; };
+		7149143B1A94256000C6BB19 /* search-background.png in Resources */ = {isa = PBXBuildFile; fileRef = 714914301A94255F00C6BB19 /* search-background.png */; };
+		7149143C1A94256000C6BB19 /* search-blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 714914311A94256000C6BB19 /* search-blue.png */; };
+		7149143D1A94256000C6BB19 /* search-white.png in Resources */ = {isa = PBXBuildFile; fileRef = 714914321A94256000C6BB19 /* search-white.png */; };
+		7149143E1A94256000C6BB19 /* starburst.png in Resources */ = {isa = PBXBuildFile; fileRef = 714914331A94256000C6BB19 /* starburst.png */; };
+		714914441A94258500C6BB19 /* UIUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 714914411A94258500C6BB19 /* UIUtil.m */; };
+		714914451A94258500C6BB19 /* Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 714914431A94258500C6BB19 /* Util.m */; };
+		7149146E1A9427DC00C6BB19 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7149146D1A9427DC00C6BB19 /* QuartzCore.framework */; };
+		714914701A9427EC00C6BB19 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7149146F1A9427EC00C6BB19 /* AdSupport.framework */; };
+		714914721A9427F400C6BB19 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 714914711A9427F400C6BB19 /* CoreGraphics.framework */; };
+		714914741A9427FA00C6BB19 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 714914731A9427FA00C6BB19 /* Foundation.framework */; };
+		714914761A94280000C6BB19 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 714914751A94280000C6BB19 /* Security.framework */; };
+		714914781A94280A00C6BB19 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 714914771A94280A00C6BB19 /* SystemConfiguration.framework */; };
+		7149147A1A94281500C6BB19 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 714914791A94281500C6BB19 /* StoreKit.framework */; };
+		7149147E1A94286E00C6BB19 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7149147D1A94286E00C6BB19 /* libz.dylib */; };
+		7149149B1A942C4B00C6BB19 /* Configuration.plist in Resources */ = {isa = PBXBuildFile; fileRef = 714914981A942C4B00C6BB19 /* Configuration.plist */; };
+		7149149D1A942C4B00C6BB19 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7149149A1A942C4B00C6BB19 /* main.m */; };
+		714914A71A942C9000C6BB19 /* AdManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 714914A01A942C9000C6BB19 /* AdManager.m */; };
+		714914A81A942C9000C6BB19 /* Configuration.m in Sources */ = {isa = PBXBuildFile; fileRef = 714914A21A942C9000C6BB19 /* Configuration.m */; };
+		714914A91A942C9000C6BB19 /* TumblrFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 714914A41A942C9000C6BB19 /* TumblrFetcher.m */; };
+		714914AA1A942C9000C6BB19 /* TumblrManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 714914A61A942C9000C6BB19 /* TumblrManager.m */; };
+		714914AC1A942CAC00C6BB19 /* splash_screen.png in Resources */ = {isa = PBXBuildFile; fileRef = 714914AB1A942CAC00C6BB19 /* splash_screen.png */; };
+		714914AE1A942D7300C6BB19 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 714914AD1A942D7300C6BB19 /* LaunchScreen.xib */; };
+		714914BF1A9563EC00C6BB19 /* YahooSearchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 714914BE1A9563EC00C6BB19 /* YahooSearchKit.framework */; };
+		714914C01A95642400C6BB19 /* YahooSearchKit.framework in Resources */ = {isa = PBXBuildFile; fileRef = 714914BE1A9563EC00C6BB19 /* YahooSearchKit.framework */; };
+		714914CA1A9567A300C6BB19 /* libFlurry_6.2.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 714914C91A9567A300C6BB19 /* libFlurry_6.2.0.a */; };
+		714914DF1A9567B300C6BB19 /* libFlurryAds_6.2.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 714914D81A9567B300C6BB19 /* libFlurryAds_6.2.0.a */; };
+		714DF1D81A95BF3300D99026 /* YahooSearchKitResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 714DF1D71A95BF3300D99026 /* YahooSearchKitResources.bundle */; };
+		7152284E1A95B95500A6CC46 /* AnalyticsWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7152284D1A95B95500A6CC46 /* AnalyticsWrapper.m */; };
+		A1FAB34292FF393FE7394DC5 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BBC12C66FF260D7E4EE048D /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2F9CE19FCF99FF675B9A895A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		714913B81A9422C600C6BB19 /* YodelSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YodelSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		714913BF1A9422C600C6BB19 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		714913C01A9422C600C6BB19 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		714913E11A94236500C6BB19 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		714913E81A94242B00C6BB19 /* ImageCarouselCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageCarouselCell.h; sourceTree = "<group>"; };
+		714913E91A94242B00C6BB19 /* ImageCarouselCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageCarouselCell.m; sourceTree = "<group>"; };
+		714913EA1A94242B00C6BB19 /* ImageCarouselCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageCarouselCell.xib; sourceTree = "<group>"; };
+		714913EB1A94242B00C6BB19 /* SearchResultCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchResultCell.h; sourceTree = "<group>"; };
+		714913EC1A94242B00C6BB19 /* SearchResultCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchResultCell.m; sourceTree = "<group>"; };
+		714913ED1A94242B00C6BB19 /* SearchResultCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchResultCell.xib; sourceTree = "<group>"; };
+		714913EE1A94242B00C6BB19 /* CardCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardCell.h; sourceTree = "<group>"; };
+		714913EF1A94242B00C6BB19 /* CardCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardCell.m; sourceTree = "<group>"; };
+		714913F01A94242B00C6BB19 /* CardCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CardCell.xib; sourceTree = "<group>"; };
+		714913F11A94242B00C6BB19 /* CarouselCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarouselCell.h; sourceTree = "<group>"; };
+		714913F21A94242B00C6BB19 /* CarouselCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarouselCell.m; sourceTree = "<group>"; };
+		714913F31A94242B00C6BB19 /* CarouselCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CarouselCell.xib; sourceTree = "<group>"; };
+		714913FD1A94246000C6BB19 /* CardTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardTableViewController.h; sourceTree = "<group>"; };
+		714913FE1A94246000C6BB19 /* CardTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardTableViewController.m; sourceTree = "<group>"; };
+		714913FF1A94246000C6BB19 /* CarouselCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarouselCollectionViewController.h; sourceTree = "<group>"; };
+		714914001A94246000C6BB19 /* CarouselCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarouselCollectionViewController.m; sourceTree = "<group>"; };
+		714914011A94246000C6BB19 /* ContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContainerViewController.h; sourceTree = "<group>"; };
+		714914021A94246000C6BB19 /* ContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContainerViewController.m; sourceTree = "<group>"; };
+		714914031A94246000C6BB19 /* ImageCarouselViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageCarouselViewController.h; sourceTree = "<group>"; };
+		714914041A94246000C6BB19 /* ImageCarouselViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageCarouselViewController.m; sourceTree = "<group>"; };
+		714914051A94246000C6BB19 /* SearchBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchBarViewController.h; sourceTree = "<group>"; };
+		714914061A94246000C6BB19 /* SearchBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchBarViewController.m; sourceTree = "<group>"; };
+		714914071A94246000C6BB19 /* SearchBarViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchBarViewController.xib; sourceTree = "<group>"; };
+		714914261A94253900C6BB19 /* ContentItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentItem.h; sourceTree = "<group>"; };
+		714914271A94253900C6BB19 /* ContentItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentItem.m; sourceTree = "<group>"; };
+		714914291A94255F00C6BB19 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = back.png; path = Images/back.png; sourceTree = "<group>"; };
+		7149142A1A94255F00C6BB19 /* close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = close.png; path = Images/close.png; sourceTree = "<group>"; };
+		7149142B1A94255F00C6BB19 /* gallery.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gallery.png; path = Images/gallery.png; sourceTree = "<group>"; };
+		7149142C1A94255F00C6BB19 /* header.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = header.png; path = Images/header.png; sourceTree = "<group>"; };
+		7149142D1A94255F00C6BB19 /* like.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = like.png; path = Images/like.png; sourceTree = "<group>"; };
+		7149142E1A94255F00C6BB19 /* more-on-the-web-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "more-on-the-web-button.png"; path = "Images/more-on-the-web-button.png"; sourceTree = "<group>"; };
+		7149142F1A94255F00C6BB19 /* reblog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = reblog.png; path = Images/reblog.png; sourceTree = "<group>"; };
+		714914301A94255F00C6BB19 /* search-background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "search-background.png"; path = "Images/search-background.png"; sourceTree = "<group>"; };
+		714914311A94256000C6BB19 /* search-blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "search-blue.png"; path = "Images/search-blue.png"; sourceTree = "<group>"; };
+		714914321A94256000C6BB19 /* search-white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "search-white.png"; path = "Images/search-white.png"; sourceTree = "<group>"; };
+		714914331A94256000C6BB19 /* starburst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = starburst.png; path = Images/starburst.png; sourceTree = "<group>"; };
+		714914401A94258500C6BB19 /* UIUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIUtil.h; sourceTree = "<group>"; };
+		714914411A94258500C6BB19 /* UIUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIUtil.m; sourceTree = "<group>"; };
+		714914421A94258500C6BB19 /* Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Util.h; sourceTree = "<group>"; };
+		714914431A94258500C6BB19 /* Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Util.m; sourceTree = "<group>"; };
+		7149146D1A9427DC00C6BB19 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		7149146F1A9427EC00C6BB19 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		714914711A9427F400C6BB19 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		714914731A9427FA00C6BB19 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		714914751A94280000C6BB19 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		714914771A94280A00C6BB19 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		714914791A94281500C6BB19 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		7149147D1A94286E00C6BB19 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		714914981A942C4B00C6BB19 /* Configuration.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Configuration.plist; path = SupportingFiles/Configuration.plist; sourceTree = "<group>"; };
+		714914991A942C4B00C6BB19 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = SupportingFiles/Info.plist; sourceTree = "<group>"; };
+		7149149A1A942C4B00C6BB19 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = SupportingFiles/main.m; sourceTree = "<group>"; };
+		7149149F1A942C9000C6BB19 /* AdManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AdManager.h; path = Helpers/AdManager.h; sourceTree = "<group>"; };
+		714914A01A942C9000C6BB19 /* AdManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AdManager.m; path = Helpers/AdManager.m; sourceTree = "<group>"; };
+		714914A11A942C9000C6BB19 /* Configuration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Configuration.h; path = Helpers/Configuration.h; sourceTree = "<group>"; };
+		714914A21A942C9000C6BB19 /* Configuration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Configuration.m; path = Helpers/Configuration.m; sourceTree = "<group>"; };
+		714914A31A942C9000C6BB19 /* TumblrFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TumblrFetcher.h; path = Helpers/TumblrFetcher.h; sourceTree = "<group>"; };
+		714914A41A942C9000C6BB19 /* TumblrFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TumblrFetcher.m; path = Helpers/TumblrFetcher.m; sourceTree = "<group>"; };
+		714914A51A942C9000C6BB19 /* TumblrManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TumblrManager.h; path = Helpers/TumblrManager.h; sourceTree = "<group>"; };
+		714914A61A942C9000C6BB19 /* TumblrManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TumblrManager.m; path = Helpers/TumblrManager.m; sourceTree = "<group>"; };
+		714914AB1A942CAC00C6BB19 /* splash_screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = splash_screen.png; path = Images/splash_screen.png; sourceTree = "<group>"; };
+		714914AD1A942D7300C6BB19 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LaunchScreen.xib; path = SupportingFiles/LaunchScreen.xib; sourceTree = "<group>"; };
+		714914BE1A9563EC00C6BB19 /* YahooSearchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = YahooSearchKit.framework; sourceTree = "<group>"; };
+		714914C81A9567A300C6BB19 /* Flurry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Flurry.h; sourceTree = "<group>"; };
+		714914C91A9567A300C6BB19 /* libFlurry_6.2.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurry_6.2.0.a; sourceTree = "<group>"; };
+		714914CD1A9567B300C6BB19 /* FlurryAdBanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlurryAdBanner.h; sourceTree = "<group>"; };
+		714914CE1A9567B300C6BB19 /* FlurryAdBannerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlurryAdBannerDelegate.h; sourceTree = "<group>"; };
+		714914D01A9567B300C6BB19 /* FlurryAdInterstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlurryAdInterstitial.h; sourceTree = "<group>"; };
+		714914D11A9567B300C6BB19 /* FlurryAdInterstitialDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlurryAdInterstitialDelegate.h; sourceTree = "<group>"; };
+		714914D31A9567B300C6BB19 /* FlurryAdNative.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlurryAdNative.h; sourceTree = "<group>"; };
+		714914D41A9567B300C6BB19 /* FlurryAdNativeAsset+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FlurryAdNativeAsset+Private.h"; sourceTree = "<group>"; };
+		714914D51A9567B300C6BB19 /* FlurryAdNativeAsset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlurryAdNativeAsset.h; sourceTree = "<group>"; };
+		714914D61A9567B300C6BB19 /* FlurryAdNativeDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlurryAdNativeDelegate.h; sourceTree = "<group>"; };
+		714914D71A9567B300C6BB19 /* FlurryAdNativeStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlurryAdNativeStyle.h; sourceTree = "<group>"; };
+		714914D81A9567B300C6BB19 /* libFlurryAds_6.2.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurryAds_6.2.0.a; sourceTree = "<group>"; };
+		714914DA1A9567B300C6BB19 /* FlurryAdError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlurryAdError.h; sourceTree = "<group>"; };
+		714914DB1A9567B300C6BB19 /* FlurryAdTargeting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlurryAdTargeting.h; sourceTree = "<group>"; };
+		714914DD1A9567B300C6BB19 /* FlurryAdDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlurryAdDelegate.h; sourceTree = "<group>"; };
+		714914DE1A9567B300C6BB19 /* FlurryAds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlurryAds.h; sourceTree = "<group>"; };
+		714DF1D71A95BF3300D99026 /* YahooSearchKitResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = YahooSearchKitResources.bundle; path = YahooSearchKit.framework/Resources/YahooSearchKitResources.bundle; sourceTree = "<group>"; };
+		7152284C1A95B95500A6CC46 /* AnalyticsWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AnalyticsWrapper.h; path = Helpers/AnalyticsWrapper.h; sourceTree = "<group>"; };
+		7152284D1A95B95500A6CC46 /* AnalyticsWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AnalyticsWrapper.m; path = Helpers/AnalyticsWrapper.m; sourceTree = "<group>"; };
+		9BBC12C66FF260D7E4EE048D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C535BA47A13F33494E130E06 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		714913B51A9422C600C6BB19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				714914CA1A9567A300C6BB19 /* libFlurry_6.2.0.a in Frameworks */,
+				7149147E1A94286E00C6BB19 /* libz.dylib in Frameworks */,
+				714914BF1A9563EC00C6BB19 /* YahooSearchKit.framework in Frameworks */,
+				7149147A1A94281500C6BB19 /* StoreKit.framework in Frameworks */,
+				714914781A94280A00C6BB19 /* SystemConfiguration.framework in Frameworks */,
+				714914DF1A9567B300C6BB19 /* libFlurryAds_6.2.0.a in Frameworks */,
+				714914761A94280000C6BB19 /* Security.framework in Frameworks */,
+				714914741A9427FA00C6BB19 /* Foundation.framework in Frameworks */,
+				714914721A9427F400C6BB19 /* CoreGraphics.framework in Frameworks */,
+				714914701A9427EC00C6BB19 /* AdSupport.framework in Frameworks */,
+				7149146E1A9427DC00C6BB19 /* QuartzCore.framework in Frameworks */,
+				A1FAB34292FF393FE7394DC5 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		714913AF1A9422C600C6BB19 = {
+			isa = PBXGroup;
+			children = (
+				714913BA1A9422C600C6BB19 /* YodelSample */,
+				714913B91A9422C600C6BB19 /* Products */,
+				714914C71A9567A300C6BB19 /* Flurry */,
+				714914CB1A9567B300C6BB19 /* FlurryAds */,
+				ACEBE876548071EB306CC8A6 /* Pods */,
+				E6EA3F7BC6B483C37D435C56 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		714913B91A9422C600C6BB19 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				714913B81A9422C600C6BB19 /* YodelSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		714913BA1A9422C600C6BB19 /* YodelSample */ = {
+			isa = PBXGroup;
+			children = (
+				714913BF1A9422C600C6BB19 /* AppDelegate.h */,
+				714913C01A9422C600C6BB19 /* AppDelegate.m */,
+				7149149E1A942C7D00C6BB19 /* Helpers */,
+				714913E71A94242B00C6BB19 /* Cells */,
+				714913FC1A94246000C6BB19 /* ViewControllers */,
+				714914251A94253900C6BB19 /* Models */,
+				7149143F1A94258500C6BB19 /* Utils */,
+				714913E11A94236500C6BB19 /* Images.xcassets */,
+				7149140E1A9424F300C6BB19 /* Images */,
+				714913BB1A9422C600C6BB19 /* Supporting Files */,
+			);
+			path = YodelSample;
+			sourceTree = "<group>";
+		};
+		714913BB1A9422C600C6BB19 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				714914AD1A942D7300C6BB19 /* LaunchScreen.xib */,
+				714914981A942C4B00C6BB19 /* Configuration.plist */,
+				714914991A942C4B00C6BB19 /* Info.plist */,
+				7149149A1A942C4B00C6BB19 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		714913E71A94242B00C6BB19 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				714913EE1A94242B00C6BB19 /* CardCell.h */,
+				714913EF1A94242B00C6BB19 /* CardCell.m */,
+				714913F01A94242B00C6BB19 /* CardCell.xib */,
+				714913F11A94242B00C6BB19 /* CarouselCell.h */,
+				714913F21A94242B00C6BB19 /* CarouselCell.m */,
+				714913F31A94242B00C6BB19 /* CarouselCell.xib */,
+				714913E81A94242B00C6BB19 /* ImageCarouselCell.h */,
+				714913E91A94242B00C6BB19 /* ImageCarouselCell.m */,
+				714913EA1A94242B00C6BB19 /* ImageCarouselCell.xib */,
+				714913EB1A94242B00C6BB19 /* SearchResultCell.h */,
+				714913EC1A94242B00C6BB19 /* SearchResultCell.m */,
+				714913ED1A94242B00C6BB19 /* SearchResultCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		714913FC1A94246000C6BB19 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				714913FD1A94246000C6BB19 /* CardTableViewController.h */,
+				714913FE1A94246000C6BB19 /* CardTableViewController.m */,
+				714913FF1A94246000C6BB19 /* CarouselCollectionViewController.h */,
+				714914001A94246000C6BB19 /* CarouselCollectionViewController.m */,
+				714914011A94246000C6BB19 /* ContainerViewController.h */,
+				714914021A94246000C6BB19 /* ContainerViewController.m */,
+				714914031A94246000C6BB19 /* ImageCarouselViewController.h */,
+				714914041A94246000C6BB19 /* ImageCarouselViewController.m */,
+				714914051A94246000C6BB19 /* SearchBarViewController.h */,
+				714914061A94246000C6BB19 /* SearchBarViewController.m */,
+				714914071A94246000C6BB19 /* SearchBarViewController.xib */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		7149140E1A9424F300C6BB19 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				714914AB1A942CAC00C6BB19 /* splash_screen.png */,
+				714914291A94255F00C6BB19 /* back.png */,
+				7149142A1A94255F00C6BB19 /* close.png */,
+				7149142B1A94255F00C6BB19 /* gallery.png */,
+				7149142C1A94255F00C6BB19 /* header.png */,
+				7149142D1A94255F00C6BB19 /* like.png */,
+				7149142E1A94255F00C6BB19 /* more-on-the-web-button.png */,
+				7149142F1A94255F00C6BB19 /* reblog.png */,
+				714914301A94255F00C6BB19 /* search-background.png */,
+				714914311A94256000C6BB19 /* search-blue.png */,
+				714914321A94256000C6BB19 /* search-white.png */,
+				714914331A94256000C6BB19 /* starburst.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		714914251A94253900C6BB19 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				714914261A94253900C6BB19 /* ContentItem.h */,
+				714914271A94253900C6BB19 /* ContentItem.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7149143F1A94258500C6BB19 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				714914401A94258500C6BB19 /* UIUtil.h */,
+				714914411A94258500C6BB19 /* UIUtil.m */,
+				714914421A94258500C6BB19 /* Util.h */,
+				714914431A94258500C6BB19 /* Util.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		7149149E1A942C7D00C6BB19 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				7149149F1A942C9000C6BB19 /* AdManager.h */,
+				714914A01A942C9000C6BB19 /* AdManager.m */,
+				714914A11A942C9000C6BB19 /* Configuration.h */,
+				714914A21A942C9000C6BB19 /* Configuration.m */,
+				714914A31A942C9000C6BB19 /* TumblrFetcher.h */,
+				714914A41A942C9000C6BB19 /* TumblrFetcher.m */,
+				714914A51A942C9000C6BB19 /* TumblrManager.h */,
+				714914A61A942C9000C6BB19 /* TumblrManager.m */,
+				7152284C1A95B95500A6CC46 /* AnalyticsWrapper.h */,
+				7152284D1A95B95500A6CC46 /* AnalyticsWrapper.m */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		714914C71A9567A300C6BB19 /* Flurry */ = {
+			isa = PBXGroup;
+			children = (
+				714914C81A9567A300C6BB19 /* Flurry.h */,
+				714914C91A9567A300C6BB19 /* libFlurry_6.2.0.a */,
+			);
+			path = Flurry;
+			sourceTree = "<group>";
+		};
+		714914CB1A9567B300C6BB19 /* FlurryAds */ = {
+			isa = PBXGroup;
+			children = (
+				714914CC1A9567B300C6BB19 /* FlurryAdBanner */,
+				714914CF1A9567B300C6BB19 /* FlurryAdInterstitial */,
+				714914D21A9567B300C6BB19 /* FlurryAdNative */,
+				714914D81A9567B300C6BB19 /* libFlurryAds_6.2.0.a */,
+				714914D91A9567B300C6BB19 /* Shared */,
+				714914DC1A9567B300C6BB19 /* StaticAPI */,
+			);
+			path = FlurryAds;
+			sourceTree = "<group>";
+		};
+		714914CC1A9567B300C6BB19 /* FlurryAdBanner */ = {
+			isa = PBXGroup;
+			children = (
+				714914CD1A9567B300C6BB19 /* FlurryAdBanner.h */,
+				714914CE1A9567B300C6BB19 /* FlurryAdBannerDelegate.h */,
+			);
+			path = FlurryAdBanner;
+			sourceTree = "<group>";
+		};
+		714914CF1A9567B300C6BB19 /* FlurryAdInterstitial */ = {
+			isa = PBXGroup;
+			children = (
+				714914D01A9567B300C6BB19 /* FlurryAdInterstitial.h */,
+				714914D11A9567B300C6BB19 /* FlurryAdInterstitialDelegate.h */,
+			);
+			path = FlurryAdInterstitial;
+			sourceTree = "<group>";
+		};
+		714914D21A9567B300C6BB19 /* FlurryAdNative */ = {
+			isa = PBXGroup;
+			children = (
+				714914D31A9567B300C6BB19 /* FlurryAdNative.h */,
+				714914D41A9567B300C6BB19 /* FlurryAdNativeAsset+Private.h */,
+				714914D51A9567B300C6BB19 /* FlurryAdNativeAsset.h */,
+				714914D61A9567B300C6BB19 /* FlurryAdNativeDelegate.h */,
+				714914D71A9567B300C6BB19 /* FlurryAdNativeStyle.h */,
+			);
+			path = FlurryAdNative;
+			sourceTree = "<group>";
+		};
+		714914D91A9567B300C6BB19 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				714914DA1A9567B300C6BB19 /* FlurryAdError.h */,
+				714914DB1A9567B300C6BB19 /* FlurryAdTargeting.h */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		714914DC1A9567B300C6BB19 /* StaticAPI */ = {
+			isa = PBXGroup;
+			children = (
+				714914DD1A9567B300C6BB19 /* FlurryAdDelegate.h */,
+				714914DE1A9567B300C6BB19 /* FlurryAds.h */,
+			);
+			path = StaticAPI;
+			sourceTree = "<group>";
+		};
+		ACEBE876548071EB306CC8A6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C535BA47A13F33494E130E06 /* Pods.debug.xcconfig */,
+				2F9CE19FCF99FF675B9A895A /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E6EA3F7BC6B483C37D435C56 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7149147D1A94286E00C6BB19 /* libz.dylib */,
+				714DF1D71A95BF3300D99026 /* YahooSearchKitResources.bundle */,
+				714914BE1A9563EC00C6BB19 /* YahooSearchKit.framework */,
+				714914791A94281500C6BB19 /* StoreKit.framework */,
+				714914771A94280A00C6BB19 /* SystemConfiguration.framework */,
+				714914751A94280000C6BB19 /* Security.framework */,
+				714914731A9427FA00C6BB19 /* Foundation.framework */,
+				714914711A9427F400C6BB19 /* CoreGraphics.framework */,
+				7149146F1A9427EC00C6BB19 /* AdSupport.framework */,
+				7149146D1A9427DC00C6BB19 /* QuartzCore.framework */,
+				9BBC12C66FF260D7E4EE048D /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		714913B71A9422C600C6BB19 /* YodelSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 714913DB1A9422C600C6BB19 /* Build configuration list for PBXNativeTarget "YodelSample" */;
+			buildPhases = (
+				1451067D7F2060503F57D1A8 /* Check Pods Manifest.lock */,
+				714913B41A9422C600C6BB19 /* Sources */,
+				714913B51A9422C600C6BB19 /* Frameworks */,
+				714913B61A9422C600C6BB19 /* Resources */,
+				2493ED5A618D18E4D7024462 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YodelSample;
+			productName = YodelSample;
+			productReference = 714913B81A9422C600C6BB19 /* YodelSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		714913B01A9422C600C6BB19 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = yahoo;
+				TargetAttributes = {
+					714913B71A9422C600C6BB19 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 714913B31A9422C600C6BB19 /* Build configuration list for PBXProject "YodelSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 714913AF1A9422C600C6BB19;
+			productRefGroup = 714913B91A9422C600C6BB19 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				714913B71A9422C600C6BB19 /* YodelSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		714913B61A9422C600C6BB19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				714914C01A95642400C6BB19 /* YahooSearchKit.framework in Resources */,
+				714913FB1A94242B00C6BB19 /* CarouselCell.xib in Resources */,
+				7149149B1A942C4B00C6BB19 /* Configuration.plist in Resources */,
+				714914341A94256000C6BB19 /* back.png in Resources */,
+				714913F91A94242B00C6BB19 /* CardCell.xib in Resources */,
+				714913F71A94242B00C6BB19 /* SearchResultCell.xib in Resources */,
+				714914391A94256000C6BB19 /* more-on-the-web-button.png in Resources */,
+				714914371A94256000C6BB19 /* header.png in Resources */,
+				7149143C1A94256000C6BB19 /* search-blue.png in Resources */,
+				7149143D1A94256000C6BB19 /* search-white.png in Resources */,
+				714913E31A94236500C6BB19 /* Images.xcassets in Resources */,
+				714914AE1A942D7300C6BB19 /* LaunchScreen.xib in Resources */,
+				7149140D1A94246000C6BB19 /* SearchBarViewController.xib in Resources */,
+				714DF1D81A95BF3300D99026 /* YahooSearchKitResources.bundle in Resources */,
+				7149143A1A94256000C6BB19 /* reblog.png in Resources */,
+				7149143B1A94256000C6BB19 /* search-background.png in Resources */,
+				714914361A94256000C6BB19 /* gallery.png in Resources */,
+				714914381A94256000C6BB19 /* like.png in Resources */,
+				714914351A94256000C6BB19 /* close.png in Resources */,
+				7149143E1A94256000C6BB19 /* starburst.png in Resources */,
+				714913F51A94242B00C6BB19 /* ImageCarouselCell.xib in Resources */,
+				714914AC1A942CAC00C6BB19 /* splash_screen.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1451067D7F2060503F57D1A8 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2493ED5A618D18E4D7024462 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		714913B41A9422C600C6BB19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				714914281A94253900C6BB19 /* ContentItem.m in Sources */,
+				714914AA1A942C9000C6BB19 /* TumblrManager.m in Sources */,
+				714913FA1A94242B00C6BB19 /* CarouselCell.m in Sources */,
+				714914A81A942C9000C6BB19 /* Configuration.m in Sources */,
+				714914451A94258500C6BB19 /* Util.m in Sources */,
+				714913C11A9422C600C6BB19 /* AppDelegate.m in Sources */,
+				714913F61A94242B00C6BB19 /* SearchResultCell.m in Sources */,
+				714914441A94258500C6BB19 /* UIUtil.m in Sources */,
+				7149140A1A94246000C6BB19 /* ContainerViewController.m in Sources */,
+				714914081A94246000C6BB19 /* CardTableViewController.m in Sources */,
+				714914A71A942C9000C6BB19 /* AdManager.m in Sources */,
+				7152284E1A95B95500A6CC46 /* AnalyticsWrapper.m in Sources */,
+				714914091A94246000C6BB19 /* CarouselCollectionViewController.m in Sources */,
+				7149149D1A942C4B00C6BB19 /* main.m in Sources */,
+				714914A91A942C9000C6BB19 /* TumblrFetcher.m in Sources */,
+				7149140B1A94246000C6BB19 /* ImageCarouselViewController.m in Sources */,
+				714913F41A94242B00C6BB19 /* ImageCarouselCell.m in Sources */,
+				7149140C1A94246000C6BB19 /* SearchBarViewController.m in Sources */,
+				714913F81A94242B00C6BB19 /* CardCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		714913D91A9422C600C6BB19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		714913DA1A9422C600C6BB19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		714913DC1A9422C600C6BB19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C535BA47A13F33494E130E06 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = YodelSample/SupportingFiles/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/YodelSample",
+					"$(PROJECT_DIR)/Flurry",
+					"$(PROJECT_DIR)/FlurryAds",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		714913DD1A9422C600C6BB19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F9CE19FCF99FF675B9A895A /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = YodelSample/SupportingFiles/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/YodelSample",
+					"$(PROJECT_DIR)/Flurry",
+					"$(PROJECT_DIR)/FlurryAds",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		714913B31A9422C600C6BB19 /* Build configuration list for PBXProject "YodelSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				714913D91A9422C600C6BB19 /* Debug */,
+				714913DA1A9422C600C6BB19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		714913DB1A9422C600C6BB19 /* Build configuration list for PBXNativeTarget "YodelSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				714913DC1A9422C600C6BB19 /* Debug */,
+				714913DD1A9422C600C6BB19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 714913B01A9422C600C6BB19 /* Project object */;
+}

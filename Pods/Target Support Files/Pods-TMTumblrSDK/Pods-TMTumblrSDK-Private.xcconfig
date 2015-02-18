@@ -1,0 +1,5 @@
+#include "Pods-TMTumblrSDK.xcconfig"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Build" "${PODS_ROOT}/Headers/Build/TMTumblrSDK" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/JXHTTP" "${PODS_ROOT}/Headers/Public/Spectacles" "${PODS_ROOT}/Headers/Public/TMTumblrSDK"
+OTHER_LDFLAGS = ${PODS_TMTUMBLRSDK_OTHER_LDFLAGS} -ObjC
+PODS_ROOT = ${SRCROOT}

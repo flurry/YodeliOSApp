@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>E6B38A69-70A4-42CF-9584-69C0A63250B4</string>
+	<key>IDESourceControlProjectName</key>
+	<string>YodelSample</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>69905D1DB0CBDCE86EFD87C859C947A1FEBFE2CA</key>
+		<string>git.corp.yahoo.com:hetul/YodelSample-iOS.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>YodelSample.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>69905D1DB0CBDCE86EFD87C859C947A1FEBFE2CA</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>git.corp.yahoo.com:hetul/YodelSample-iOS.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>69905D1DB0CBDCE86EFD87C859C947A1FEBFE2CA</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>69905D1DB0CBDCE86EFD87C859C947A1FEBFE2CA</string>
+			<key>IDESourceControlWCCName</key>
+			<string>YodelSample-iOS</string>
+		</dict>
+	</array>
+</dict>
+</plist>

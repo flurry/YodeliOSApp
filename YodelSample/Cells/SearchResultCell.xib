@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6254" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="193" id="lMe-60-wE7" customClass="SearchResultCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="89"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="lMe-60-wE7" id="fCO-hi-Kgv">
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Subtitle" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w7v-yJ-wke">
+                        <rect key="frame" x="99" y="29" width="48" height="17"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                        <color key="textColor" red="0.60784313725490191" green="0.60784313725490191" blue="0.60784313725490191" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="bzj-Q5-59q">
+                        <rect key="frame" x="20" y="10" width="69" height="69"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="69" id="ERR-it-Pg4"/>
+                            <constraint firstAttribute="width" constant="69" id="RJ1-0g-Buy"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OHD-Ff-Kli">
+                        <rect key="frame" x="99" y="11" width="31" height="18"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
+                        <color key="textColor" red="0.14901960784313725" green="0.15686274509803921" blue="0.16470588235294117" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstItem="OHD-Ff-Kli" firstAttribute="leading" secondItem="bzj-Q5-59q" secondAttribute="trailing" constant="10" id="1lZ-Si-vn3"/>
+                    <constraint firstItem="bzj-Q5-59q" firstAttribute="top" secondItem="OHD-Ff-Kli" secondAttribute="top" constant="-1" id="4AQ-6y-ffK"/>
+                    <constraint firstItem="OHD-Ff-Kli" firstAttribute="top" secondItem="bzj-Q5-59q" secondAttribute="top" constant="5" id="7JJ-R6-SbZ"/>
+                    <constraint firstItem="bzj-Q5-59q" firstAttribute="top" secondItem="fCO-hi-Kgv" secondAttribute="top" constant="10" id="D8N-uA-9hs"/>
+                    <constraint firstItem="bzj-Q5-59q" firstAttribute="leading" secondItem="fCO-hi-Kgv" secondAttribute="leading" constant="20" id="R9a-3b-VRK"/>
+                    <constraint firstItem="w7v-yJ-wke" firstAttribute="top" secondItem="OHD-Ff-Kli" secondAttribute="bottom" id="Sta-R4-IKA"/>
+                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="w7v-yJ-wke" secondAttribute="trailing" constant="24" id="VP1-HL-wnq"/>
+                    <constraint firstAttribute="bottom" secondItem="bzj-Q5-59q" secondAttribute="bottom" priority="999" constant="10" id="Yk9-LX-Nkl"/>
+                    <constraint firstItem="OHD-Ff-Kli" firstAttribute="top" secondItem="fCO-hi-Kgv" secondAttribute="top" constant="11" id="eNV-ZT-l7o"/>
+                    <constraint firstItem="OHD-Ff-Kli" firstAttribute="leading" secondItem="w7v-yJ-wke" secondAttribute="leading" id="fff-OF-Lgv"/>
+                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="OHD-Ff-Kli" secondAttribute="trailing" constant="24" id="xjR-RA-GJt"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="4AQ-6y-ffK"/>
+                        <exclude reference="7JJ-R6-SbZ"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <connections>
+                <outlet property="image" destination="bzj-Q5-59q" id="3Fh-Kg-QDE"/>
+                <outlet property="subtitle" destination="w7v-yJ-wke" id="Umc-42-YtI"/>
+                <outlet property="title" destination="OHD-Ff-Kli" id="EhH-fh-Al0"/>
+            </connections>
+            <point key="canvasLocation" x="82.5" y="33.5"/>
+        </tableViewCell>
+    </objects>
+</document>
