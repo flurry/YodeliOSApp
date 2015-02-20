@@ -8,7 +8,7 @@ This project showcases some of the new mobile development tools released by Yaho
 - Showcases integration of Gemini ads through Flurry Native SDK, along with best practices for integrating native 
 ads in your iOS app.
 - Showcases the Yahoo! Search SDK and some use cases for the Search SDK.
-- Showcases basic use cases for Flurry Analytics with event longging.
+- Showcases basic use cases for Flurry Analytics with event logging.
 
 ## Requirements for working with the source:
 
@@ -33,7 +33,7 @@ To see best practices for integrating native ads into your app, look through the
 - [AdManager](YodelSample/Helpers/AdManager.m): This class manages ads coming from the Flurry SDK and ensures
 that they are prepared and ready in advance of when they are needed.
 - [CardTableViewController](YodelSample/ViewControllers/CardTableViewController.m):
-This class shows how native ads can be intersperses seamlessly into a table view.
+This class shows how native ads can be interspersed seamlessly into a table view.
 
 For more info on getting started with Flurry for Android, see
 [here](https://developer.yahoo.com/flurry/docs/analytics/gettingstarted/ios/).
