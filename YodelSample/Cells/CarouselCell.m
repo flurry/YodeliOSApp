@@ -47,8 +47,9 @@
 @property (weak, nonatomic) IBOutlet UIButton *learnMoreButton;
 @property (weak, nonatomic) IBOutlet UIButton *galleryButton;
 @property (weak, nonatomic) IBOutlet UIImageView *galleryButtonImage;
-
+@property (weak, nonatomic) IBOutlet UIView *cardRectangleVideoViewContainer;
 @property (nonatomic, retain) ContentItem *contentItem;
+@property (weak, nonatomic) IBOutlet UIView *completeAdView;
 
 
 @end
@@ -122,7 +123,7 @@ static NSString* const LEARN_MORE_STRING = @"Learn More:";
     
     // Ads have slightly different content in the View than a Tumblr Post. We could also have a compeltely different cell for the Ad Items.
     if([item isAd]) {
-        item.ad.trackingView = self;
+        item.ad.trackingView = self.completeAdView;
         
         self.starburstImage.hidden = NO;
         self.callToAction.hidden = NO;
@@ -131,6 +132,18 @@ static NSString* const LEARN_MORE_STRING = @"Learn More:";
         self.timeAgoText.text = @"Sponsored";
         self.title.textColor = [UIUtil colorForSponsoredContent];
         self.titleSeparatorLine.backgroundColor = [UIUtil colorForSponsoredContent];
+        if ([item isVideoAd]) {
+            self.cardRectangleVideoViewContainer.hidden = NO;
+            item.ad.videoViewContainer = self.cardRectangleVideoViewContainer;
+            self.callToAction.text = item.callToAction;
+            
+        } else
+        {
+           
+            self.cardRectangleVideoViewContainer.hidden = YES;
+            self.callToAction.text = @"More";
+
+        }
     } else {
         self.starburstImage.hidden = YES;
         self.callToAction.hidden = YES;

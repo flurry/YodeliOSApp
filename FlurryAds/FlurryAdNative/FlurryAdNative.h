@@ -12,20 +12,21 @@
 #import "FlurryAdNativeDelegate.h"
 #import "FlurryAdTargeting.h"
 
+@class FlurryNativeVideoPlayer;
+
 /*!
  *  @brief Provides all available methods for displaying native ads.
  * 
  *  Set of methods that allow publishers to configure, target, and deliver native ads to their customers.
  *
  *  For information on how to use Flurry's Ads SDK to
- *  attract high-quality users and monetize your user base see <a href="http://support.flurry.com/index.php?title=Publishers">Support Center - Publishers</a>.
+ *  attract high-quality users and monetize your user base see <a href="https://developer.yahoo.com/flurry/docs/howtos">Support Center - Publishers</a>.
  *
  *  @author 2009 - 2014 Flurry, Inc. All Rights Reserved.
  *  @version 6.0.0
  * 
  */
 @interface FlurryAdNative : NSObject
-
 
 /*!
  *  @brief Read only property that can be used to retrieve the ad space that was
@@ -96,14 +97,69 @@
  *
  *  @return YES/NO to indicate if an ad is ready to be displayed.
  */
-@property (nonatomic) BOOL ready;
+@property (nonatomic, readonly) BOOL ready;
+
+
+
+/*!
+ *  @brief Returns if an ad has expired
+ *  @since 6.3.0
+ *
+ *  This method will verify if the ad associated with this native ad object has expired.
+ *  Please call fetch again or discard this native ad object and create a new native object
+ *  when the ad expires
+ *
+ *  @note a native ad object can expire after it is ready, so it is necessary to test for expiry 
+ *  while the native ad is in use.
+ *
+ *  @see #fetchAd for details on retrieving an ad.\n
+ *
+ *  @code
+ 
+    - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    {
+        // map table row to index within an array of prefetched native ads
+        // isAdRow and adIndexForIndexPathRow will be methods defined in your code
+        NSInteger adIx = [self adIndexForIndexPathRow:indexPath.row];
+        if ([self isAdRow:indexPath.row] && [[self.nativeAds objectAtIndex:adIx] ready] == YES)
+        {
+            // AdCell here is a user defined class that will setup a xib view using the assets in a native ad
+            AdCell* adCell = [tableView dequeueReusableCellWithIdentifier:@"FlurryStreamCell" forIndexPath:indexPath];
+ 
+            // check if ad has expired and then show or display ad cell as appropriate
+            if ([[self.nativeAds objectAtIndex:adIx] expired] == YES)
+            {
+                // ad associated with this native ad object has expired, fetch a new ad
+                FlurryAdNative* nativeAd = [self.nativeAds objectAtIndex:adIx];
+                [nativeAd fetchAd];
+ 
+                // hide ad cell until ad is available
+                adCell.hidden = YES;
+            }
+            else
+            {
+                FlurryAdNative* nativeAd = [self.nativeAds objectAtIndex:adIx];
+                [adCell setupWithFlurryNativeAd:nativeAd atPosition:indexPath.row];
+                adCell.hidden = NO;
+            }
+        }
+        else
+        {
+            // setup app content xib cells
+        }
+    }
+ *  @endcode
+ *
+ *  @return YES/NO to indicate if an ad is ready to be displayed.
+ */
+@property (nonatomic, readonly) BOOL expired;
 
 /*!
  *  @brief This property will retrieve the native ad's assets. The assets will be available when the ad is ready.
  *  @since 6.0.0
  *
  *  @see FlurryAdNativeAsset for details on the assets.\n
- *  
+ *
  *  @code
     for (int ix = 0; ix < adNative.assetList.count; ix++)
     {
@@ -185,6 +241,27 @@
  */
 @property (nonatomic, retain) UIViewController* viewControllerForPresentation;
 
+/*!
+ *  @brief This property should be set to the view which will 
+ *  have the Video Player embedded for Native Video Ads
+ *
+ *  @since 6.6.0
+ *
+ *  @see FlurryAdNativeAsset for details on the video assets\n
+ *
+ *  @code
+ 
+ FlurryAdNative* nativeAd = [[FlurryAdNative alloc] initWithSpace:adSpace];
+ nativeAd.adDelegate = self;
+ nativeAd.videoViewContainer = self.videoViewContainer;
+ [nativeAd fetchAd];
+ 
+ *  @endcode
+ *
+ *  @return UIView used for presenting the Flurry Video Player
+ *
+ */
+@property (nonatomic, retain) UIView* videoViewContainer;
 
 /*!
  *  @brief This property should be used for ad targeting based on parameters such as
@@ -199,7 +276,6 @@
  *
  */
 @property (nonatomic, retain) FlurryAdTargeting *targeting;
-
 
 /*!
  *  @brief Initialize the native ad object
@@ -315,5 +391,40 @@
  *
  */
 - (void) removeTrackingView;
+/*!
+ *  @brief Method which returns if its a video Ad
+ *
+ *  Use this property to figure out if its a Video Ad
+ *
+ *  @note It is very important to set #viewControllerForPresentation and #videoViewContainer for the current Video Ad Integration
+ *
+ *  @since 6.6.0
+ *
+ *  @see #viewControllerForPresentation and #videoViewContainer
+ *
+ *  @code
+ 
+ @interface AdStreamCell : UITableViewCell
+ 
+ @property (nonatomic, retain) FlurryAdNative* ad;
+ @property (weak, nonatomic) IBOutlet UIView *videoView;
+
+ @end
+ 
+ @implementation AdStreamCell
+ 
+ - (void) setupAdCellForNativeAd:(FlurryAdNative*) nativeAd
+ {
+ if([self.ad isVideoAd])
+ {
+ self.ad.videoViewContainer = videoView;
+ }
+ }
+ 
+ @endcode
+ *
+ *
+ */
+-(BOOL)isVideoAd;
 
 @end

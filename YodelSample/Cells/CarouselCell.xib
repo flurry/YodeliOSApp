@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6254" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
@@ -19,20 +19,28 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="miQ-VS-cXo">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="616"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="pmo-PF-Zgz">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="200"/>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Mup-9R-6sG" userLabel="TrackingView">
+                                        <rect key="frame" x="0.0" y="67" width="375" height="606"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vK7-7D-KRm" userLabel="VideoView">
+                                        <rect key="frame" x="0.0" y="8" width="370" height="215"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pmo-PF-Zgz">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="220"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="200" id="s8X-TA-keV"/>
                                         </constraints>
                                     </imageView>
-                                    <label autoresizesSubviews="NO" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalCompressionResistancePriority="250" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c9i-TT-jRf">
-                                        <rect key="frame" x="20" y="220" width="240" height="18"/>
+                                    <label autoresizesSubviews="NO" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalCompressionResistancePriority="250" misplaced="YES" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c9i-TT-jRf">
+                                        <rect key="frame" x="20" y="240" width="240" height="18"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
                                         <color key="textColor" red="0.050980392159999999" green="0.60784313729999995" blue="0.97254901959999995" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label autoresizesSubviews="NO" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="1000" verticalCompressionResistancePriority="1000" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hIB-10-Z98">
-                                        <rect key="frame" x="20" y="333" width="335" height="168"/>
+                                    <label autoresizesSubviews="NO" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="1000" verticalCompressionResistancePriority="1000" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hIB-10-Z98">
+                                        <rect key="frame" x="20" y="353" width="335" height="168"/>
                                         <attributedString key="attributedText">
                                             <fragment>
                                                 <string key="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque aliquet, tellus non fringilla vestibulum, elit est venenatis neque, nec vestibulum magna massa et ligula. Integer ut maximus eros, vel hendrerit odio. Morbi magna orci, iaculis sit amet bibendum vitae, faucibus at nunc. Curabitur pellentesque nibh eget feugiat porttitor.</string>
@@ -58,8 +66,8 @@
                                         </attributedString>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label autoresizesSubviews="NO" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="1000" verticalCompressionResistancePriority="1000" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eOu-gH-iWP">
-                                        <rect key="frame" x="20" y="279" width="335" height="26"/>
+                                    <label autoresizesSubviews="NO" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="1000" verticalCompressionResistancePriority="1000" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eOu-gH-iWP">
+                                        <rect key="frame" x="20" y="299" width="335" height="26"/>
                                         <attributedString key="attributedText">
                                             <fragment content="Headline">
                                                 <attributes>
@@ -71,8 +79,8 @@
                                         </attributedString>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="starburst.png" translatesAutoresizingMaskIntoConstraints="NO" id="cps-To-jo5">
-                                        <rect key="frame" x="335" y="219" width="20" height="20"/>
+                                    <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="starburst.png" translatesAutoresizingMaskIntoConstraints="NO" id="cps-To-jo5">
+                                        <rect key="frame" x="335" y="239" width="20" height="20"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="20" id="Uek-7D-Vam"/>
                                             <constraint firstAttribute="height" constant="20" id="fpe-Yw-nQt"/>
@@ -94,8 +102,8 @@
                                         <color key="textColor" red="0.69803921570000005" green="0.69803921570000005" blue="0.69803921570000005" alpha="1" colorSpace="calibratedRGB"/>
                                         <color key="highlightedColor" red="0.69803921570000005" green="0.69803921570000005" blue="0.69803921570000005" alpha="1" colorSpace="calibratedRGB"/>
                                     </label>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="adX-l0-AJY">
-                                        <rect key="frame" x="20" y="258" width="335" height="1"/>
+                                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="adX-l0-AJY">
+                                        <rect key="frame" x="20" y="278" width="335" height="1"/>
                                         <color key="backgroundColor" red="0.050980392159999999" green="0.60784313729999995" blue="0.97254901959999995" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="1" id="nPV-ao-BMC"/>
@@ -232,6 +240,8 @@
             <connections>
                 <outlet property="callToAction" destination="6zB-76-weG" id="TMZ-lg-YqM"/>
                 <outlet property="caption" destination="hIB-10-Z98" id="qFr-qq-Whn"/>
+                <outlet property="cardRectangleVideoViewContainer" destination="vK7-7D-KRm" id="Nfw-Uv-gOR"/>
+                <outlet property="completeAdView" destination="Mup-9R-6sG" id="Ktf-aX-dCu"/>
                 <outlet property="galleryButton" destination="wIM-yy-Lbn" id="p1Y-UN-qAl"/>
                 <outlet property="galleryButtonImage" destination="gUf-6A-3an" id="Nu1-L4-EtY"/>
                 <outlet property="hashTags" destination="O8E-ly-C4L" id="76N-ft-hV5"/>
@@ -249,7 +259,7 @@
                 <outlet property="title" destination="c9i-TT-jRf" id="mfO-qQ-XxF"/>
                 <outlet property="titleSeparatorLine" destination="adX-l0-AJY" id="H4A-Um-gMa"/>
             </connections>
-            <point key="canvasLocation" x="383" y="439"/>
+            <point key="canvasLocation" x="382.5" y="439"/>
         </collectionViewCell>
     </objects>
     <resources>

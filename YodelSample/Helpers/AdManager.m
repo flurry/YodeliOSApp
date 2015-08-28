@@ -67,7 +67,7 @@ static const NSUInteger AD_ERROR_RETRY_DELAY = 4; // Seconds to retry fetchAd af
         // Remove any ads that may have expired.
         NSMutableArray *expiredAds = [NSMutableArray array];
         for(FlurryAdNative *ad in self.adsReady) {
-            if(!ad.ready) {
+            if((!ad.ready) || (ad.expired)) {
                 [expiredAds addObject:ad];
             }
         }
@@ -81,6 +81,9 @@ static const NSUInteger AD_ERROR_RETRY_DELAY = 4; // Seconds to retry fetchAd af
             {
                 FlurryAdNative* nativeAd = [[FlurryAdNative alloc] initWithSpace:self.adSpaceName];
                 nativeAd.adDelegate = self;
+                nativeAd.targeting = [FlurryAdTargeting targeting];
+                //test mode enabled - do not use this for production apps
+                nativeAd.targeting.testAdsEnabled = TRUE;
                 [nativeAd fetchAd];
                 [self.adsFetching addObject:nativeAd];
             }

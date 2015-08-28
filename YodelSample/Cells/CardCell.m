@@ -24,6 +24,7 @@
 
 @interface CardCell ()
 
+
 @property (weak, nonatomic) IBOutlet UILabel *title;
 @property (weak, nonatomic) IBOutlet UILabel *headline;
 @property (weak, nonatomic) IBOutlet UILabel *caption;
@@ -33,14 +34,17 @@
 @property (weak, nonatomic) IBOutlet UIImageView *starburstImage;
 @property (weak, nonatomic) IBOutlet UIImageView *blogImage;
 
+@property (weak, nonatomic) IBOutlet UIView *cardRectangleVideoViewContainer;
+@property (strong, nonatomic) IBOutlet UIView *viewContainer;
+
 @property (strong, nonatomic) IBOutlet NSLayoutConstraint *imageHeightConstraint;
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *headlineConstraint;
 
 @property (weak, nonatomic) IBOutlet UIImageView *reblogImage;
 @property (weak, nonatomic) IBOutlet UIImageView *likeImage;
 
-@property (strong, nonatomic) ContentItem *contentItem;
-
+//@property (strong, nonatomic) ContentItem *contentItem;
+@property (nonatomic, retain)ContentItem *contentItem;
 @end
 
 const float CARD_CELL_MARGIN = 12;
@@ -69,6 +73,7 @@ const float CARD_CELL_MARGIN = 12;
 {
     if(self.contentItem.ad) {
         [self.contentItem.ad removeTrackingView];
+        self.contentItem.ad.videoViewContainer = nil;
     }
 }
 
@@ -121,7 +126,12 @@ const float CARD_CELL_MARGIN = 12;
     [super updateConstraints];
 }
 
-- (void) setupWithContentItem:(ContentItem*)item;
+- (void) setupWithContentItem:(ContentItem*)item
+{
+    [self setupWithContentItem:item forSizing:NO];
+}
+
+- (void) setupWithContentItem:(ContentItem*)item forSizing:(BOOL)isSizing;
 {
     self.contentItem = item;
     
@@ -133,18 +143,38 @@ const float CARD_CELL_MARGIN = 12;
         self.starburstImage.hidden = NO;
         self.callToAction.hidden = NO;
         self.title.textColor = [UIUtil colorForSponsoredContent];
+        if ([item isVideoAd]) {
+            self.blogImage.hidden = YES;
+            self.viewContainer.hidden = NO;
+            
+            if(!isSizing) {
+                item.ad.videoViewContainer = self.viewContainer;
+            }
+            
+            self.callToAction.text = item.callToAction;
+            
+        } else
+        {
+            self.blogImage.hidden = NO;
+            self.viewContainer.hidden = YES;
+            self.callToAction.text = @"More";
+            
+        }
+
     } else {
         self.timeAgoText.text = [Util timeAgoStringFromDate:item.date];
         self.reblogImage.hidden = NO;
         self.likeImage.hidden = NO;
         self.starburstImage.hidden = YES;
         self.callToAction.hidden = YES;
+        self.blogImage.hidden = NO;
         self.title.textColor = [UIUtil colorForTumblrContent];
+       
     }
     
     self.title.text = item.source;
     self.blogImage.image = [item displayImage];
-    
+
     if(item.headline) {
         self.headline.attributedText = [[NSAttributedString alloc] initWithString:item.headline attributes:[UIUtil attributesForHeadlineText]];
     } else {

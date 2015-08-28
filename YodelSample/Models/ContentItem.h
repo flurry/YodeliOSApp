@@ -44,11 +44,15 @@
 @property (nonatomic, strong) NSArray *images;
 @property (nonatomic, strong) NSDate *date;
 @property (nonatomic, strong) NSArray *tags;
+@property (nonatomic, strong) UIView *videoContainer;
+@property (nonatomic,strong) NSString *callToAction;
+@property (nonatomic) Boolean isVideoAd;
 
 @property (nonatomic, strong) FlurryAdNative *ad;
 
 -(instancetype)initWithAd:(FlurryAdNative*)ad;
 -(BOOL) isAd;
+//-(BOOL) isVideoAd;
 -(UIImage*) displayImage;
 
 @end

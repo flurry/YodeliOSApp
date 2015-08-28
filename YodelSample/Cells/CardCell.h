@@ -23,4 +23,5 @@
 extern const float CARD_CELL_MARGIN;
 
 @interface CardCell : UITableViewCell <ContentItemCell>
+- (void) setupWithContentItem:(ContentItem*)item forSizing:(BOOL)isSizing;
 @end

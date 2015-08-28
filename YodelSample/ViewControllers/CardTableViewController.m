@@ -207,7 +207,9 @@
     id rowObject = [self.rowObjects objectAtIndex:indexPath.row];
     
     if([rowObject isKindOfClass:[ContentItem class]]) {
-        [sizingCell setupWithContentItem:(ContentItem*) rowObject];
+        //[sizingCell setupWithContentItem:(ContentItem*) rowObject];
+        [sizingCell setupWithContentItem:(ContentItem*) rowObject forSizing:YES];
+        //return 423 + CARD_CELL_MARGIN;
     } else if([rowObject isKindOfClass:[NSString class]]){
         return TEXT_CELL_HEIGHT;
     } else {
@@ -240,6 +242,7 @@
         // We could also set trackingView in setupWithContentItem, but we would need to make sure not to set it when used with sizingCell in heightForRowAtIndexPath
         if([item isAd]) {
             item.ad.trackingView = cardCell;
+            
         }
         
     } else if([rowObject isKindOfClass:[NSString class]]) {

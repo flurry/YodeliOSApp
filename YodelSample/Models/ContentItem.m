@@ -28,12 +28,24 @@
     if(self) {
         
         self.ad = ad;
+        
         self.tags = nil;
         self.date = nil;
         self.type = @"ad";
         
+        if ([self.ad isVideoAd]){
+            
+            self.isVideoAd = YES;
+            
+            
+        } else {
+            self.isVideoAd = NO;
+        }
+        
         for (int ix = 0; ix < ad.assetList.count; ++ix) {
             FlurryAdNativeAsset* asset = [ad.assetList objectAtIndex:ix];
+            
+            self.callToAction = @"More"; //default value for CTA
             
             if ([asset.name isEqualToString:@"source"]) {
                 self.source = asset.value;
@@ -46,7 +58,10 @@
             if([asset.name isEqualToString:@"summary"]) {
                 self.caption = asset.value;
             }
-            
+            if([asset.name isEqualToString:@"callToAction"]) {
+                self.callToAction = asset.value;
+            }
+           if (!self.isVideoAd) //video ads do not get "secHqImage" asset
             if([asset.name isEqualToString:@"secHqImage"]) {
                 
                 /*
