@@ -19,6 +19,7 @@
 
 #import "Util.h"
 #import "FlurryAdNative.h"
+#import <sys/utsname.h>
 
 static const int AD_FREQUENCY = 4;
 static const int FIRST_AD_POS = 2;
@@ -61,6 +62,61 @@ static const int FIRST_AD_POS = 2;
     [scanner scanHexInt:&rgbValue];
     return [UIColor colorWithRed:((rgbValue & 0xFF0000) >> 16)/255.0 green:((rgbValue & 0xFF00) >> 8)/255.0 blue:(rgbValue & 0xFF)/255.0 alpha:1.0];
 }
+
++ (NSString *)getDeviceModel
+{
+    struct utsname systemInfo;
+    uname(&systemInfo);
+    NSString *deviceModel = [NSString stringWithCString:systemInfo.machine encoding:NSUTF8StringEncoding];
+    
+    // Painful if/else here...  maybe move this to swift ala http://stackoverflow.com/questions/26028918/ios-how-to-determine-iphone-model-in-swift but bleh that requires a bridging header...
+    if([deviceModel isEqualToString:@"iPod5,1"]){return @"iPod Touch 5";}
+    else if([deviceModel isEqualToString:@"iPod7,1"]){return @"iPod Touch 6";}
+    else if([deviceModel isEqualToString:@"iPhone3,1"] ||
+            [deviceModel isEqualToString:@"iPhone3,2"] ||
+            [deviceModel isEqualToString:@"iPhone3,3"]){return @"iPhone 4";}
+    else if([deviceModel isEqualToString:@"iPhone4,1"]){return @"iPhone 4s";}
+    else if([deviceModel isEqualToString:@"iPhone5,1"] ||
+            [deviceModel isEqualToString:@"iPhone5,2"]){return @"iPhone 5";}
+    else if([deviceModel isEqualToString:@"iPhone5,3"] ||
+            [deviceModel isEqualToString:@"iPhone5,4"]){return @"iPhone 5c";}
+    else if([deviceModel isEqualToString:@"iPhone6,1"] ||
+            [deviceModel isEqualToString:@"iPhone6,2"]){return @"iPhone 5s";}
+    else if([deviceModel isEqualToString:@"iPhone7,2"]){return @"iPhone 6";}
+    else if([deviceModel isEqualToString:@"iPhone7,1"]){return @"iPhone 6 Plus";}
+    else if([deviceModel isEqualToString:@"iPhone8,1"]){return @"iPhone 6s";}
+    else if([deviceModel isEqualToString:@"iPhone8,2"]){return @"iPhone 6s Plus";}
+    else if([deviceModel isEqualToString:@"iPad2,1"] ||
+            [deviceModel isEqualToString:@"iPad2,2"] ||
+            [deviceModel isEqualToString:@"iPad2,3"] ||
+            [deviceModel isEqualToString:@"iPad2,4"]){return @"iPad 2";}
+    else if([deviceModel isEqualToString:@"iPad3,1"] ||
+            [deviceModel isEqualToString:@"iPad3,2"] ||
+            [deviceModel isEqualToString:@"iPad3,3"]){return @"iPad 3";}
+    else if([deviceModel isEqualToString:@"iPad3,4"] ||
+            [deviceModel isEqualToString:@"iPad3,5"] ||
+            [deviceModel isEqualToString:@"iPad3,6"]){return @"iPad 4";}
+    else if([deviceModel isEqualToString:@"iPad4,1"] ||
+            [deviceModel isEqualToString:@"iPad4,2"] ||
+            [deviceModel isEqualToString:@"iPad4,3"]){return @"iPad Air";}
+    else if([deviceModel isEqualToString:@"iPad5,1"] ||
+            [deviceModel isEqualToString:@"iPad5,3"] ||
+            [deviceModel isEqualToString:@"iPad5,4"]){return @"iPad Air 2";}
+    else if([deviceModel isEqualToString:@"iPad2,5"] ||
+            [deviceModel isEqualToString:@"iPad2,6"] ||
+            [deviceModel isEqualToString:@"iPad2,7"]){return @"iPad Mini";}
+    else if([deviceModel isEqualToString:@"iPad4,4"] ||
+            [deviceModel isEqualToString:@"iPad4,5"] ||
+            [deviceModel isEqualToString:@"iPad4,6"]){return @"iPad Mini 2";}
+    else if([deviceModel isEqualToString:@"iPad4,7"] ||
+            [deviceModel isEqualToString:@"iPad4,8"] ||
+            [deviceModel isEqualToString:@"iPad4,9"]){return @"iPad Mini 3";}
+    else if([deviceModel isEqualToString:@"iPad5,2"]){return @"iPad Mini 4";}
+    else if([deviceModel isEqualToString:@"i386"] ||
+            [deviceModel isEqualToString:@"x86_64"]){return @"Simulator";}
+    else return deviceModel;
+}
+
 
 
 #pragma mark - ad helper routines
