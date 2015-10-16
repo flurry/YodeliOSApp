@@ -1,4 +1,7 @@
 PODS:
+  - Flurry-iOS-SDK/FlurryAds (7.2.1):
+    - Flurry-iOS-SDK/FlurrySDK
+  - Flurry-iOS-SDK/FlurrySDK (7.2.1)
   - JXHTTP (1.0.4)
   - Spectacles (1.0.1)
   - TMTumblrSDK (2.0.2):
@@ -19,11 +22,14 @@ PODS:
     - Spectacles (~> 1.0)
 
 DEPENDENCIES:
+  - Flurry-iOS-SDK/FlurryAds
+  - Flurry-iOS-SDK/FlurrySDK
   - TMTumblrSDK
 
 SPEC CHECKSUMS:
-  JXHTTP: 528be324dcd08afdd63bc0ac1b80c4df2cb2b5f0
-  Spectacles: 25ef87ffc5764fcbc4511edf3983583ad24bf97d
-  TMTumblrSDK: 1e88ee210471f5eaf2811926f5512101c0b4b32e
+  Flurry-iOS-SDK: 014d366cad101f05d4e8c191c0e0c0871d5704f7
+  JXHTTP: b927cf0a0fdbf8906464917671e86887ee0e06be
+  Spectacles: 8dc60711140320653724560e2d6bbb8a8f0940e4
+  TMTumblrSDK: 4f3e4a41789d9072d4611d270cbd1ca4c070548d
 
-COCOAPODS: 0.35.0
+COCOAPODS: 0.39.0
