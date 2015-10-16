@@ -1,1 +1,0 @@
-../../../Spectacles/Pod/Classes/TMPodspec.h
