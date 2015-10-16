@@ -139,6 +139,8 @@
         FlurryAdNative* ad = [[AdManager sharedInstance] getAdIfAvailableForViewController:self];
         
         if(ad) {
+            // Setting this class as the delegate will make this class handle all impression, clicked, etc.
+            // delegate events for this ad.  The request, fetch and error still belong to the AdManager.
             ad.adDelegate = self;
         
             // We want to set up the ContentItem with the ad immediately, so we can make sure assets are always in memory
@@ -303,6 +305,44 @@
     }
     
     [AnalyticsWrapper logEvent:@"stream_ad_click" withParameters:@{@"ad_placement":adPosition}];
+}
+
+- (void) adNativeDidLogImpression:(FlurryAdNative *)nativeAd
+{
+    NSString* adType = @"native";
+    if([nativeAd isVideoAd])
+    {
+        adType = @"nativeVideo";
+    }
+    [AnalyticsWrapper logEvent:@"ad_displayed" withParameters:@{@"ad_space":nativeAd.space,
+                                                                @"type":adType,
+                                                                @"model":[Util getDeviceModel],
+                                                                @"network":@"Flurry"}];
+    
+}
+
+- (void) adNativeDidReceiveClick:(FlurryAdNative *)nativeAd
+{
+    NSString* adType = @"native";
+    if([nativeAd isVideoAd])
+    {
+        adType = @"nativeVideo";
+    }
+    
+    // Find the position of this ad, so we can track which ad positions are favorable
+    NSString *adPosition = @"Unknown";
+    for(int i=0; i<self.rowObjects.count; i++) {
+        ContentItem *item = [self.rowObjects objectAtIndex:i];
+        if(item.ad == nativeAd) {
+            adPosition = [@(i) stringValue];
+        }
+    }
+    
+    [AnalyticsWrapper logEvent:@"ad_clicked" withParameters:@{@"ad_space":nativeAd.space,
+                                                              @"model":[Util getDeviceModel],
+                                                              @"network":@"Flurry",
+                                                              @"type":adType,
+                                                              @"ad_placement":adPosition}];
 }
 
 

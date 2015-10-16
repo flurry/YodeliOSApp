@@ -9,6 +9,7 @@ This project showcases some of the new mobile development tools released by Yaho
 ads in your iOS app.
 - Showcases the Yahoo! Search SDK and some use cases for the Search SDK.
 - Showcases basic use cases for Flurry Analytics with event logging.
+- Showcases the basic use of events to monitor Gemini native ad serving.
 
 ## Requirements for working with the source:
 

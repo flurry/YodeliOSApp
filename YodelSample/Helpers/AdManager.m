@@ -20,6 +20,8 @@
 #import <Foundation/Foundation.h>
 #import "AdManager.h"
 #import "Configuration.h"
+#import "Flurry.h"
+#import "Util.h"
 
 @interface AdManager () <FlurryAdNativeDelegate>
 
@@ -84,6 +86,11 @@ static const NSUInteger AD_ERROR_RETRY_DELAY = 4; // Seconds to retry fetchAd af
                 nativeAd.targeting = [FlurryAdTargeting targeting];
                 //test mode enabled - do not use this for production apps
                 nativeAd.targeting.testAdsEnabled = TRUE;
+                
+                [Flurry logEvent:@"ad_requested" withParameters:@{@"ad_space":nativeAd.space,
+                                                                  @"model":[Util getDeviceModel],
+                                                                  @"type":@"unknown"}];
+                
                 [nativeAd fetchAd];
                 [self.adsFetching addObject:nativeAd];
             }
@@ -113,6 +120,16 @@ static const NSUInteger AD_ERROR_RETRY_DELAY = 4; // Seconds to retry fetchAd af
 
 - (void) adNativeDidFetchAd:(FlurryAdNative *)flurryAd
 {
+    NSString* adType = @"native";
+    if([flurryAd isVideoAd])
+    {
+        adType = @"nativeVideo";
+    }
+    [Flurry logEvent:@"ad_fetched" withParameters:@{@"ad_space":flurryAd.space,
+                                                    @"model":[Util getDeviceModel],
+                                                    @"network":@"Flurry",
+                                                    @"type":adType}];
+
     @synchronized(self) {
         [self.adsReady addObject:flurryAd];
         [self.adsFetching removeObject:flurryAd];
@@ -125,11 +142,23 @@ static const NSUInteger AD_ERROR_RETRY_DELAY = 4; // Seconds to retry fetchAd af
 
 - (void) adNative:(FlurryAdNative *)flurryAd adError:(FlurryAdError)adError errorDescription:(NSError *)errorDescription
 {
+    NSString* adType = @"native";
+    if([flurryAd isVideoAd])
+    {
+        adType = @"nativeVideo";
+    }
+    [Flurry logEvent:@"ad_request_error" withParameters:@{@"ad_space":flurryAd.space,
+                                                          @"model":[Util getDeviceModel],
+                                                          @"error_code":[errorDescription localizedDescription],
+                                                          @"network":@"Flurry",
+                                                          @"type":adType}];
+    
     // Deallocate ad that failed to fetch, and try to fetch new ones after a delay
     @synchronized(self) {
         [self.adsFetching removeObject:flurryAd];
     }
     
-    [self performSelector:@selector(ensureCapacity) withObject:nil afterDelay:AD_ERROR_RETRY_DELAY];}
+    [self performSelector:@selector(ensureCapacity) withObject:nil afterDelay:AD_ERROR_RETRY_DELAY];
+}
 
 @end

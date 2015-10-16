@@ -26,4 +26,5 @@
 + (UIColor *)colorFromHexString:(NSString *)hexString;
 +(BOOL)isAdIndex:(NSUInteger)row;
 +(NSUInteger)numAdsRequiredForContentAmount:(NSUInteger)numContent;
++(NSString *)getDeviceModel;
 @end
