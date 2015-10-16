@@ -86,6 +86,11 @@ static const NSUInteger AD_ERROR_RETRY_DELAY = 4; // Seconds to retry fetchAd af
                 nativeAd.targeting = [FlurryAdTargeting targeting];
                 //test mode enabled - do not use this for production apps
                 nativeAd.targeting.testAdsEnabled = TRUE;
+                
+                [Flurry logEvent:@"ad_requested" withParameters:@{@"ad_space":nativeAd.space,
+                                                                  @"model":[Util getDeviceModel],
+                                                                  @"type":@"unknown"}];
+                
                 [nativeAd fetchAd];
                 [self.adsFetching addObject:nativeAd];
             }
