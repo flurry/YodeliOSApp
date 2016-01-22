@@ -1,9 +1,16 @@
 #import "JXHTTPOperation.h"
+#import "JXNetworkActivityIndicatorManager.h"
 #import "JXURLEncoding.h"
+
+#if __IPHONE_OS_VERSION_MIN_REQUIRED >= __IPHONE_2_0
 
 static NSUInteger JXHTTPOperationCount = 0;
 static NSTimer * JXHTTPActivityTimer = nil;
 static NSTimeInterval JXHTTPActivityTimerInterval = 0.25;
+
+#endif
+
+static id <JXNetworkActivityIndicatorManager> JXHTTPNetworkActivityIndicatorManager;
 
 @interface JXHTTPOperation ()
 @property (assign) BOOL didIncrementCount;
@@ -23,6 +30,14 @@ static NSTimeInterval JXHTTPActivityTimerInterval = 0.25;
 @end
 
 @implementation JXHTTPOperation
+
+#if __IPHONE_OS_VERSION_MIN_REQUIRED >= __IPHONE_2_0
+
++ (BOOL)hasActiveOperationsThatUpdateNetworkActivityIndicator {
+    return JXHTTPOperationCount > 0;
+}
+
+#endif
 
 #pragma mark - Initialization
 
@@ -169,13 +184,14 @@ static NSTimeInterval JXHTTPActivityTimerInterval = 0.25;
     #if __IPHONE_OS_VERSION_MIN_REQUIRED >= __IPHONE_2_0
     
     dispatch_once(&_incrementCountOnce, ^{
-        if (!self.updatesNetworkActivityIndicator)
+        if (!(self.updatesNetworkActivityIndicator && JXHTTPNetworkActivityIndicatorManager))
             return;
 
         dispatch_async(dispatch_get_main_queue(), ^{
             ++JXHTTPOperationCount;
             [JXHTTPActivityTimer invalidate];
-            [[UIApplication sharedApplication] setNetworkActivityIndicatorVisible:YES];
+            
+            JXHTTPNetworkActivityIndicatorManager.networkActivityIndicatorVisible = YES;
         });
 
         self.didIncrementCount = YES;
@@ -192,7 +208,7 @@ static NSTimeInterval JXHTTPActivityTimerInterval = 0.25;
         return;
     
     dispatch_once(&_decrementCountOnce, ^{
-        if (!self.updatesNetworkActivityIndicator)
+        if (!(self.updatesNetworkActivityIndicator && JXHTTPNetworkActivityIndicatorManager))
             return;
 
         dispatch_async(dispatch_get_main_queue(), ^{
@@ -223,7 +239,7 @@ static NSTimeInterval JXHTTPActivityTimerInterval = 0.25;
 {
     #if __IPHONE_OS_VERSION_MIN_REQUIRED >= __IPHONE_2_0
 
-    [[UIApplication sharedApplication] setNetworkActivityIndicatorVisible:NO];
+    JXHTTPNetworkActivityIndicatorManager.networkActivityIndicatorVisible = NO;
     
     #endif
 }
@@ -461,6 +477,12 @@ static NSTimeInterval JXHTTPActivityTimerInterval = 0.25;
         [self cancel];
 
     return [self isCancelled] ? nil : modifiedRequest;
+}
+
+#pragma mark - Network activity indication
+
++ (void)setNetworkActivityIndicatorManager:(id <JXNetworkActivityIndicatorManager>)networkActivityIndicatorManager {
+    JXHTTPNetworkActivityIndicatorManager = networkActivityIndicatorManager;
 }
 
 @end

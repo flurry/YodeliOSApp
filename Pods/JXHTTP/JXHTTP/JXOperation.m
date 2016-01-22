@@ -1,4 +1,7 @@
+#import "JXBackgroundTaskManager.h"
 #import "JXOperation.h"
+
+static id <JXBackgroundTaskManager> JXHTTPBackgroundTaskManager;
 
 @interface JXOperation ()
 
@@ -41,9 +44,9 @@
         self.isFinished = NO;
         self.continuesInAppBackground = NO;
         
-        #if __IPHONE_OS_VERSION_MIN_REQUIRED >= __IPHONE_4_0
+    #if __IPHONE_OS_VERSION_MIN_REQUIRED >= __IPHONE_4_0
         self.backgroundTaskID = UIBackgroundTaskInvalid;
-        #endif
+    #endif
     }
     return self;
 }
@@ -85,8 +88,10 @@
 - (void)cancel
 {
     [super cancel];
-
-    [self finish];
+    
+    @synchronized(self) {
+        [self finish];
+    }
 }
 
 - (void)willFinish
@@ -123,48 +128,47 @@
     [tempQueue waitUntilAllOperationsAreFinished];
 }
 
-#pragma mark - Private Methods
+#pragma mark - Background task management
+
++ (void)setBackgroundTaskManager:(id <JXBackgroundTaskManager>)backgroundTaskManager {
+    JXHTTPBackgroundTaskManager = backgroundTaskManager;
+}
 
 - (void)startAppBackgroundTask
 {
     #if __IPHONE_OS_VERSION_MIN_REQUIRED >= __IPHONE_4_0
-    
-    if (self.backgroundTaskID != UIBackgroundTaskInvalid || [self isCancelled])
-        return;
-    
-    __weak __typeof(self) weakSelf = self;
-    
-    dispatch_async(dispatch_get_main_queue(), ^{
-        __typeof(weakSelf) strongSelf = weakSelf;
-
-        if (!strongSelf || [strongSelf isCancelled] || strongSelf.isFinished)
+    if (JXHTTPBackgroundTaskManager) {
+        if (self.backgroundTaskID != UIBackgroundTaskInvalid || [self isCancelled])
             return;
+        
+        __weak __typeof(self) weakSelf = self;
+        
+        dispatch_async(dispatch_get_main_queue(), ^{
+            __typeof(weakSelf) strongSelf = weakSelf;
+            
+            if (!strongSelf || [strongSelf isCancelled] || strongSelf.isFinished)
+                return;
 
-        UIBackgroundTaskIdentifier taskID = UIBackgroundTaskInvalid;
-        taskID = [[UIApplication sharedApplication] beginBackgroundTaskWithExpirationHandler:^{
-            [[UIApplication sharedApplication] endBackgroundTask:taskID];
-        }];
-
-        strongSelf.backgroundTaskID = taskID;
-    });
-
+            strongSelf.backgroundTaskID = [JXHTTPBackgroundTaskManager beginBackgroundTask];
+        });
+    }
     #endif
 }
 
 - (void)endAppBackgroundTask
 {
     #if __IPHONE_OS_VERSION_MIN_REQUIRED >= __IPHONE_4_0
-    
-    UIBackgroundTaskIdentifier taskID = self.backgroundTaskID;
-    if (taskID == UIBackgroundTaskInvalid)
-        return;
-    
-    self.backgroundTaskID = UIBackgroundTaskInvalid;
-    
-    dispatch_async(dispatch_get_main_queue(), ^{
-        [[UIApplication sharedApplication] endBackgroundTask:taskID];
-    });
-
+    if (JXHTTPBackgroundTaskManager) {
+        UIBackgroundTaskIdentifier taskID = self.backgroundTaskID;
+        if (taskID == UIBackgroundTaskInvalid)
+            return;
+        
+        self.backgroundTaskID = UIBackgroundTaskInvalid;
+        
+        dispatch_async(dispatch_get_main_queue(), ^{
+            [JXHTTPBackgroundTaskManager endBackgroundTask:taskID];
+        });
+    }
     #endif
 }
 

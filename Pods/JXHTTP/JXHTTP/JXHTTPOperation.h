@@ -39,6 +39,7 @@
 #import "JXURLConnectionOperation.h"
 #import "JXHTTPOperationDelegate.h"
 #import "JXHTTPRequestBody.h"
+@protocol JXNetworkActivityIndicatorManager;
 
 typedef void (^JXHTTPBlock)(JXHTTPOperation *operation);
 typedef NSCachedURLResponse * (^JXHTTPCacheBlock)(JXHTTPOperation *operation, NSCachedURLResponse *response);
@@ -292,5 +293,25 @@ typedef NSURLRequest * (^JXHTTPRedirectBlock)(JXHTTPOperation *operation, NSURLR
  @returns An operation.
  */
 + (instancetype)withURLString:(NSString *)urlString queryParameters:(NSDictionary *)parameters;
+
+/// @name Network activity indication
+
+/**
+ Set a global manager to be used for showing or hiding the network activity indicator.
+ 
+ @param networkActivityIndicatorManager Network activity indicator manager manager.
+ */
++ (void)setNetworkActivityIndicatorManager:(id <JXNetworkActivityIndicatorManager>)networkActivityIndicatorManager;
+
+#if __IPHONE_OS_VERSION_MIN_REQUIRED >= __IPHONE_2_0
+
+/**
+ *  Whether or not there are active operations that are updating the device's network activity indicator.
+ *
+ *  @return Whether or not there are active operations that are updating the device's network activity indicator.
+ */
++ (BOOL)hasActiveOperationsThatUpdateNetworkActivityIndicator;
+
+#endif
 
 @end
