@@ -8,6 +8,8 @@
 
 #import "TMAPIClient.h"
 
+#import <JXHTTP/JXHTTP.h>
+
 #import "TMOAuth.h"
 #import "TMSDKUserAgent.h"
 #import "TMTumblrAuthenticator.h"
@@ -346,6 +348,10 @@ fileNameArray:(NSArray *)fileNameArrayOrNil parameters:(NSDictionary *)parameter
      fileName:(NSString *)fileNameOrNil parameters:(NSDictionary *)parameters callback:(TMAPICallback)callback {
     [self sendRequest:[self videoRequest:blogName filePath:filePathOrNil contentType:contentTypeOrNil fileName:fileNameOrNil
                               parameters:parameters] callback:(TMAPICallback)callback];
+}
+
+- (JXHTTPOperation *)webVideoRequest:(NSString *)blogName parameters:(NSDictionary *)parameters {
+    return [self postRequest:blogName type:@"video" parameters:parameters];
 }
 
 - (JXHTTPOperation *)audioRequest:(NSString *)blogName filePath:(NSString *)filePathOrNil

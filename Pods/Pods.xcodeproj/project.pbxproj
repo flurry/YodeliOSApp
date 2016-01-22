@@ -7,79 +7,81 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		071C039EAE2D32AD023119447A90DF8C /* JXHTTPOperationDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DFC5F466FC35D5369C262D8688A4C0E /* JXHTTPOperationDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0A52C95758DB2774ACE90EDA494D6694 /* TMSDKFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = BD036EC75934712BC1569BF519FB5D43 /* TMSDKFunctions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		0A853D87E2791F9CC330E6FD6EE64D1C /* JXHTTPFormEncodedBody.m in Sources */ = {isa = PBXBuildFile; fileRef = 387E537D70C1637DE05D5B3E5875CD30 /* JXHTTPFormEncodedBody.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		0D42EE23AC28E00AECD473630EE3ECBE /* JXOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 4536C2FF56F89795C475BD9934AB5162 /* JXOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0E41C7E1D4CF2757FC770DDA1086B4E7 /* JXHTTPJSONBody.m in Sources */ = {isa = PBXBuildFile; fileRef = 0433C8FF522A06E832F97F7AA809AD76 /* JXHTTPJSONBody.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		0F709D4F35CA8F53C0FDEC53F74C5A88 /* TMTumblrSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 57EADE63941BD0C4B37B7B4036D201C6 /* TMTumblrSDK-dummy.m */; };
-		12157E26FA58E95DCCD1267461CF7045 /* FlurryAdNativeAsset.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A035B906EB83DDDB6D20B0A2A003654 /* FlurryAdNativeAsset.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A52C95758DB2774ACE90EDA494D6694 /* TMSDKFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A9D3347A076218F65D123296C40C776 /* TMSDKFunctions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0BD192052EABAC281CD5C0600ED8CB77 /* JXHTTPOperationQueueDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = EC22D9BFB1132F9EB06728B1279DCAF1 /* JXHTTPOperationQueueDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F709D4F35CA8F53C0FDEC53F74C5A88 /* TMTumblrSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 469E0FF33D5C6218DD311FE0AF9077E9 /* TMTumblrSDK-dummy.m */; };
+		117F41761DAD72C7D56D883B7E22C947 /* JXURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = FFC2B41894C712AD718ECCFCB973B9EE /* JXURLConnectionOperation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		12157E26FA58E95DCCD1267461CF7045 /* FlurryAdNativeAsset.h in Headers */ = {isa = PBXBuildFile; fileRef = 9090099952BCE93C3EC49FA200D72821 /* FlurryAdNativeAsset.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1247E0C652C679E8B13FEB84AAB31E5E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3284705141D0282762F8A4B2A84C509D /* Security.framework */; };
-		13041272BE40C78F7BAB15736EF8C9C6 /* JXHTTP-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 680093EC0ECCA2855E6536FAB7B87BD8 /* JXHTTP-dummy.m */; };
-		1495B1801FAC10744D81CA53476F98CA /* TMAPIClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 15FFD8DB009F31F9A36E30A3C67FBEE8 /* TMAPIClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1BC66DDC85717CD197C596F576064775 /* JXURLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = B5BE47F2951220860F52B04C35E6D756 /* JXURLEncoding.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		1495B1801FAC10744D81CA53476F98CA /* TMAPIClient.h in Headers */ = {isa = PBXBuildFile; fileRef = D9ABAD98AC3F2A7FDB2AF9B0549CF4D0 /* TMAPIClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		15B8E11E650E4439BF3BE2D48EE3F718 /* JXOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = E109193915CC04229E3379D0001F5495 /* JXOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19CD65D2C191FAC5C6A00BB9AE941EDB /* JXHTTP.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DDD3B0C9AA133A2DF501700F23D9566 /* JXHTTP.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1ABA76EE6A4D8C47442455983E2E767E /* JXURLEncoding.h in Headers */ = {isa = PBXBuildFile; fileRef = BA55B66666D49C497F4A83B2C0A99FF1 /* JXURLEncoding.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1BE84A6EEDB86A4A0E5D67A93823283D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A36EA9820681DA05BBF5D8B3EA19CD70 /* Foundation.framework */; };
-		21EE497E3BEBB464131D446240EF067F /* JXHTTPOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E6A24E08650B07C6DA9D5A3D58187D1 /* JXHTTPOperation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		2E0538E028413D213431B74AD95515F7 /* JXHTTPDataBody.m in Sources */ = {isa = PBXBuildFile; fileRef = 30093E133EB1F7E2CC38F2421F876E7E /* JXHTTPDataBody.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		345DEC3D9F65A552A8C0023049F71F8F /* Flurry.h in Headers */ = {isa = PBXBuildFile; fileRef = A127400E23E2F3E4BE74FB628769B1FD /* Flurry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E75ECA691A7A28962E96F8569038653 /* JXOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 49580C4E4F446B8FE17AD851A5658E94 /* JXOperation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		24EDE9B062725E5487CE9234E6F931C2 /* JXNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 85E056B030D7749437BE558A5D5349E8 /* JXNetworkActivityIndicatorManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2747F3C5F2D40FA2A0C03AFDD66DE665 /* JXHTTPJSONBody.h in Headers */ = {isa = PBXBuildFile; fileRef = 213F4CD4F118BCCC33EAA201FCC9C570 /* JXHTTPJSONBody.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2ADFEFD86E68998CB00A4A2690EFBA37 /* JXHTTPMultipartBody.m in Sources */ = {isa = PBXBuildFile; fileRef = B916C9CF2087F1AD68C99E2A97AB8865 /* JXHTTPMultipartBody.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		345DEC3D9F65A552A8C0023049F71F8F /* Flurry.h in Headers */ = {isa = PBXBuildFile; fileRef = 9942501B3364FC67843CE3103B637628 /* Flurry.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		36C3537BC6627CF59B123340946C514B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A36EA9820681DA05BBF5D8B3EA19CD70 /* Foundation.framework */; };
-		3C35FF8851162877C797718BE057DDDF /* TMSDKFunctions.h in Headers */ = {isa = PBXBuildFile; fileRef = BAAD7775C59309004CA51DEFFBDFC41C /* TMSDKFunctions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3CC3D348F4D9AFBDE5E3E15C23541506 /* TMAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = FDC708C1B22DDE7ED7C3AE907DFCA03F /* TMAPIClient.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		3FC8EE2E49CFA629DA5631FC19D86FB8 /* JXHTTPOperationQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 846EAB4B4E6AF2B8FA0D4D701CE86F4D /* JXHTTPOperationQueue.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		4244FB780C2BF8CCBF7D80084C6134E8 /* TMOAuth.h in Headers */ = {isa = PBXBuildFile; fileRef = 22CBA95E3E024A38CD4CF47DB6AB7984 /* TMOAuth.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4471FFAF1376E676777B1F30FE6585B0 /* TMTumblrAuthenticator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A390D1275C76F3941EFBBD44A897CDE /* TMTumblrAuthenticator.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		47982A97FB58D2622130944C084F6D19 /* JXHTTPFileBody.h in Headers */ = {isa = PBXBuildFile; fileRef = 51944F3B0A641C37998DCD6B72483EE0 /* JXHTTPFileBody.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		392AD7668AFF02503497AB625C81FD31 /* JXHTTPFormEncodedBody.h in Headers */ = {isa = PBXBuildFile; fileRef = 7718F2560131EE00E70F843780A6B526 /* JXHTTPFormEncodedBody.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		39353D244F66C654150D7A018AC7B6F5 /* JXHTTPOperationQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = B6D3CBDA3226FE9D513C011B4A73ECEE /* JXHTTPOperationQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C35FF8851162877C797718BE057DDDF /* TMSDKFunctions.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F927847360A57931D2DBF54CDA99EF1 /* TMSDKFunctions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3CC3D348F4D9AFBDE5E3E15C23541506 /* TMAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A970189C99D2050B9DDE8778C4D8198 /* TMAPIClient.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		4244FB780C2BF8CCBF7D80084C6134E8 /* TMOAuth.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EBCF019385DFBB63FE1A8DD1FBB8954 /* TMOAuth.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4471FFAF1376E676777B1F30FE6585B0 /* TMTumblrAuthenticator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A8C26FE3C2CC86C4FB4C37CB033B7CD /* TMTumblrAuthenticator.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		48DACCF50A5732DBF8912C3F492AEA2E /* JXHTTPDataBody.m in Sources */ = {isa = PBXBuildFile; fileRef = 696F1B8F4958235F173C652DF1B41B47 /* JXHTTPDataBody.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		49F5A8D6655D8020B91667BF255D8C38 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4F857AC962035C80B0EE25C433E21B8 /* MediaPlayer.framework */; };
-		4C7999FA3AFFB04A53E25729095F8E85 /* Empty.m in Sources */ = {isa = PBXBuildFile; fileRef = 40199CF9B4C4D96021FC34F5EF10926D /* Empty.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		545D243F5C4CEAC789A54837A6F91DF2 /* FlurryAdInterstitial.h in Headers */ = {isa = PBXBuildFile; fileRef = FAE977F4463B0FDCAE5576E9B14C3042 /* FlurryAdInterstitial.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5A45BF3A641C5FB0B1D5ED1CDA4319FA /* TMPodspec.m in Sources */ = {isa = PBXBuildFile; fileRef = 41FF532F06645807144E516F91AF4B1B /* TMPodspec.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		65406FF571FA062A2C19B59DC8C66779 /* JXHTTP.h in Headers */ = {isa = PBXBuildFile; fileRef = 030D37851500E34AF9EE7D3BFD9B4F02 /* JXHTTP.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		66E94C8C7DDF07B0BE9D6B14A7E0AD1F /* TMSDKUserAgent.h in Headers */ = {isa = PBXBuildFile; fileRef = F99180A758FBF65D9677BD1195C17887 /* TMSDKUserAgent.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		679CABE80D8C5176E12336C473608CA9 /* TMTumblrActivity.h in Headers */ = {isa = PBXBuildFile; fileRef = EB78D7BB08A94A09976651DB78DEF77D /* TMTumblrActivity.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		781097250A51F6C4C53325CEFE0B9FAF /* FlurryAdNativeDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = D8D64EE9EC6E11526042F2EF28E8504B /* FlurryAdNativeDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		78FF00D0D91F313AD65A2A152591F3CD /* TMTumblrAppClient.m in Sources */ = {isa = PBXBuildFile; fileRef = B5D94FBAB7671E9E04654C4B3B3C4162 /* TMTumblrAppClient.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		806152A29395BDE481F0B1A4479DB0CE /* JXHTTPOperationQueueDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 57DE70914F51195ED00292E221FBF92C /* JXHTTPOperationQueueDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		814A3B7DCB57A203AEEB25740C1E5534 /* JXHTTPOperationQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = C8A831217E2C037A2D8F30E1C1B2A25F /* JXHTTPOperationQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		83D093937155C4B30ECC3F9B764BFF5C /* JXHTTPMultipartBody.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB806AB64190C724936DE7F2960B295 /* JXHTTPMultipartBody.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		4C7999FA3AFFB04A53E25729095F8E85 /* Empty.m in Sources */ = {isa = PBXBuildFile; fileRef = D1B0F2F850608843D5DED6819DA48C00 /* Empty.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4D38F56288B454638B98D7FC712864F2 /* JXHTTP-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E5B61CA862A043C81199377AB4059C /* JXHTTP-dummy.m */; };
+		4F8B282C7B454EDD6E31DDD12B05FC51 /* JXHTTPFormEncodedBody.m in Sources */ = {isa = PBXBuildFile; fileRef = 608A43AA40FD0121AEFB444D2C3B0EA2 /* JXHTTPFormEncodedBody.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		545D243F5C4CEAC789A54837A6F91DF2 /* FlurryAdInterstitial.h in Headers */ = {isa = PBXBuildFile; fileRef = BD01006995055B0E6F84EF0AAB56D37D /* FlurryAdInterstitial.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		566F290B185C42AE9D033BECD6CC2582 /* JXHTTPOperation+Convenience.h in Headers */ = {isa = PBXBuildFile; fileRef = D2CFEDF04B09F274222E89251ABAF39C /* JXHTTPOperation+Convenience.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A45BF3A641C5FB0B1D5ED1CDA4319FA /* TMPodspec.m in Sources */ = {isa = PBXBuildFile; fileRef = 1107C4F44E5BCFFF9194F1788A6D56BE /* TMPodspec.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		61F3DD62261DB600855C5B84634AA60B /* JXURLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = E3A8548A7EFC28BC8091A8BFF3108AE2 /* JXURLEncoding.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		63428C80B56B7AB4E5FD62AD812C2F8E /* JXHTTPOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 6619CB3DE316007E214EE5ACE9C5693D /* JXHTTPOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66E94C8C7DDF07B0BE9D6B14A7E0AD1F /* TMSDKUserAgent.h in Headers */ = {isa = PBXBuildFile; fileRef = 91CCBD9CE23E218757E03653DF408752 /* TMSDKUserAgent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		679CABE80D8C5176E12336C473608CA9 /* TMTumblrActivity.h in Headers */ = {isa = PBXBuildFile; fileRef = C508BFF47D18FFE79162925CE2AA954E /* TMTumblrActivity.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		71A95B60C81AEE4C3A565322E05BEC8E /* JXHTTPOperation+Convenience.m in Sources */ = {isa = PBXBuildFile; fileRef = E21CC27EAEB4FA32A8F3AFFD3B346F87 /* JXHTTPOperation+Convenience.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		73958E45B653CC336E7AC0A064237B37 /* JXBackgroundTaskManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 19E77BF1B3D8B605125087888C61DED4 /* JXBackgroundTaskManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7712C6A5E3E14813E241F913F04BD3FC /* JXHTTPDataBody.h in Headers */ = {isa = PBXBuildFile; fileRef = 16258470D6AD08809E342CB5F83BA768 /* JXHTTPDataBody.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		781097250A51F6C4C53325CEFE0B9FAF /* FlurryAdNativeDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 8280ED6FDAEAF372D3FF64EF88572CB7 /* FlurryAdNativeDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78FF00D0D91F313AD65A2A152591F3CD /* TMTumblrAppClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DEA85630CBF2037E2587C8346FE6C75 /* TMTumblrAppClient.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		8666644BF8CDE0196646D90EE710EB07 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24353EF64B038C1C14480DD8BE2A2041 /* CoreGraphics.framework */; };
+		892C7586B66019936A323E17331FB30F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A36EA9820681DA05BBF5D8B3EA19CD70 /* Foundation.framework */; };
+		8BAA841E13438FD0A6BB7A277CDCD036 /* JXHTTPOperationDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = D4A882C1D8116DB839BE770904D7A90B /* JXHTTPOperationDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8C1FE65F47564CA241302D51E90B74C4 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 560BC3B8CE25F5FE4C72002990757E7B /* CoreMedia.framework */; };
-		8FD790366B2AFF90C70070F21200751F /* TMTumblrAppClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 83BAD99132BEE0991303D40DE57209D8 /* TMTumblrAppClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		944338FCB864A1D0F97E0B19ABE29D53 /* FlurryAdBannerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D5DF8DC03C4126A57B0B36163DFF0B8 /* FlurryAdBannerDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		956D16EE225098944D4629D9281448CA /* TMTumblrAuthenticator.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E6A230E26B0EE2BDFA390E07B8B47E7 /* TMTumblrAuthenticator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9A9AF16EACF26BCAD317348EAE3AFBEE /* FlurryAdNativeStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F0DEE39F89D23D84130A3ECAF971CFF /* FlurryAdNativeStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FD790366B2AFF90C70070F21200751F /* TMTumblrAppClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 2ED8C134CC30512857DE2FB33F619F80 /* TMTumblrAppClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		944338FCB864A1D0F97E0B19ABE29D53 /* FlurryAdBannerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = F6AA8506116FD6B041F5054B6E1ACF25 /* FlurryAdBannerDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		956D16EE225098944D4629D9281448CA /* TMTumblrAuthenticator.h in Headers */ = {isa = PBXBuildFile; fileRef = 21E36F58C2BB3E71E75DA11D1B9E46F0 /* TMTumblrAuthenticator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98D2D0B3B912627C074A061436AA0F2A /* JXHTTPOperationQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF41BA646414E76A9EF345A99316F71 /* JXHTTPOperationQueue.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		9A9AF16EACF26BCAD317348EAE3AFBEE /* FlurryAdNativeStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 44C4300A53BD08EA1051203A0C13B691 /* FlurryAdNativeStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9E1805B21F1408ABEAF638A8859C2872 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A08DCBB37E0D2E3D502F65124EBBD39 /* AVFoundation.framework */; };
-		A972C574D38FEC7A65D947C2317165D9 /* TMTumblrActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = AF65A60329F41D9885FDE0403B538AF7 /* TMTumblrActivity.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		AB68437055FD67499999D7C1429B6FAA /* JXHTTPRequestBody.h in Headers */ = {isa = PBXBuildFile; fileRef = F80369A5AE96357BD19ADEDB0D164DAC /* JXHTTPRequestBody.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A972C574D38FEC7A65D947C2317165D9 /* TMTumblrActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 59A86170C7DD1E52C201777B3DBDB0E1 /* TMTumblrActivity.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		ADC5E5CDDD234239FF2EAEB57D5A1371 /* JXURLConnectionOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = BC08A58373DE3601358A03C5D12CC1C7 /* JXURLConnectionOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF504D8A0F905CC4DC8DC5000690FD85 /* JXHTTPFileBody.h in Headers */ = {isa = PBXBuildFile; fileRef = 52023A9BA0034CCA599FE57B1E4AFE3A /* JXHTTPFileBody.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B04FAF363C4F18CA318C4F5DDD606DA4 /* JXHTTPFileBody.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A224DBB217FEE31AE08FF27D199A001 /* JXHTTPFileBody.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		B441EF7F956B4DC77711D47774531DE9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A36EA9820681DA05BBF5D8B3EA19CD70 /* Foundation.framework */; };
-		BB0642C916CADAA25D49D9D3DDA761A1 /* Spectacles-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A642849D331EB65AAE21AE648214E714 /* Spectacles-dummy.m */; };
-		BB588DDE5CF208720403B42FD37EA957 /* JXOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = C21E6857B5C2BB085E2743822ED44D5E /* JXOperation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		BBFE99B976C07B5EBD7265B8046AAF79 /* JXHTTPOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A2F7D373EBB2994D8E7B0DEB936D66E /* JXHTTPOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C2A205F479610ED313AE144B0ED047F3 /* JXURLEncoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CEC57219D7A675693D7E4FF56A75320 /* JXURLEncoding.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C3B854C7EC04B81C00D7D6CA71FE5851 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A36EA9820681DA05BBF5D8B3EA19CD70 /* Foundation.framework */; };
-		C693D84A934E4FDB5B39083BE890EF41 /* JXHTTPFormEncodedBody.h in Headers */ = {isa = PBXBuildFile; fileRef = 58DA56B0183696404150E84A5377994E /* JXHTTPFormEncodedBody.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C8B71CC10D3A27D7D4296F6DD980E81A /* JXHTTPOperation+Convenience.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BB179C184D92B2212780650212A1380 /* JXHTTPOperation+Convenience.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C8D6B6E37D9FAA75A01CB0CB483F199D /* FlurryAdTargeting.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B387DA41B1765AC2FF79C796DAC60A5 /* FlurryAdTargeting.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C9F0BA6108DA48135175F3CFC4FE3C82 /* FlurryAdError.h in Headers */ = {isa = PBXBuildFile; fileRef = ADA8A94B7909AD0F681699F0A3EA0928 /* FlurryAdError.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CA2C956F3811CD738DC2A204A54FBAD2 /* JXHTTPDataBody.h in Headers */ = {isa = PBXBuildFile; fileRef = 27F9164D77CD6E0B610731A2501F1D29 /* JXHTTPDataBody.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CA6C688A6321C0276C72E82B76419091 /* FlurryAdNative.h in Headers */ = {isa = PBXBuildFile; fileRef = E392E8651A758D7B358D78D0947CAA77 /* FlurryAdNative.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CAFF8C5DF7E521A5519D1DE89AC51BBD /* Flurry-iOS-SDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 77284DF87C5D3B2C48116B2BE73A1F7D /* Flurry-iOS-SDK-dummy.m */; };
-		CB42685A62C38F4594D34F95CB4B64C6 /* JXURLConnectionOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 0727575C5B7FC63A055B96FC85345F7B /* JXURLConnectionOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CF8315B8EB955BE80501DC87C5281319 /* FlurryAds.h in Headers */ = {isa = PBXBuildFile; fileRef = 93931FAB64D86AD538F4C111CF32DE85 /* FlurryAds.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB0642C916CADAA25D49D9D3DDA761A1 /* Spectacles-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C32A8459150381F467486243C4AB95F0 /* Spectacles-dummy.m */; };
+		C8D6B6E37D9FAA75A01CB0CB483F199D /* FlurryAdTargeting.h in Headers */ = {isa = PBXBuildFile; fileRef = 62E449D4393A928287AFF68BA3AE33D8 /* FlurryAdTargeting.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9F0BA6108DA48135175F3CFC4FE3C82 /* FlurryAdError.h in Headers */ = {isa = PBXBuildFile; fileRef = 52757AFDD955E0EB150C37ED858BF6E8 /* FlurryAdError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA6C688A6321C0276C72E82B76419091 /* FlurryAdNative.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B75FAD077658EA334013DA91C9D2BD7 /* FlurryAdNative.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CAFF8C5DF7E521A5519D1DE89AC51BBD /* Flurry-iOS-SDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 728BFCDE8FDE3A104998E022875CCE64 /* Flurry-iOS-SDK-dummy.m */; };
+		CF8315B8EB955BE80501DC87C5281319 /* FlurryAds.h in Headers */ = {isa = PBXBuildFile; fileRef = 33D9B9870302FCC482F87C85B6EF32BE /* FlurryAds.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D73D1FAD87E4B22844A19499FB1ADFF2 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */; };
-		D9766613D1F8C4E87522212954BE0A91 /* TMSDKUserAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = D150DF166832AA71544C9B36DCAEA381 /* TMSDKUserAgent.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		DAD31D928C785A65CE9AF119608489DC /* JXHTTPFileBody.m in Sources */ = {isa = PBXBuildFile; fileRef = F52CA880739E0F24E25A14B9DD36A576 /* JXHTTPFileBody.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		E08BD646048BF437152498F2A94AD84B /* JXHTTPJSONBody.h in Headers */ = {isa = PBXBuildFile; fileRef = 464F1F12B50F2E27F982B70C0CB8FF86 /* JXHTTPJSONBody.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E1DFA21D17F918CD33FA11AB77B0E55A /* FlurryAdInterstitialDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = AC4CA585E094700DB589B7342F0A6D6E /* FlurryAdInterstitialDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E2799223C165E825C9004139F02F1EDE /* TMPodspec.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F5F363C9D306A753ED9224B72E9600F /* TMPodspec.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E60ACE685D0C96A30E8A92F454E0C2E4 /* FlurryAdBanner.h in Headers */ = {isa = PBXBuildFile; fileRef = B073ADA7C87F0A35E59B689EEAA19F26 /* FlurryAdBanner.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D928CDFB2D7D3E2AD9DE3D2974391870 /* JXHTTPOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 605334742AD7DEF6F0ADD4D05DAACDE3 /* JXHTTPOperation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D9766613D1F8C4E87522212954BE0A91 /* TMSDKUserAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C5D22BB02860A2D8F365774511738F /* TMSDKUserAgent.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E04739BAC8F58D877DFE1946932B53D7 /* JXHTTPJSONBody.m in Sources */ = {isa = PBXBuildFile; fileRef = E682885C55F5A6989E3ABEC4EB1330B5 /* JXHTTPJSONBody.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E1DFA21D17F918CD33FA11AB77B0E55A /* FlurryAdInterstitialDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = C1811A4EF0C574970687FB8DEACEB658 /* FlurryAdInterstitialDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2799223C165E825C9004139F02F1EDE /* TMPodspec.h in Headers */ = {isa = PBXBuildFile; fileRef = FE43B101A704E1562240AED0823023C9 /* TMPodspec.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E60ACE685D0C96A30E8A92F454E0C2E4 /* FlurryAdBanner.h in Headers */ = {isa = PBXBuildFile; fileRef = 22ECE5B0C5157AE19228B52FA698C7D3 /* FlurryAdBanner.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E76A902DF022B1EA5B3E39B0176A838C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A36EA9820681DA05BBF5D8B3EA19CD70 /* Foundation.framework */; };
-		E808792A1E21F33B7E4D922A662D2F40 /* JXHTTPOperation+Convenience.m in Sources */ = {isa = PBXBuildFile; fileRef = DF90B02631612BB6C7AE2069EE4A9B25 /* JXHTTPOperation+Convenience.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		E98835A2F8652129A9C1166FA45449E9 /* FlurryAdDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = FBBD5BD40169EFD3C31AD0264961709A /* FlurryAdDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F06C304E9AC3495A2FE8BAF68606525F /* JXHTTPMultipartBody.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E28EF58D0B5B2EF07A8628FE391B335 /* JXHTTPMultipartBody.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F110550B6A053A0EDB5897B7472613B9 /* TMOAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C8A7E84A689504A51A674088C7F801 /* TMOAuth.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E98835A2F8652129A9C1166FA45449E9 /* FlurryAdDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = AC33D6E47C7EB9ED70FDCC097A6D5A7A /* FlurryAdDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF1E6AC4E6A544E4AC437179D27B7453 /* JXHTTPRequestBody.h in Headers */ = {isa = PBXBuildFile; fileRef = F4805FEAD5179C87D57F7E4A289BB8E6 /* JXHTTPRequestBody.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0C5F9D5720117984936655ABDF2A42C /* JXHTTPMultipartBody.h in Headers */ = {isa = PBXBuildFile; fileRef = 17554DE12B70FD261099F91362514D5F /* JXHTTPMultipartBody.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F110550B6A053A0EDB5897B7472613B9 /* TMOAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D14117103273D29F8D72C5D6CAA11C9 /* TMOAuth.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		F2F92254F5FA60A6C7E8CBFD0725B545 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AFDAEAFB076666D54D29D98DCA278F3 /* SystemConfiguration.framework */; };
 		F6236A4ED72C0365B953ABB67CC7B4AD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 644F4056D0BED532DFDF126603203F72 /* UIKit.framework */; };
-		FEC66E6E413080832800307DDD8FF1C0 /* JXURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF0C4139A6A2618FEBCBFC62EEE2728 /* JXURLConnectionOperation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -101,7 +103,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = BB9D7A6C6548AB0BDED8E482524CEC61;
+			remoteGlobalIDString = B0144952FC8B7B32E77E313BE1F32BA9;
 			remoteInfo = JXHTTP;
 		};
 		67CA01A649DC7A3032250C99E7E44222 /* PBXContainerItemProxy */ = {
@@ -122,120 +124,114 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = BB9D7A6C6548AB0BDED8E482524CEC61;
+			remoteGlobalIDString = B0144952FC8B7B32E77E313BE1F32BA9;
 			remoteInfo = JXHTTP;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		030D37851500E34AF9EE7D3BFD9B4F02 /* JXHTTP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXHTTP.h; path = JXHTTP/JXHTTP.h; sourceTree = "<group>"; };
-		0433C8FF522A06E832F97F7AA809AD76 /* JXHTTPJSONBody.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXHTTPJSONBody.m; path = JXHTTP/JXHTTPJSONBody.m; sourceTree = "<group>"; };
-		0727575C5B7FC63A055B96FC85345F7B /* JXURLConnectionOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXURLConnectionOperation.h; path = JXHTTP/JXURLConnectionOperation.h; sourceTree = "<group>"; };
-		0A035B906EB83DDDB6D20B0A2A003654 /* FlurryAdNativeAsset.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlurryAdNativeAsset.h; path = FlurryAds/FlurryAdNative/FlurryAdNativeAsset.h; sourceTree = "<group>"; };
-		0E6A230E26B0EE2BDFA390E07B8B47E7 /* TMTumblrAuthenticator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMTumblrAuthenticator.h; path = TMTumblrSDK/Authentication/TMTumblrAuthenticator.h; sourceTree = "<group>"; };
-		0F81BC1C7B6423C577605CE5A54CC77B /* UIActivityTumblr.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = UIActivityTumblr.png; path = TMTumblrSDK/Activity/UIActivityTumblr.png; sourceTree = "<group>"; };
 		10834806BD7B412BC24F347361FA2C8E /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
-		158E55568756DC0452F77F82716B5150 /* JXHTTP-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JXHTTP-prefix.pch"; sourceTree = "<group>"; };
-		15FFD8DB009F31F9A36E30A3C67FBEE8 /* TMAPIClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMAPIClient.h; path = TMTumblrSDK/APIClient/TMAPIClient.h; sourceTree = "<group>"; };
-		1A390D1275C76F3941EFBBD44A897CDE /* TMTumblrAuthenticator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMTumblrAuthenticator.m; path = TMTumblrSDK/Authentication/TMTumblrAuthenticator.m; sourceTree = "<group>"; };
-		22CBA95E3E024A38CD4CF47DB6AB7984 /* TMOAuth.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMOAuth.h; path = TMTumblrSDK/Authentication/TMOAuth.h; sourceTree = "<group>"; };
+		1107C4F44E5BCFFF9194F1788A6D56BE /* TMPodspec.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMPodspec.m; path = Pod/Classes/TMPodspec.m; sourceTree = "<group>"; };
+		1483F965BC37AD13B967562DF184C859 /* UIActivityTumblr.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = UIActivityTumblr.png; path = TMTumblrSDK/Activity/UIActivityTumblr.png; sourceTree = "<group>"; };
+		16258470D6AD08809E342CB5F83BA768 /* JXHTTPDataBody.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXHTTPDataBody.h; path = JXHTTP/JXHTTPDataBody.h; sourceTree = "<group>"; };
+		17554DE12B70FD261099F91362514D5F /* JXHTTPMultipartBody.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXHTTPMultipartBody.h; path = JXHTTP/JXHTTPMultipartBody.h; sourceTree = "<group>"; };
+		19E77BF1B3D8B605125087888C61DED4 /* JXBackgroundTaskManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXBackgroundTaskManager.h; path = JXHTTP/JXBackgroundTaskManager.h; sourceTree = "<group>"; };
+		1A970189C99D2050B9DDE8778C4D8198 /* TMAPIClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMAPIClient.m; path = TMTumblrSDK/APIClient/TMAPIClient.m; sourceTree = "<group>"; };
+		213F4CD4F118BCCC33EAA201FCC9C570 /* JXHTTPJSONBody.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXHTTPJSONBody.h; path = JXHTTP/JXHTTPJSONBody.h; sourceTree = "<group>"; };
+		21E36F58C2BB3E71E75DA11D1B9E46F0 /* TMTumblrAuthenticator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMTumblrAuthenticator.h; path = TMTumblrSDK/Authentication/TMTumblrAuthenticator.h; sourceTree = "<group>"; };
+		229FD4ECFFB2672798EC51CBAC55C65C /* Spectacles.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Spectacles.xcconfig; sourceTree = "<group>"; };
+		22ECE5B0C5157AE19228B52FA698C7D3 /* FlurryAdBanner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlurryAdBanner.h; path = FlurryAds/FlurryAdBanner/FlurryAdBanner.h; sourceTree = "<group>"; };
 		24353EF64B038C1C14480DD8BE2A2041 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 		272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
-		27F9164D77CD6E0B610731A2501F1D29 /* JXHTTPDataBody.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXHTTPDataBody.h; path = JXHTTP/JXHTTPDataBody.h; sourceTree = "<group>"; };
 		28E1EA6D81009655C0BF95907571726F /* libTMTumblrSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTMTumblrSDK.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		30093E133EB1F7E2CC38F2421F876E7E /* JXHTTPDataBody.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXHTTPDataBody.m; path = JXHTTP/JXHTTPDataBody.m; sourceTree = "<group>"; };
+		2A9D3347A076218F65D123296C40C776 /* TMSDKFunctions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMSDKFunctions.m; path = TMTumblrSDK/Core/TMSDKFunctions.m; sourceTree = "<group>"; };
+		2EBCF019385DFBB63FE1A8DD1FBB8954 /* TMOAuth.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMOAuth.h; path = TMTumblrSDK/Authentication/TMOAuth.h; sourceTree = "<group>"; };
+		2ED8C134CC30512857DE2FB33F619F80 /* TMTumblrAppClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMTumblrAppClient.h; path = TMTumblrSDK/AppClient/TMTumblrAppClient.h; sourceTree = "<group>"; };
 		30ECFBF235563D7545C9FCE5A2500BFA /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		311B8DC1B195D13313B746DA717502CC /* UIActivityTumblr~ipad@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "UIActivityTumblr~ipad@2x.png"; path = "TMTumblrSDK/Activity/UIActivityTumblr~ipad@2x.png"; sourceTree = "<group>"; };
 		3284705141D0282762F8A4B2A84C509D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
-		32EC4F4B4A5D6F678378854F9A822B5C /* JXHTTP.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JXHTTP.xcconfig; sourceTree = "<group>"; };
-		36AF64B9ACE3975208D2F9963C0A6AF3 /* libFlurryAds_7.2.1.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libFlurryAds_7.2.1.a; path = FlurryAds/libFlurryAds_7.2.1.a; sourceTree = "<group>"; };
+		33D9B9870302FCC482F87C85B6EF32BE /* FlurryAds.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlurryAds.h; path = FlurryAds/StaticAPI/FlurryAds.h; sourceTree = "<group>"; };
+		353E67B395DA7D0BAE3B8605C2A3343C /* JXHTTP.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JXHTTP.xcconfig; sourceTree = "<group>"; };
 		37DB56D75062CC75FCB0966E1C6E8A8E /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
-		387E537D70C1637DE05D5B3E5875CD30 /* JXHTTPFormEncodedBody.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXHTTPFormEncodedBody.m; path = JXHTTP/JXHTTPFormEncodedBody.m; sourceTree = "<group>"; };
-		3E6A24E08650B07C6DA9D5A3D58187D1 /* JXHTTPOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXHTTPOperation.m; path = JXHTTP/JXHTTPOperation.m; sourceTree = "<group>"; };
-		3F0DEE39F89D23D84130A3ECAF971CFF /* FlurryAdNativeStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlurryAdNativeStyle.h; path = FlurryAds/FlurryAdNative/FlurryAdNativeStyle.h; sourceTree = "<group>"; };
-		3F5F363C9D306A753ED9224B72E9600F /* TMPodspec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMPodspec.h; path = Pod/Classes/TMPodspec.h; sourceTree = "<group>"; };
-		40199CF9B4C4D96021FC34F5EF10926D /* Empty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Empty.m; path = Flurry/Empty.m; sourceTree = "<group>"; };
-		41FF532F06645807144E516F91AF4B1B /* TMPodspec.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMPodspec.m; path = Pod/Classes/TMPodspec.m; sourceTree = "<group>"; };
+		44C4300A53BD08EA1051203A0C13B691 /* FlurryAdNativeStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlurryAdNativeStyle.h; path = FlurryAds/FlurryAdNative/FlurryAdNativeStyle.h; sourceTree = "<group>"; };
 		44C6BC7EC32AF65B4D3C28BDBAD8765B /* libFlurry-iOS-SDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libFlurry-iOS-SDK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4536C2FF56F89795C475BD9934AB5162 /* JXOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXOperation.h; path = JXHTTP/JXOperation.h; sourceTree = "<group>"; };
-		464F1F12B50F2E27F982B70C0CB8FF86 /* JXHTTPJSONBody.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXHTTPJSONBody.h; path = JXHTTP/JXHTTPJSONBody.h; sourceTree = "<group>"; };
-		4966FD72EB35AB1D51ABB6089214AE5D /* Spectacles-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Spectacles-prefix.pch"; sourceTree = "<group>"; };
+		469E0FF33D5C6218DD311FE0AF9077E9 /* TMTumblrSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TMTumblrSDK-dummy.m"; sourceTree = "<group>"; };
+		49580C4E4F446B8FE17AD851A5658E94 /* JXOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXOperation.m; path = JXHTTP/JXOperation.m; sourceTree = "<group>"; };
+		4A8C26FE3C2CC86C4FB4C37CB033B7CD /* TMTumblrAuthenticator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMTumblrAuthenticator.m; path = TMTumblrSDK/Authentication/TMTumblrAuthenticator.m; sourceTree = "<group>"; };
 		4AFDAEAFB076666D54D29D98DCA278F3 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
-		4BB179C184D92B2212780650212A1380 /* JXHTTPOperation+Convenience.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "JXHTTPOperation+Convenience.h"; path = "JXHTTP/JXHTTPOperation+Convenience.h"; sourceTree = "<group>"; };
-		4D5DF8DC03C4126A57B0B36163DFF0B8 /* FlurryAdBannerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlurryAdBannerDelegate.h; path = FlurryAds/FlurryAdBanner/FlurryAdBannerDelegate.h; sourceTree = "<group>"; };
+		4DEA85630CBF2037E2587C8346FE6C75 /* TMTumblrAppClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMTumblrAppClient.m; path = TMTumblrSDK/AppClient/TMTumblrAppClient.m; sourceTree = "<group>"; };
 		4E762F23EC34ED4A6FF3312D84E33A40 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
-		51944F3B0A641C37998DCD6B72483EE0 /* JXHTTPFileBody.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXHTTPFileBody.h; path = JXHTTP/JXHTTPFileBody.h; sourceTree = "<group>"; };
+		52023A9BA0034CCA599FE57B1E4AFE3A /* JXHTTPFileBody.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXHTTPFileBody.h; path = JXHTTP/JXHTTPFileBody.h; sourceTree = "<group>"; };
+		52757AFDD955E0EB150C37ED858BF6E8 /* FlurryAdError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlurryAdError.h; path = FlurryAds/Shared/FlurryAdError.h; sourceTree = "<group>"; };
 		560BC3B8CE25F5FE4C72002990757E7B /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/CoreMedia.framework; sourceTree = DEVELOPER_DIR; };
-		57DE70914F51195ED00292E221FBF92C /* JXHTTPOperationQueueDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXHTTPOperationQueueDelegate.h; path = JXHTTP/JXHTTPOperationQueueDelegate.h; sourceTree = "<group>"; };
-		57EADE63941BD0C4B37B7B4036D201C6 /* TMTumblrSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TMTumblrSDK-dummy.m"; sourceTree = "<group>"; };
-		58DA56B0183696404150E84A5377994E /* JXHTTPFormEncodedBody.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXHTTPFormEncodedBody.h; path = JXHTTP/JXHTTPFormEncodedBody.h; sourceTree = "<group>"; };
-		5B387DA41B1765AC2FF79C796DAC60A5 /* FlurryAdTargeting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlurryAdTargeting.h; path = FlurryAds/Shared/FlurryAdTargeting.h; sourceTree = "<group>"; };
+		57D554DB26FC3C3E8A81597A06F71D78 /* JXHTTP-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JXHTTP-prefix.pch"; sourceTree = "<group>"; };
+		57FD3A149C38823E7027A28DC7C502AE /* UIActivityTumblr@2x~ipad.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "UIActivityTumblr@2x~ipad.png"; path = "TMTumblrSDK/Activity/UIActivityTumblr@2x~ipad.png"; sourceTree = "<group>"; };
+		59A86170C7DD1E52C201777B3DBDB0E1 /* TMTumblrActivity.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMTumblrActivity.m; path = TMTumblrSDK/Activity/TMTumblrActivity.m; sourceTree = "<group>"; };
+		605334742AD7DEF6F0ADD4D05DAACDE3 /* JXHTTPOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXHTTPOperation.m; path = JXHTTP/JXHTTPOperation.m; sourceTree = "<group>"; };
+		608A43AA40FD0121AEFB444D2C3B0EA2 /* JXHTTPFormEncodedBody.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXHTTPFormEncodedBody.m; path = JXHTTP/JXHTTPFormEncodedBody.m; sourceTree = "<group>"; };
+		62E449D4393A928287AFF68BA3AE33D8 /* FlurryAdTargeting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlurryAdTargeting.h; path = FlurryAds/Shared/FlurryAdTargeting.h; sourceTree = "<group>"; };
 		644F4056D0BED532DFDF126603203F72 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		680093EC0ECCA2855E6536FAB7B87BD8 /* JXHTTP-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JXHTTP-dummy.m"; sourceTree = "<group>"; };
+		6619CB3DE316007E214EE5ACE9C5693D /* JXHTTPOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXHTTPOperation.h; path = JXHTTP/JXHTTPOperation.h; sourceTree = "<group>"; };
 		6911BECA35E7518D864239B7E898EEF3 /* Pods-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-frameworks.sh"; sourceTree = "<group>"; };
+		696F1B8F4958235F173C652DF1B41B47 /* JXHTTPDataBody.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXHTTPDataBody.m; path = JXHTTP/JXHTTPDataBody.m; sourceTree = "<group>"; };
 		6A08DCBB37E0D2E3D502F65124EBBD39 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
-		6DFC5F466FC35D5369C262D8688A4C0E /* JXHTTPOperationDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXHTTPOperationDelegate.h; path = JXHTTP/JXHTTPOperationDelegate.h; sourceTree = "<group>"; };
-		6E28EF58D0B5B2EF07A8628FE391B335 /* JXHTTPMultipartBody.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXHTTPMultipartBody.h; path = JXHTTP/JXHTTPMultipartBody.h; sourceTree = "<group>"; };
-		6FEE148B99AF7CF707D947B58612E765 /* libFlurry_7.2.1.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libFlurry_7.2.1.a; path = Flurry/libFlurry_7.2.1.a; sourceTree = "<group>"; };
-		77284DF87C5D3B2C48116B2BE73A1F7D /* Flurry-iOS-SDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Flurry-iOS-SDK-dummy.m"; sourceTree = "<group>"; };
-		7752C5C257975A616BB8994CE0B6554C /* UIActivityTumblr@2x~ipad.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "UIActivityTumblr@2x~ipad.png"; path = "TMTumblrSDK/Activity/UIActivityTumblr@2x~ipad.png"; sourceTree = "<group>"; };
-		79C8A7E84A689504A51A674088C7F801 /* TMOAuth.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMOAuth.m; path = TMTumblrSDK/Authentication/TMOAuth.m; sourceTree = "<group>"; };
-		7CEC57219D7A675693D7E4FF56A75320 /* JXURLEncoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXURLEncoding.h; path = JXHTTP/JXURLEncoding.h; sourceTree = "<group>"; };
-		7CF0C4139A6A2618FEBCBFC62EEE2728 /* JXURLConnectionOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXURLConnectionOperation.m; path = JXHTTP/JXURLConnectionOperation.m; sourceTree = "<group>"; };
-		83BAD99132BEE0991303D40DE57209D8 /* TMTumblrAppClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMTumblrAppClient.h; path = TMTumblrSDK/AppClient/TMTumblrAppClient.h; sourceTree = "<group>"; };
-		846EAB4B4E6AF2B8FA0D4D701CE86F4D /* JXHTTPOperationQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXHTTPOperationQueue.m; path = JXHTTP/JXHTTPOperationQueue.m; sourceTree = "<group>"; };
+		728BFCDE8FDE3A104998E022875CCE64 /* Flurry-iOS-SDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Flurry-iOS-SDK-dummy.m"; sourceTree = "<group>"; };
+		7718F2560131EE00E70F843780A6B526 /* JXHTTPFormEncodedBody.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXHTTPFormEncodedBody.h; path = JXHTTP/JXHTTPFormEncodedBody.h; sourceTree = "<group>"; };
+		773F8CBF133804F544AE3361AD620463 /* TMTumblrSDK.podspec.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; path = TMTumblrSDK.podspec.json; sourceTree = "<group>"; };
+		7973D8E8FC72F52B42962DD2FD04736A /* Flurry-iOS-SDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Flurry-iOS-SDK-prefix.pch"; sourceTree = "<group>"; };
+		79C5D22BB02860A2D8F365774511738F /* TMSDKUserAgent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMSDKUserAgent.m; path = TMTumblrSDK/Core/TMSDKUserAgent.m; sourceTree = "<group>"; };
+		7B75FAD077658EA334013DA91C9D2BD7 /* FlurryAdNative.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlurryAdNative.h; path = FlurryAds/FlurryAdNative/FlurryAdNative.h; sourceTree = "<group>"; };
+		7D14117103273D29F8D72C5D6CAA11C9 /* TMOAuth.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMOAuth.m; path = TMTumblrSDK/Authentication/TMOAuth.m; sourceTree = "<group>"; };
+		7EA28E14C1B5395E62D4510E2E5B9E86 /* TMTumblrSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TMTumblrSDK-prefix.pch"; sourceTree = "<group>"; };
+		7F927847360A57931D2DBF54CDA99EF1 /* TMSDKFunctions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMSDKFunctions.h; path = TMTumblrSDK/Core/TMSDKFunctions.h; sourceTree = "<group>"; };
+		8280ED6FDAEAF372D3FF64EF88572CB7 /* FlurryAdNativeDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlurryAdNativeDelegate.h; path = FlurryAds/FlurryAdNative/FlurryAdNativeDelegate.h; sourceTree = "<group>"; };
+		840226126A98066D002D029CBF1DD9F4 /* libFlurry_7.3.0.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libFlurry_7.3.0.a; path = Flurry/libFlurry_7.3.0.a; sourceTree = "<group>"; };
+		85E056B030D7749437BE558A5D5349E8 /* JXNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXNetworkActivityIndicatorManager.h; path = JXHTTP/JXNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
 		8BDB24EF0307E77778F3CF06C1026043 /* libSpectacles.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSpectacles.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		9129194948318859B0AA606A42A1AA4D /* UIActivityTumblr~ipad.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "UIActivityTumblr~ipad.png"; path = "TMTumblrSDK/Activity/UIActivityTumblr~ipad.png"; sourceTree = "<group>"; };
-		93931FAB64D86AD538F4C111CF32DE85 /* FlurryAds.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlurryAds.h; path = FlurryAds/StaticAPI/FlurryAds.h; sourceTree = "<group>"; };
-		97E1759E9642185DCF2383CC0F8A4519 /* TMTumblrSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TMTumblrSDK.xcconfig; sourceTree = "<group>"; };
+		8DDD3B0C9AA133A2DF501700F23D9566 /* JXHTTP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXHTTP.h; path = JXHTTP/JXHTTP.h; sourceTree = "<group>"; };
+		9090099952BCE93C3EC49FA200D72821 /* FlurryAdNativeAsset.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlurryAdNativeAsset.h; path = FlurryAds/FlurryAdNative/FlurryAdNativeAsset.h; sourceTree = "<group>"; };
+		91CCBD9CE23E218757E03653DF408752 /* TMSDKUserAgent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMSDKUserAgent.h; path = TMTumblrSDK/Core/TMSDKUserAgent.h; sourceTree = "<group>"; };
 		98C98CDFB3F20F2925F6CD1F141BB14F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
-		9A2F7D373EBB2994D8E7B0DEB936D66E /* JXHTTPOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXHTTPOperation.h; path = JXHTTP/JXHTTPOperation.h; sourceTree = "<group>"; };
-		A127400E23E2F3E4BE74FB628769B1FD /* Flurry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Flurry.h; path = Flurry/Flurry.h; sourceTree = "<group>"; };
+		98D186589DBE270A9CEACE3335BD31E7 /* Spectacles-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Spectacles-prefix.pch"; sourceTree = "<group>"; };
+		9942501B3364FC67843CE3103B637628 /* Flurry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Flurry.h; path = Flurry/Flurry.h; sourceTree = "<group>"; };
+		9A224DBB217FEE31AE08FF27D199A001 /* JXHTTPFileBody.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXHTTPFileBody.m; path = JXHTTP/JXHTTPFileBody.m; sourceTree = "<group>"; };
 		A1A36D34413696BE466E2CA0AFF194DA /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
 		A36EA9820681DA05BBF5D8B3EA19CD70 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		A642849D331EB65AAE21AE648214E714 /* Spectacles-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Spectacles-dummy.m"; sourceTree = "<group>"; };
-		AC4CA585E094700DB589B7342F0A6D6E /* FlurryAdInterstitialDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlurryAdInterstitialDelegate.h; path = FlurryAds/FlurryAdInterstitial/FlurryAdInterstitialDelegate.h; sourceTree = "<group>"; };
-		ADA8A94B7909AD0F681699F0A3EA0928 /* FlurryAdError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlurryAdError.h; path = FlurryAds/Shared/FlurryAdError.h; sourceTree = "<group>"; };
-		AF65A60329F41D9885FDE0403B538AF7 /* TMTumblrActivity.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMTumblrActivity.m; path = TMTumblrSDK/Activity/TMTumblrActivity.m; sourceTree = "<group>"; };
-		B073ADA7C87F0A35E59B689EEAA19F26 /* FlurryAdBanner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlurryAdBanner.h; path = FlurryAds/FlurryAdBanner/FlurryAdBanner.h; sourceTree = "<group>"; };
+		A6CEA4D8D630FD6DFD6CD40309ACB82C /* Flurry-iOS-SDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Flurry-iOS-SDK.xcconfig"; sourceTree = "<group>"; };
+		AB00CC8B8ABAC491680FAF26ED1FA906 /* UIActivityTumblr~ipad.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "UIActivityTumblr~ipad.png"; path = "TMTumblrSDK/Activity/UIActivityTumblr~ipad.png"; sourceTree = "<group>"; };
+		ABF41BA646414E76A9EF345A99316F71 /* JXHTTPOperationQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXHTTPOperationQueue.m; path = JXHTTP/JXHTTPOperationQueue.m; sourceTree = "<group>"; };
+		AC33D6E47C7EB9ED70FDCC097A6D5A7A /* FlurryAdDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlurryAdDelegate.h; path = FlurryAds/StaticAPI/FlurryAdDelegate.h; sourceTree = "<group>"; };
+		B4E5B61CA862A043C81199377AB4059C /* JXHTTP-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JXHTTP-dummy.m"; sourceTree = "<group>"; };
 		B4F857AC962035C80B0EE25C433E21B8 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/MediaPlayer.framework; sourceTree = DEVELOPER_DIR; };
-		B5BE47F2951220860F52B04C35E6D756 /* JXURLEncoding.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXURLEncoding.m; path = JXHTTP/JXURLEncoding.m; sourceTree = "<group>"; };
-		B5D94FBAB7671E9E04654C4B3B3C4162 /* TMTumblrAppClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMTumblrAppClient.m; path = TMTumblrSDK/AppClient/TMTumblrAppClient.m; sourceTree = "<group>"; };
+		B6D3CBDA3226FE9D513C011B4A73ECEE /* JXHTTPOperationQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXHTTPOperationQueue.h; path = JXHTTP/JXHTTPOperationQueue.h; sourceTree = "<group>"; };
+		B916C9CF2087F1AD68C99E2A97AB8865 /* JXHTTPMultipartBody.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXHTTPMultipartBody.m; path = JXHTTP/JXHTTPMultipartBody.m; sourceTree = "<group>"; };
+		BA55B66666D49C497F4A83B2C0A99FF1 /* JXURLEncoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXURLEncoding.h; path = JXHTTP/JXURLEncoding.h; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BAAD7775C59309004CA51DEFFBDFC41C /* TMSDKFunctions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMSDKFunctions.h; path = TMTumblrSDK/Core/TMSDKFunctions.h; sourceTree = "<group>"; };
-		BD036EC75934712BC1569BF519FB5D43 /* TMSDKFunctions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMSDKFunctions.m; path = TMTumblrSDK/Core/TMSDKFunctions.m; sourceTree = "<group>"; };
-		BE77FEDA732D3887CCE4033B55E97144 /* Flurry-iOS-SDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Flurry-iOS-SDK-prefix.pch"; sourceTree = "<group>"; };
-		BFB806AB64190C724936DE7F2960B295 /* JXHTTPMultipartBody.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXHTTPMultipartBody.m; path = JXHTTP/JXHTTPMultipartBody.m; sourceTree = "<group>"; };
-		C21E6857B5C2BB085E2743822ED44D5E /* JXOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXOperation.m; path = JXHTTP/JXOperation.m; sourceTree = "<group>"; };
-		C8A831217E2C037A2D8F30E1C1B2A25F /* JXHTTPOperationQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXHTTPOperationQueue.h; path = JXHTTP/JXHTTPOperationQueue.h; sourceTree = "<group>"; };
-		C9325620142A8901297417E5E6ACE5B6 /* Spectacles.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Spectacles.xcconfig; sourceTree = "<group>"; };
-		CDD28514FD9866AD6EB29FB35F890D7E /* Flurry-iOS-SDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Flurry-iOS-SDK.xcconfig"; sourceTree = "<group>"; };
-		D150DF166832AA71544C9B36DCAEA381 /* TMSDKUserAgent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMSDKUserAgent.m; path = TMTumblrSDK/Core/TMSDKUserAgent.m; sourceTree = "<group>"; };
-		D8D64EE9EC6E11526042F2EF28E8504B /* FlurryAdNativeDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlurryAdNativeDelegate.h; path = FlurryAds/FlurryAdNative/FlurryAdNativeDelegate.h; sourceTree = "<group>"; };
-		DD3CD006AED96A8E13F07504B055F504 /* TMTumblrSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TMTumblrSDK-prefix.pch"; sourceTree = "<group>"; };
-		DF90B02631612BB6C7AE2069EE4A9B25 /* JXHTTPOperation+Convenience.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "JXHTTPOperation+Convenience.m"; path = "JXHTTP/JXHTTPOperation+Convenience.m"; sourceTree = "<group>"; };
-		E25120AA1A513A8F622EA9155A42D807 /* TMTumblrSDK.podspec.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; path = TMTumblrSDK.podspec.json; sourceTree = "<group>"; };
-		E392E8651A758D7B358D78D0947CAA77 /* FlurryAdNative.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlurryAdNative.h; path = FlurryAds/FlurryAdNative/FlurryAdNative.h; sourceTree = "<group>"; };
-		EB78D7BB08A94A09976651DB78DEF77D /* TMTumblrActivity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMTumblrActivity.h; path = TMTumblrSDK/Activity/TMTumblrActivity.h; sourceTree = "<group>"; };
-		F52CA880739E0F24E25A14B9DD36A576 /* JXHTTPFileBody.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXHTTPFileBody.m; path = JXHTTP/JXHTTPFileBody.m; sourceTree = "<group>"; };
+		BC08A58373DE3601358A03C5D12CC1C7 /* JXURLConnectionOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXURLConnectionOperation.h; path = JXHTTP/JXURLConnectionOperation.h; sourceTree = "<group>"; };
+		BD01006995055B0E6F84EF0AAB56D37D /* FlurryAdInterstitial.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlurryAdInterstitial.h; path = FlurryAds/FlurryAdInterstitial/FlurryAdInterstitial.h; sourceTree = "<group>"; };
+		C15424287B55347B4F0DFF3C2DC55228 /* UIActivityTumblr@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "UIActivityTumblr@2x.png"; path = "TMTumblrSDK/Activity/UIActivityTumblr@2x.png"; sourceTree = "<group>"; };
+		C1811A4EF0C574970687FB8DEACEB658 /* FlurryAdInterstitialDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlurryAdInterstitialDelegate.h; path = FlurryAds/FlurryAdInterstitial/FlurryAdInterstitialDelegate.h; sourceTree = "<group>"; };
+		C32A8459150381F467486243C4AB95F0 /* Spectacles-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Spectacles-dummy.m"; sourceTree = "<group>"; };
+		C508BFF47D18FFE79162925CE2AA954E /* TMTumblrActivity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMTumblrActivity.h; path = TMTumblrSDK/Activity/TMTumblrActivity.h; sourceTree = "<group>"; };
+		D1B0F2F850608843D5DED6819DA48C00 /* Empty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Empty.m; path = Flurry/Empty.m; sourceTree = "<group>"; };
+		D2CFEDF04B09F274222E89251ABAF39C /* JXHTTPOperation+Convenience.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "JXHTTPOperation+Convenience.h"; path = "JXHTTP/JXHTTPOperation+Convenience.h"; sourceTree = "<group>"; };
+		D3B80F56AB60C526CEE7C39311C34480 /* TMTumblrSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TMTumblrSDK.xcconfig; sourceTree = "<group>"; };
+		D4A882C1D8116DB839BE770904D7A90B /* JXHTTPOperationDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXHTTPOperationDelegate.h; path = JXHTTP/JXHTTPOperationDelegate.h; sourceTree = "<group>"; };
+		D9ABAD98AC3F2A7FDB2AF9B0549CF4D0 /* TMAPIClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMAPIClient.h; path = TMTumblrSDK/APIClient/TMAPIClient.h; sourceTree = "<group>"; };
+		E109193915CC04229E3379D0001F5495 /* JXOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXOperation.h; path = JXHTTP/JXOperation.h; sourceTree = "<group>"; };
+		E21CC27EAEB4FA32A8F3AFFD3B346F87 /* JXHTTPOperation+Convenience.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "JXHTTPOperation+Convenience.m"; path = "JXHTTP/JXHTTPOperation+Convenience.m"; sourceTree = "<group>"; };
+		E3A8548A7EFC28BC8091A8BFF3108AE2 /* JXURLEncoding.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXURLEncoding.m; path = JXHTTP/JXURLEncoding.m; sourceTree = "<group>"; };
+		E540FF9B9E3B0E34D8D284D91C2C6105 /* libFlurryAds_7.3.0.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libFlurryAds_7.3.0.a; path = FlurryAds/libFlurryAds_7.3.0.a; sourceTree = "<group>"; };
+		E682885C55F5A6989E3ABEC4EB1330B5 /* JXHTTPJSONBody.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXHTTPJSONBody.m; path = JXHTTP/JXHTTPJSONBody.m; sourceTree = "<group>"; };
+		EC22D9BFB1132F9EB06728B1279DCAF1 /* JXHTTPOperationQueueDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXHTTPOperationQueueDelegate.h; path = JXHTTP/JXHTTPOperationQueueDelegate.h; sourceTree = "<group>"; };
+		F4805FEAD5179C87D57F7E4A289BB8E6 /* JXHTTPRequestBody.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXHTTPRequestBody.h; path = JXHTTP/JXHTTPRequestBody.h; sourceTree = "<group>"; };
 		F5C76F60B942DB5EF2AE719342AFFEDC /* libJXHTTP.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libJXHTTP.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		F726EBB4A17B27F7F56C73935B9C4707 /* UIActivityTumblr~ipad@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "UIActivityTumblr~ipad@2x.png"; path = "TMTumblrSDK/Activity/UIActivityTumblr~ipad@2x.png"; sourceTree = "<group>"; };
-		F80369A5AE96357BD19ADEDB0D164DAC /* JXHTTPRequestBody.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXHTTPRequestBody.h; path = JXHTTP/JXHTTPRequestBody.h; sourceTree = "<group>"; };
-		F82A7B66A29D480B628255C02FE3C41F /* UIActivityTumblr@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "UIActivityTumblr@2x.png"; path = "TMTumblrSDK/Activity/UIActivityTumblr@2x.png"; sourceTree = "<group>"; };
-		F99180A758FBF65D9677BD1195C17887 /* TMSDKUserAgent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMSDKUserAgent.h; path = TMTumblrSDK/Core/TMSDKUserAgent.h; sourceTree = "<group>"; };
-		FAE977F4463B0FDCAE5576E9B14C3042 /* FlurryAdInterstitial.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlurryAdInterstitial.h; path = FlurryAds/FlurryAdInterstitial/FlurryAdInterstitial.h; sourceTree = "<group>"; };
-		FBBD5BD40169EFD3C31AD0264961709A /* FlurryAdDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlurryAdDelegate.h; path = FlurryAds/StaticAPI/FlurryAdDelegate.h; sourceTree = "<group>"; };
-		FDC708C1B22DDE7ED7C3AE907DFCA03F /* TMAPIClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMAPIClient.m; path = TMTumblrSDK/APIClient/TMAPIClient.m; sourceTree = "<group>"; };
+		F6AA8506116FD6B041F5054B6E1ACF25 /* FlurryAdBannerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlurryAdBannerDelegate.h; path = FlurryAds/FlurryAdBanner/FlurryAdBannerDelegate.h; sourceTree = "<group>"; };
+		FE43B101A704E1562240AED0823023C9 /* TMPodspec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMPodspec.h; path = Pod/Classes/TMPodspec.h; sourceTree = "<group>"; };
+		FFC2B41894C712AD718ECCFCB973B9EE /* JXURLConnectionOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXURLConnectionOperation.m; path = JXHTTP/JXURLConnectionOperation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0D4538770B110781461E82CAC5B6B096 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C3B854C7EC04B81C00D7D6CA71FE5851 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		484E77F1293248B55DD75EECECCBAB35 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -264,6 +260,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				1BE84A6EEDB86A4A0E5D67A93823283D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F37731CE2A0619C69CFBCE1885AD9532 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				892C7586B66019936A323E17331FB30F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +302,25 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		153A0A2BCA575A61408C2753469D2A71 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				229FD4ECFFB2672798EC51CBAC55C65C /* Spectacles.xcconfig */,
+				C32A8459150381F467486243C4AB95F0 /* Spectacles-dummy.m */,
+				98D186589DBE270A9CEACE3335BD31E7 /* Spectacles-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Spectacles";
+			sourceTree = "<group>";
+		};
+		18BCCFE274C65E82C4F3889A8D6661F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E540FF9B9E3B0E34D8D284D91C2C6105 /* libFlurryAds_7.3.0.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		1ABEF4F098F8E762E6FC624561BA41E0 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -313,90 +336,80 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		1B83407037AA188B7B2533A6B385CF1D /* Core */ = {
+		21A801C4EF3A4C171148C161D1187863 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				BAAD7775C59309004CA51DEFFBDFC41C /* TMSDKFunctions.h */,
-				BD036EC75934712BC1569BF519FB5D43 /* TMSDKFunctions.m */,
-				F99180A758FBF65D9677BD1195C17887 /* TMSDKUserAgent.h */,
-				D150DF166832AA71544C9B36DCAEA381 /* TMSDKUserAgent.m */,
-				6C42C5A4959B0F81F6ED2328F54CB7E1 /* Resources */,
-			);
-			name = Core;
-			sourceTree = "<group>";
-		};
-		2B7656D2C2081B315360CC7A2AA0409C /* JXHTTP */ = {
-			isa = PBXGroup;
-			children = (
-				030D37851500E34AF9EE7D3BFD9B4F02 /* JXHTTP.h */,
-				27F9164D77CD6E0B610731A2501F1D29 /* JXHTTPDataBody.h */,
-				30093E133EB1F7E2CC38F2421F876E7E /* JXHTTPDataBody.m */,
-				51944F3B0A641C37998DCD6B72483EE0 /* JXHTTPFileBody.h */,
-				F52CA880739E0F24E25A14B9DD36A576 /* JXHTTPFileBody.m */,
-				58DA56B0183696404150E84A5377994E /* JXHTTPFormEncodedBody.h */,
-				387E537D70C1637DE05D5B3E5875CD30 /* JXHTTPFormEncodedBody.m */,
-				464F1F12B50F2E27F982B70C0CB8FF86 /* JXHTTPJSONBody.h */,
-				0433C8FF522A06E832F97F7AA809AD76 /* JXHTTPJSONBody.m */,
-				6E28EF58D0B5B2EF07A8628FE391B335 /* JXHTTPMultipartBody.h */,
-				BFB806AB64190C724936DE7F2960B295 /* JXHTTPMultipartBody.m */,
-				9A2F7D373EBB2994D8E7B0DEB936D66E /* JXHTTPOperation.h */,
-				3E6A24E08650B07C6DA9D5A3D58187D1 /* JXHTTPOperation.m */,
-				4BB179C184D92B2212780650212A1380 /* JXHTTPOperation+Convenience.h */,
-				DF90B02631612BB6C7AE2069EE4A9B25 /* JXHTTPOperation+Convenience.m */,
-				6DFC5F466FC35D5369C262D8688A4C0E /* JXHTTPOperationDelegate.h */,
-				C8A831217E2C037A2D8F30E1C1B2A25F /* JXHTTPOperationQueue.h */,
-				846EAB4B4E6AF2B8FA0D4D701CE86F4D /* JXHTTPOperationQueue.m */,
-				57DE70914F51195ED00292E221FBF92C /* JXHTTPOperationQueueDelegate.h */,
-				F80369A5AE96357BD19ADEDB0D164DAC /* JXHTTPRequestBody.h */,
-				4536C2FF56F89795C475BD9934AB5162 /* JXOperation.h */,
-				C21E6857B5C2BB085E2743822ED44D5E /* JXOperation.m */,
-				0727575C5B7FC63A055B96FC85345F7B /* JXURLConnectionOperation.h */,
-				7CF0C4139A6A2618FEBCBFC62EEE2728 /* JXURLConnectionOperation.m */,
-				7CEC57219D7A675693D7E4FF56A75320 /* JXURLEncoding.h */,
-				B5BE47F2951220860F52B04C35E6D756 /* JXURLEncoding.m */,
-				C3255EB98F00ABDF46F87F7D012D1D40 /* Support Files */,
-			);
-			path = JXHTTP;
-			sourceTree = "<group>";
-		};
-		3CCD56FCC73D0C5E75F49B87BFF6177A /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				0F81BC1C7B6423C577605CE5A54CC77B /* UIActivityTumblr.png */,
-				F82A7B66A29D480B628255C02FE3C41F /* UIActivityTumblr@2x.png */,
-				7752C5C257975A616BB8994CE0B6554C /* UIActivityTumblr@2x~ipad.png */,
-				9129194948318859B0AA606A42A1AA4D /* UIActivityTumblr~ipad.png */,
-				F726EBB4A17B27F7F56C73935B9C4707 /* UIActivityTumblr~ipad@2x.png */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		48511A1657D226761253E61BB8B30B89 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				CDD28514FD9866AD6EB29FB35F890D7E /* Flurry-iOS-SDK.xcconfig */,
-				77284DF87C5D3B2C48116B2BE73A1F7D /* Flurry-iOS-SDK-dummy.m */,
-				BE77FEDA732D3887CCE4033B55E97144 /* Flurry-iOS-SDK-prefix.pch */,
+				353E67B395DA7D0BAE3B8605C2A3343C /* JXHTTP.xcconfig */,
+				B4E5B61CA862A043C81199377AB4059C /* JXHTTP-dummy.m */,
+				57D554DB26FC3C3E8A81597A06F71D78 /* JXHTTP-prefix.pch */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/Flurry-iOS-SDK";
+			path = "../Target Support Files/JXHTTP";
 			sourceTree = "<group>";
 		};
-		5899E21015EFD8110AE8BE95F53AF1B9 /* Support Files */ = {
+		253E531EAC9EFFD3D68DFF4B34E66548 /* APIClient */ = {
 			isa = PBXGroup;
 			children = (
-				97E1759E9642185DCF2383CC0F8A4519 /* TMTumblrSDK.xcconfig */,
-				57EADE63941BD0C4B37B7B4036D201C6 /* TMTumblrSDK-dummy.m */,
-				DD3CD006AED96A8E13F07504B055F504 /* TMTumblrSDK-prefix.pch */,
+				D9ABAD98AC3F2A7FDB2AF9B0549CF4D0 /* TMAPIClient.h */,
+				1A970189C99D2050B9DDE8778C4D8198 /* TMAPIClient.m */,
+				88AC856FCC0A19F0512A70BA50FE0A4B /* Authentication */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/TMTumblrSDK";
+			name = APIClient;
 			sourceTree = "<group>";
 		};
-		6C42C5A4959B0F81F6ED2328F54CB7E1 /* Resources */ = {
+		28D2ED0C0E6C2A4DC15AF86A4CF7C162 /* FlurrySDK */ = {
 			isa = PBXGroup;
 			children = (
-				E25120AA1A513A8F622EA9155A42D807 /* TMTumblrSDK.podspec.json */,
+				D1B0F2F850608843D5DED6819DA48C00 /* Empty.m */,
+				9942501B3364FC67843CE3103B637628 /* Flurry.h */,
+				56D900C128FA8C85D1DCF7D79538DB25 /* Frameworks */,
+			);
+			name = FlurrySDK;
+			sourceTree = "<group>";
+		};
+		3B8AE8E23D82C3F8EBAC4C310D91F1EB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5DA6CDBB77E68E2920823F68DDD2A0FD /* Flurry-iOS-SDK */,
+				81DD49D76050B31A882A246E1F822E40 /* JXHTTP */,
+				43C9E1091D66054629A0F91827716DEA /* Spectacles */,
+				89CE698AE8E91261C046771529FE488E /* TMTumblrSDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		43C9E1091D66054629A0F91827716DEA /* Spectacles */ = {
+			isa = PBXGroup;
+			children = (
+				FE43B101A704E1562240AED0823023C9 /* TMPodspec.h */,
+				1107C4F44E5BCFFF9194F1788A6D56BE /* TMPodspec.m */,
+				153A0A2BCA575A61408C2753469D2A71 /* Support Files */,
+			);
+			path = Spectacles;
+			sourceTree = "<group>";
+		};
+		56D900C128FA8C85D1DCF7D79538DB25 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				840226126A98066D002D029CBF1DD9F4 /* libFlurry_7.3.0.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5DA6CDBB77E68E2920823F68DDD2A0FD /* Flurry-iOS-SDK */ = {
+			isa = PBXGroup;
+			children = (
+				A07128EC9ADE1DA83BF6D7380DE3FF6C /* FlurryAds */,
+				28D2ED0C0E6C2A4DC15AF86A4CF7C162 /* FlurrySDK */,
+				7A1B89335EC3D886C6D58D43CA4A06E3 /* Support Files */,
+			);
+			path = "Flurry-iOS-SDK";
+			sourceTree = "<group>";
+		};
+		72C0A569405CC09B47A64E607D458A4D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				773F8CBF133804F544AE3361AD620463 /* TMTumblrSDK.podspec.json */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -409,76 +422,114 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		7A1B89335EC3D886C6D58D43CA4A06E3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6CEA4D8D630FD6DFD6CD40309ACB82C /* Flurry-iOS-SDK.xcconfig */,
+				728BFCDE8FDE3A104998E022875CCE64 /* Flurry-iOS-SDK-dummy.m */,
+				7973D8E8FC72F52B42962DD2FD04736A /* Flurry-iOS-SDK-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Flurry-iOS-SDK";
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
 				785553737B06AFC3DA711DDEB7D56194 /* Frameworks */,
-				B8F7AE812D45C3F70F0622C95AB2BA77 /* Pods */,
+				3B8AE8E23D82C3F8EBAC4C310D91F1EB /* Pods */,
 				0B6D46F19A1B1A35E6E47F476D46B6F2 /* Products */,
 				037C0CA694176A3C0915F62C9D20B3E6 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		857E87D708279544825295958D39DEC6 /* Flurry-iOS-SDK */ = {
+		81DD49D76050B31A882A246E1F822E40 /* JXHTTP */ = {
 			isa = PBXGroup;
 			children = (
-				E2121387A620B13E6208E6ABF60A777C /* FlurryAds */,
-				EB0C86CE5E0D61F70856970F048C21B2 /* FlurrySDK */,
-				48511A1657D226761253E61BB8B30B89 /* Support Files */,
+				19E77BF1B3D8B605125087888C61DED4 /* JXBackgroundTaskManager.h */,
+				8DDD3B0C9AA133A2DF501700F23D9566 /* JXHTTP.h */,
+				16258470D6AD08809E342CB5F83BA768 /* JXHTTPDataBody.h */,
+				696F1B8F4958235F173C652DF1B41B47 /* JXHTTPDataBody.m */,
+				52023A9BA0034CCA599FE57B1E4AFE3A /* JXHTTPFileBody.h */,
+				9A224DBB217FEE31AE08FF27D199A001 /* JXHTTPFileBody.m */,
+				7718F2560131EE00E70F843780A6B526 /* JXHTTPFormEncodedBody.h */,
+				608A43AA40FD0121AEFB444D2C3B0EA2 /* JXHTTPFormEncodedBody.m */,
+				213F4CD4F118BCCC33EAA201FCC9C570 /* JXHTTPJSONBody.h */,
+				E682885C55F5A6989E3ABEC4EB1330B5 /* JXHTTPJSONBody.m */,
+				17554DE12B70FD261099F91362514D5F /* JXHTTPMultipartBody.h */,
+				B916C9CF2087F1AD68C99E2A97AB8865 /* JXHTTPMultipartBody.m */,
+				6619CB3DE316007E214EE5ACE9C5693D /* JXHTTPOperation.h */,
+				605334742AD7DEF6F0ADD4D05DAACDE3 /* JXHTTPOperation.m */,
+				D2CFEDF04B09F274222E89251ABAF39C /* JXHTTPOperation+Convenience.h */,
+				E21CC27EAEB4FA32A8F3AFFD3B346F87 /* JXHTTPOperation+Convenience.m */,
+				D4A882C1D8116DB839BE770904D7A90B /* JXHTTPOperationDelegate.h */,
+				B6D3CBDA3226FE9D513C011B4A73ECEE /* JXHTTPOperationQueue.h */,
+				ABF41BA646414E76A9EF345A99316F71 /* JXHTTPOperationQueue.m */,
+				EC22D9BFB1132F9EB06728B1279DCAF1 /* JXHTTPOperationQueueDelegate.h */,
+				F4805FEAD5179C87D57F7E4A289BB8E6 /* JXHTTPRequestBody.h */,
+				85E056B030D7749437BE558A5D5349E8 /* JXNetworkActivityIndicatorManager.h */,
+				E109193915CC04229E3379D0001F5495 /* JXOperation.h */,
+				49580C4E4F446B8FE17AD851A5658E94 /* JXOperation.m */,
+				BC08A58373DE3601358A03C5D12CC1C7 /* JXURLConnectionOperation.h */,
+				FFC2B41894C712AD718ECCFCB973B9EE /* JXURLConnectionOperation.m */,
+				BA55B66666D49C497F4A83B2C0A99FF1 /* JXURLEncoding.h */,
+				E3A8548A7EFC28BC8091A8BFF3108AE2 /* JXURLEncoding.m */,
+				21A801C4EF3A4C171148C161D1187863 /* Support Files */,
 			);
-			path = "Flurry-iOS-SDK";
+			path = JXHTTP;
 			sourceTree = "<group>";
 		};
-		865D223D0915773D44142CF2F5C400FF /* Frameworks */ = {
+		88AC856FCC0A19F0512A70BA50FE0A4B /* Authentication */ = {
 			isa = PBXGroup;
 			children = (
-				6FEE148B99AF7CF707D947B58612E765 /* libFlurry_7.2.1.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		8C0DF2FDC8052D2A5858383EF3AEAC7B /* Authentication */ = {
-			isa = PBXGroup;
-			children = (
-				22CBA95E3E024A38CD4CF47DB6AB7984 /* TMOAuth.h */,
-				79C8A7E84A689504A51A674088C7F801 /* TMOAuth.m */,
-				0E6A230E26B0EE2BDFA390E07B8B47E7 /* TMTumblrAuthenticator.h */,
-				1A390D1275C76F3941EFBBD44A897CDE /* TMTumblrAuthenticator.m */,
+				2EBCF019385DFBB63FE1A8DD1FBB8954 /* TMOAuth.h */,
+				7D14117103273D29F8D72C5D6CAA11C9 /* TMOAuth.m */,
+				21E36F58C2BB3E71E75DA11D1B9E46F0 /* TMTumblrAuthenticator.h */,
+				4A8C26FE3C2CC86C4FB4C37CB033B7CD /* TMTumblrAuthenticator.m */,
 			);
 			name = Authentication;
 			sourceTree = "<group>";
 		};
-		8E0B8ACA019B4850F83504758AAF78FB /* AppClient */ = {
+		8904D6A4C4109F73CCDA064EAFB50B23 /* AppClient */ = {
 			isa = PBXGroup;
 			children = (
-				83BAD99132BEE0991303D40DE57209D8 /* TMTumblrAppClient.h */,
-				B5D94FBAB7671E9E04654C4B3B3C4162 /* TMTumblrAppClient.m */,
+				2ED8C134CC30512857DE2FB33F619F80 /* TMTumblrAppClient.h */,
+				4DEA85630CBF2037E2587C8346FE6C75 /* TMTumblrAppClient.m */,
 			);
 			name = AppClient;
 			sourceTree = "<group>";
 		};
-		9DF5635AC4FB6636A6F0B0C184E4A548 /* Support Files */ = {
+		89CE698AE8E91261C046771529FE488E /* TMTumblrSDK */ = {
 			isa = PBXGroup;
 			children = (
-				C9325620142A8901297417E5E6ACE5B6 /* Spectacles.xcconfig */,
-				A642849D331EB65AAE21AE648214E714 /* Spectacles-dummy.m */,
-				4966FD72EB35AB1D51ABB6089214AE5D /* Spectacles-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Spectacles";
-			sourceTree = "<group>";
-		};
-		ADBBAF3B0FFD5816192342B2BA00DA20 /* TMTumblrSDK */ = {
-			isa = PBXGroup;
-			children = (
-				D3123C584A5E450D8990A08C98B6CA24 /* Activity */,
-				EC1403D1CD6814C09738FB32215BA84C /* APIClient */,
-				8E0B8ACA019B4850F83504758AAF78FB /* AppClient */,
-				1B83407037AA188B7B2533A6B385CF1D /* Core */,
-				5899E21015EFD8110AE8BE95F53AF1B9 /* Support Files */,
+				E77A6F9913F1FFA5D4DCEA02335A7B19 /* Activity */,
+				253E531EAC9EFFD3D68DFF4B34E66548 /* APIClient */,
+				8904D6A4C4109F73CCDA064EAFB50B23 /* AppClient */,
+				B87D5D414C9CB784BDA9792FDF794ACB /* Core */,
+				BF01C79D43D295ECAAD73D5B65EFEE94 /* Support Files */,
 			);
 			path = TMTumblrSDK;
+			sourceTree = "<group>";
+		};
+		A07128EC9ADE1DA83BF6D7380DE3FF6C /* FlurryAds */ = {
+			isa = PBXGroup;
+			children = (
+				22ECE5B0C5157AE19228B52FA698C7D3 /* FlurryAdBanner.h */,
+				F6AA8506116FD6B041F5054B6E1ACF25 /* FlurryAdBannerDelegate.h */,
+				AC33D6E47C7EB9ED70FDCC097A6D5A7A /* FlurryAdDelegate.h */,
+				52757AFDD955E0EB150C37ED858BF6E8 /* FlurryAdError.h */,
+				BD01006995055B0E6F84EF0AAB56D37D /* FlurryAdInterstitial.h */,
+				C1811A4EF0C574970687FB8DEACEB658 /* FlurryAdInterstitialDelegate.h */,
+				7B75FAD077658EA334013DA91C9D2BD7 /* FlurryAdNative.h */,
+				9090099952BCE93C3EC49FA200D72821 /* FlurryAdNativeAsset.h */,
+				8280ED6FDAEAF372D3FF64EF88572CB7 /* FlurryAdNativeDelegate.h */,
+				44C4300A53BD08EA1051203A0C13B691 /* FlurryAdNativeStyle.h */,
+				33D9B9870302FCC482F87C85B6EF32BE /* FlurryAds.h */,
+				62E449D4393A928287AFF68BA3AE33D8 /* FlurryAdTargeting.h */,
+				18BCCFE274C65E82C4F3889A8D6661F0 /* Frameworks */,
+			);
+			name = FlurryAds;
 			sourceTree = "<group>";
 		};
 		B3D1D13E0C6553800746CB8FD61CF946 /* Pods */ = {
@@ -496,94 +547,49 @@
 			path = "Target Support Files/Pods";
 			sourceTree = "<group>";
 		};
-		B8F7AE812D45C3F70F0622C95AB2BA77 /* Pods */ = {
+		B5758F9B56C6A4DB67DFC0202EDE61B0 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				857E87D708279544825295958D39DEC6 /* Flurry-iOS-SDK */,
-				2B7656D2C2081B315360CC7A2AA0409C /* JXHTTP */,
-				F8A383B036E2541B7D10C91EF61FB8D5 /* Spectacles */,
-				ADBBAF3B0FFD5816192342B2BA00DA20 /* TMTumblrSDK */,
+				1483F965BC37AD13B967562DF184C859 /* UIActivityTumblr.png */,
+				C15424287B55347B4F0DFF3C2DC55228 /* UIActivityTumblr@2x.png */,
+				57FD3A149C38823E7027A28DC7C502AE /* UIActivityTumblr@2x~ipad.png */,
+				AB00CC8B8ABAC491680FAF26ED1FA906 /* UIActivityTumblr~ipad.png */,
+				311B8DC1B195D13313B746DA717502CC /* UIActivityTumblr~ipad@2x.png */,
 			);
-			name = Pods;
+			name = Resources;
 			sourceTree = "<group>";
 		};
-		C3255EB98F00ABDF46F87F7D012D1D40 /* Support Files */ = {
+		B87D5D414C9CB784BDA9792FDF794ACB /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				32EC4F4B4A5D6F678378854F9A822B5C /* JXHTTP.xcconfig */,
-				680093EC0ECCA2855E6536FAB7B87BD8 /* JXHTTP-dummy.m */,
-				158E55568756DC0452F77F82716B5150 /* JXHTTP-prefix.pch */,
+				7F927847360A57931D2DBF54CDA99EF1 /* TMSDKFunctions.h */,
+				2A9D3347A076218F65D123296C40C776 /* TMSDKFunctions.m */,
+				91CCBD9CE23E218757E03653DF408752 /* TMSDKUserAgent.h */,
+				79C5D22BB02860A2D8F365774511738F /* TMSDKUserAgent.m */,
+				72C0A569405CC09B47A64E607D458A4D /* Resources */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		BF01C79D43D295ECAAD73D5B65EFEE94 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3B80F56AB60C526CEE7C39311C34480 /* TMTumblrSDK.xcconfig */,
+				469E0FF33D5C6218DD311FE0AF9077E9 /* TMTumblrSDK-dummy.m */,
+				7EA28E14C1B5395E62D4510E2E5B9E86 /* TMTumblrSDK-prefix.pch */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/JXHTTP";
+			path = "../Target Support Files/TMTumblrSDK";
 			sourceTree = "<group>";
 		};
-		C4470C1538CC378D8DA2DAC4FAB02FB2 /* Frameworks */ = {
+		E77A6F9913F1FFA5D4DCEA02335A7B19 /* Activity */ = {
 			isa = PBXGroup;
 			children = (
-				36AF64B9ACE3975208D2F9963C0A6AF3 /* libFlurryAds_7.2.1.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D3123C584A5E450D8990A08C98B6CA24 /* Activity */ = {
-			isa = PBXGroup;
-			children = (
-				EB78D7BB08A94A09976651DB78DEF77D /* TMTumblrActivity.h */,
-				AF65A60329F41D9885FDE0403B538AF7 /* TMTumblrActivity.m */,
-				3CCD56FCC73D0C5E75F49B87BFF6177A /* Resources */,
+				C508BFF47D18FFE79162925CE2AA954E /* TMTumblrActivity.h */,
+				59A86170C7DD1E52C201777B3DBDB0E1 /* TMTumblrActivity.m */,
+				B5758F9B56C6A4DB67DFC0202EDE61B0 /* Resources */,
 			);
 			name = Activity;
-			sourceTree = "<group>";
-		};
-		E2121387A620B13E6208E6ABF60A777C /* FlurryAds */ = {
-			isa = PBXGroup;
-			children = (
-				B073ADA7C87F0A35E59B689EEAA19F26 /* FlurryAdBanner.h */,
-				4D5DF8DC03C4126A57B0B36163DFF0B8 /* FlurryAdBannerDelegate.h */,
-				FBBD5BD40169EFD3C31AD0264961709A /* FlurryAdDelegate.h */,
-				ADA8A94B7909AD0F681699F0A3EA0928 /* FlurryAdError.h */,
-				FAE977F4463B0FDCAE5576E9B14C3042 /* FlurryAdInterstitial.h */,
-				AC4CA585E094700DB589B7342F0A6D6E /* FlurryAdInterstitialDelegate.h */,
-				E392E8651A758D7B358D78D0947CAA77 /* FlurryAdNative.h */,
-				0A035B906EB83DDDB6D20B0A2A003654 /* FlurryAdNativeAsset.h */,
-				D8D64EE9EC6E11526042F2EF28E8504B /* FlurryAdNativeDelegate.h */,
-				3F0DEE39F89D23D84130A3ECAF971CFF /* FlurryAdNativeStyle.h */,
-				93931FAB64D86AD538F4C111CF32DE85 /* FlurryAds.h */,
-				5B387DA41B1765AC2FF79C796DAC60A5 /* FlurryAdTargeting.h */,
-				C4470C1538CC378D8DA2DAC4FAB02FB2 /* Frameworks */,
-			);
-			name = FlurryAds;
-			sourceTree = "<group>";
-		};
-		EB0C86CE5E0D61F70856970F048C21B2 /* FlurrySDK */ = {
-			isa = PBXGroup;
-			children = (
-				40199CF9B4C4D96021FC34F5EF10926D /* Empty.m */,
-				A127400E23E2F3E4BE74FB628769B1FD /* Flurry.h */,
-				865D223D0915773D44142CF2F5C400FF /* Frameworks */,
-			);
-			name = FlurrySDK;
-			sourceTree = "<group>";
-		};
-		EC1403D1CD6814C09738FB32215BA84C /* APIClient */ = {
-			isa = PBXGroup;
-			children = (
-				15FFD8DB009F31F9A36E30A3C67FBEE8 /* TMAPIClient.h */,
-				FDC708C1B22DDE7ED7C3AE907DFCA03F /* TMAPIClient.m */,
-				8C0DF2FDC8052D2A5858383EF3AEAC7B /* Authentication */,
-			);
-			name = APIClient;
-			sourceTree = "<group>";
-		};
-		F8A383B036E2541B7D10C91EF61FB8D5 /* Spectacles */ = {
-			isa = PBXGroup;
-			children = (
-				3F5F363C9D306A753ED9224B72E9600F /* TMPodspec.h */,
-				41FF532F06645807144E516F91AF4B1B /* TMPodspec.m */,
-				9DF5635AC4FB6636A6F0B0C184E4A548 /* Support Files */,
-			);
-			path = Spectacles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -597,25 +603,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3D610FC1AB8449DAD72C075514F38A14 /* Headers */ = {
+		4B85A4E09C2791AD132CF53ED84636E9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65406FF571FA062A2C19B59DC8C66779 /* JXHTTP.h in Headers */,
-				CA2C956F3811CD738DC2A204A54FBAD2 /* JXHTTPDataBody.h in Headers */,
-				47982A97FB58D2622130944C084F6D19 /* JXHTTPFileBody.h in Headers */,
-				C693D84A934E4FDB5B39083BE890EF41 /* JXHTTPFormEncodedBody.h in Headers */,
-				E08BD646048BF437152498F2A94AD84B /* JXHTTPJSONBody.h in Headers */,
-				F06C304E9AC3495A2FE8BAF68606525F /* JXHTTPMultipartBody.h in Headers */,
-				C8B71CC10D3A27D7D4296F6DD980E81A /* JXHTTPOperation+Convenience.h in Headers */,
-				BBFE99B976C07B5EBD7265B8046AAF79 /* JXHTTPOperation.h in Headers */,
-				071C039EAE2D32AD023119447A90DF8C /* JXHTTPOperationDelegate.h in Headers */,
-				814A3B7DCB57A203AEEB25740C1E5534 /* JXHTTPOperationQueue.h in Headers */,
-				806152A29395BDE481F0B1A4479DB0CE /* JXHTTPOperationQueueDelegate.h in Headers */,
-				AB68437055FD67499999D7C1429B6FAA /* JXHTTPRequestBody.h in Headers */,
-				0D42EE23AC28E00AECD473630EE3ECBE /* JXOperation.h in Headers */,
-				CB42685A62C38F4594D34F95CB4B64C6 /* JXURLConnectionOperation.h in Headers */,
-				C2A205F479610ED313AE144B0ED047F3 /* JXURLEncoding.h in Headers */,
+				73958E45B653CC336E7AC0A064237B37 /* JXBackgroundTaskManager.h in Headers */,
+				19CD65D2C191FAC5C6A00BB9AE941EDB /* JXHTTP.h in Headers */,
+				7712C6A5E3E14813E241F913F04BD3FC /* JXHTTPDataBody.h in Headers */,
+				AF504D8A0F905CC4DC8DC5000690FD85 /* JXHTTPFileBody.h in Headers */,
+				392AD7668AFF02503497AB625C81FD31 /* JXHTTPFormEncodedBody.h in Headers */,
+				2747F3C5F2D40FA2A0C03AFDD66DE665 /* JXHTTPJSONBody.h in Headers */,
+				F0C5F9D5720117984936655ABDF2A42C /* JXHTTPMultipartBody.h in Headers */,
+				566F290B185C42AE9D033BECD6CC2582 /* JXHTTPOperation+Convenience.h in Headers */,
+				63428C80B56B7AB4E5FD62AD812C2F8E /* JXHTTPOperation.h in Headers */,
+				8BAA841E13438FD0A6BB7A277CDCD036 /* JXHTTPOperationDelegate.h in Headers */,
+				39353D244F66C654150D7A018AC7B6F5 /* JXHTTPOperationQueue.h in Headers */,
+				0BD192052EABAC281CD5C0600ED8CB77 /* JXHTTPOperationQueueDelegate.h in Headers */,
+				EF1E6AC4E6A544E4AC437179D27B7453 /* JXHTTPRequestBody.h in Headers */,
+				24EDE9B062725E5487CE9234E6F931C2 /* JXNetworkActivityIndicatorManager.h in Headers */,
+				15B8E11E650E4439BF3BE2D48EE3F718 /* JXOperation.h in Headers */,
+				ADC5E5CDDD234239FF2EAEB57D5A1371 /* JXURLConnectionOperation.h in Headers */,
+				1ABA76EE6A4D8C47442455983E2E767E /* JXURLEncoding.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -729,13 +737,13 @@
 			productReference = 44C6BC7EC32AF65B4D3C28BDBAD8765B /* libFlurry-iOS-SDK.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		BB9D7A6C6548AB0BDED8E482524CEC61 /* JXHTTP */ = {
+		B0144952FC8B7B32E77E313BE1F32BA9 /* JXHTTP */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B25FAC38A9E3840EF3F8FE5B8E681C22 /* Build configuration list for PBXNativeTarget "JXHTTP" */;
+			buildConfigurationList = 6709CDC1F976C5BFE4B078B7BC60B656 /* Build configuration list for PBXNativeTarget "JXHTTP" */;
 			buildPhases = (
-				004B45128397DAAAA725F919458750F6 /* Sources */,
-				0D4538770B110781461E82CAC5B6B096 /* Frameworks */,
-				3D610FC1AB8449DAD72C075514F38A14 /* Headers */,
+				893ADEA93C3804D7F12C0C444267A396 /* Sources */,
+				F37731CE2A0619C69CFBCE1885AD9532 /* Frameworks */,
+				4B85A4E09C2791AD132CF53ED84636E9 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -768,7 +776,7 @@
 			projectRoot = "";
 			targets = (
 				8CDAA0450BBF60029113D3BEAE82027B /* Flurry-iOS-SDK */,
-				BB9D7A6C6548AB0BDED8E482524CEC61 /* JXHTTP */,
+				B0144952FC8B7B32E77E313BE1F32BA9 /* JXHTTP */,
 				0C6904EF5F1526993DA315EB18AFD99A /* Pods */,
 				30A2BE5B765999F808AC93F76F11A2C6 /* Spectacles */,
 				78BC5654B7157FCA64B001563B87272C /* TMTumblrSDK */,
@@ -777,25 +785,6 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		004B45128397DAAAA725F919458750F6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				13041272BE40C78F7BAB15736EF8C9C6 /* JXHTTP-dummy.m in Sources */,
-				2E0538E028413D213431B74AD95515F7 /* JXHTTPDataBody.m in Sources */,
-				DAD31D928C785A65CE9AF119608489DC /* JXHTTPFileBody.m in Sources */,
-				0A853D87E2791F9CC330E6FD6EE64D1C /* JXHTTPFormEncodedBody.m in Sources */,
-				0E41C7E1D4CF2757FC770DDA1086B4E7 /* JXHTTPJSONBody.m in Sources */,
-				83D093937155C4B30ECC3F9B764BFF5C /* JXHTTPMultipartBody.m in Sources */,
-				E808792A1E21F33B7E4D922A662D2F40 /* JXHTTPOperation+Convenience.m in Sources */,
-				21EE497E3BEBB464131D446240EF067F /* JXHTTPOperation.m in Sources */,
-				3FC8EE2E49CFA629DA5631FC19D86FB8 /* JXHTTPOperationQueue.m in Sources */,
-				BB588DDE5CF208720403B42FD37EA957 /* JXOperation.m in Sources */,
-				FEC66E6E413080832800307DDD8FF1C0 /* JXURLConnectionOperation.m in Sources */,
-				1BC66DDC85717CD197C596F576064775 /* JXURLEncoding.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		2AEC2A2B00386F7FFA95B96EDCF24AB7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -816,6 +805,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				D73D1FAD87E4B22844A19499FB1ADFF2 /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		893ADEA93C3804D7F12C0C444267A396 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D38F56288B454638B98D7FC712864F2 /* JXHTTP-dummy.m in Sources */,
+				48DACCF50A5732DBF8912C3F492AEA2E /* JXHTTPDataBody.m in Sources */,
+				B04FAF363C4F18CA318C4F5DDD606DA4 /* JXHTTPFileBody.m in Sources */,
+				4F8B282C7B454EDD6E31DDD12B05FC51 /* JXHTTPFormEncodedBody.m in Sources */,
+				E04739BAC8F58D877DFE1946932B53D7 /* JXHTTPJSONBody.m in Sources */,
+				2ADFEFD86E68998CB00A4A2690EFBA37 /* JXHTTPMultipartBody.m in Sources */,
+				71A95B60C81AEE4C3A565322E05BEC8E /* JXHTTPOperation+Convenience.m in Sources */,
+				D928CDFB2D7D3E2AD9DE3D2974391870 /* JXHTTPOperation.m in Sources */,
+				98D2D0B3B912627C074A061436AA0F2A /* JXHTTPOperationQueue.m in Sources */,
+				1E75ECA691A7A28962E96F8569038653 /* JXOperation.m in Sources */,
+				117F41761DAD72C7D56D883B7E22C947 /* JXURLConnectionOperation.m in Sources */,
+				61F3DD62261DB600855C5B84634AA60B /* JXURLEncoding.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -861,7 +869,7 @@
 		989C3C31A6CA7D1D50F54F4278905F40 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = JXHTTP;
-			target = BB9D7A6C6548AB0BDED8E482524CEC61 /* JXHTTP */;
+			target = B0144952FC8B7B32E77E313BE1F32BA9 /* JXHTTP */;
 			targetProxy = D5F7161A4450EB06EB255BBCB3719903 /* PBXContainerItemProxy */;
 		};
 		A2888CA8EEAA7B85A33039AFE1291778 /* PBXTargetDependency */ = {
@@ -873,7 +881,7 @@
 		B329EC2ED9597CEB62F588A25EBBD467 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = JXHTTP;
-			target = BB9D7A6C6548AB0BDED8E482524CEC61 /* JXHTTP */;
+			target = B0144952FC8B7B32E77E313BE1F32BA9 /* JXHTTP */;
 			targetProxy = 676A5BD91669889984F23D22EBC9E151 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -915,7 +923,7 @@
 		};
 		09E7721EA4F3A9B5AF182D456CDA7DB1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CDD28514FD9866AD6EB29FB35F890D7E /* Flurry-iOS-SDK.xcconfig */;
+			baseConfigurationReference = A6CEA4D8D630FD6DFD6CD40309ACB82C /* Flurry-iOS-SDK.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/Flurry-iOS-SDK/Flurry-iOS-SDK-prefix.pch";
@@ -933,7 +941,7 @@
 		};
 		185DCCE31FB5FE10404ABB47CAEC419D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 97E1759E9642185DCF2383CC0F8A4519 /* TMTumblrSDK.xcconfig */;
+			baseConfigurationReference = D3B80F56AB60C526CEE7C39311C34480 /* TMTumblrSDK.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/TMTumblrSDK/TMTumblrSDK-prefix.pch";
@@ -951,10 +959,28 @@
 		};
 		1D7B532BF2493E1F1CAC5D57B6C26E15 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C9325620142A8901297417E5E6ACE5B6 /* Spectacles.xcconfig */;
+			baseConfigurationReference = 229FD4ECFFB2672798EC51CBAC55C65C /* Spectacles.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/Spectacles/Spectacles-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		360BDE210526D6823B74F8164DAC7A06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 353E67B395DA7D0BAE3B8605C2A3343C /* JXHTTP.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JXHTTP/JXHTTP-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
@@ -986,7 +1012,7 @@
 		};
 		66D3B8C5869162892BC95F2B6789CA16 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 97E1759E9642185DCF2383CC0F8A4519 /* TMTumblrSDK.xcconfig */;
+			baseConfigurationReference = D3B80F56AB60C526CEE7C39311C34480 /* TMTumblrSDK.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/TMTumblrSDK/TMTumblrSDK-prefix.pch";
@@ -1002,9 +1028,9 @@
 			};
 			name = Release;
 		};
-		9E76940E1FC4B682223BFE32A64CBBDF /* Debug */ = {
+		785DE1B73E74C244DF8445BB28972EE2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 32EC4F4B4A5D6F678378854F9A822B5C /* JXHTTP.xcconfig */;
+			baseConfigurationReference = 353E67B395DA7D0BAE3B8605C2A3343C /* JXHTTP.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/JXHTTP/JXHTTP-prefix.pch";
@@ -1059,27 +1085,9 @@
 			};
 			name = Debug;
 		};
-		B94E64BA48C82E058278DC0975DF97ED /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 32EC4F4B4A5D6F678378854F9A822B5C /* JXHTTP.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/JXHTTP/JXHTTP-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
 		DB9736E697AF1FB2D274C95A5014F042 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C9325620142A8901297417E5E6ACE5B6 /* Spectacles.xcconfig */;
+			baseConfigurationReference = 229FD4ECFFB2672798EC51CBAC55C65C /* Spectacles.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/Spectacles/Spectacles-prefix.pch";
@@ -1097,7 +1105,7 @@
 		};
 		DBE3E6BAA9CD73E610CBE486A7A10474 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CDD28514FD9866AD6EB29FB35F890D7E /* Flurry-iOS-SDK.xcconfig */;
+			baseConfigurationReference = A6CEA4D8D630FD6DFD6CD40309ACB82C /* Flurry-iOS-SDK.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/Flurry-iOS-SDK/Flurry-iOS-SDK-prefix.pch";
@@ -1160,20 +1168,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		6709CDC1F976C5BFE4B078B7BC60B656 /* Build configuration list for PBXNativeTarget "JXHTTP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				785DE1B73E74C244DF8445BB28972EE2 /* Debug */,
+				360BDE210526D6823B74F8164DAC7A06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		6B8C033724139D9087F29CA4517CFC1A /* Build configuration list for PBXNativeTarget "Flurry-iOS-SDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				09E7721EA4F3A9B5AF182D456CDA7DB1 /* Debug */,
 				DBE3E6BAA9CD73E610CBE486A7A10474 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B25FAC38A9E3840EF3F8FE5B8E681C22 /* Build configuration list for PBXNativeTarget "JXHTTP" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9E76940E1FC4B682223BFE32A64CBBDF /* Debug */,
-				B94E64BA48C82E058278DC0975DF97ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
