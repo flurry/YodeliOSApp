@@ -7,7 +7,6 @@ This project showcases some of the new mobile development tools released by Yaho
 
 - Showcases integration of Gemini native ads (image and video) through Flurry SDK, along with best practices for integrating native 
 ads in your iOS app.
-- Showcases the Yahoo! Search SDK and some use cases for the Search SDK.
 - Showcases basic use cases for Flurry Analytics with event logging.
 - Showcases the basic use of events to monitor Gemini native ad serving.
 
@@ -21,7 +20,6 @@ Open YodelSample.xcworkspace in Xcode to begin working with the project.
 This repository comes bundled with the following libraries:
 
 - Flurry SDK v6.7.0 (required for support of native video ads)
-- Search SDK Developer Preview v0.1.0
 - Tumblr SDK v2.0.2 via Cocoapods. Includes the following dependencies:
   - Spectacles v1.0.1
   - JXHTTP v1.0.4
@@ -41,10 +39,3 @@ For further info on ads integrationfor iOS, see
 
 For more info on getting started with Flurry for iOS, see
 [here](https://developer.yahoo.com/flurry/docs/analytics/gettingstarted/ios/).
-
-## Yahoo Search SDK
-To see example integration techniques for Yahoo Search SDK, look through the following classes:
-
-- [CarouselCollectionViewController](YodelSample/ViewControllers/CarouselCollectionViewController.m) - Method learnMoreButtonPressed.
-- [SearchBarViewController](YodelSample/ViewControllers/SearchBarViewController.m) - Method moreOnWebButtonPressed.
-
