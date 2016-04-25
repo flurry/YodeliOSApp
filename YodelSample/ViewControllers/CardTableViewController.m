@@ -314,7 +314,7 @@
     {
         adType = @"nativeVideo";
     }
-    [AnalyticsWrapper logEvent:@"ad_displayed" withParameters:@{@"ad_space":nativeAd.space,
+    [AnalyticsWrapper logEvent:@"stream_ad_displayed" withParameters:@{@"ad_space":nativeAd.space,
                                                                 @"type":adType,
                                                                 @"model":[Util getDeviceModel],
                                                                 @"network":@"Flurry"}];
