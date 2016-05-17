@@ -1,24 +1,24 @@
 PODS:
-  - Flurry-iOS-SDK/FlurryAds (7.3.0):
+  - Flurry-iOS-SDK/FlurryAds (7.6.0):
     - Flurry-iOS-SDK/FlurrySDK
-  - Flurry-iOS-SDK/FlurrySDK (7.3.0)
+  - Flurry-iOS-SDK/FlurrySDK (7.6.0)
   - JXHTTP (3.0.2)
   - Spectacles (1.0.1)
-  - TMTumblrSDK (4.0.3):
-    - TMTumblrSDK/Activity (= 4.0.3)
-    - TMTumblrSDK/APIClient (= 4.0.3)
-    - TMTumblrSDK/AppClient (= 4.0.3)
-    - TMTumblrSDK/Core (= 4.0.3)
-  - TMTumblrSDK/Activity (4.0.3)
-  - TMTumblrSDK/APIClient (4.0.3):
+  - TMTumblrSDK (4.0.4):
+    - TMTumblrSDK/Activity (= 4.0.4)
+    - TMTumblrSDK/APIClient (= 4.0.4)
+    - TMTumblrSDK/AppClient (= 4.0.4)
+    - TMTumblrSDK/Core (= 4.0.4)
+  - TMTumblrSDK/Activity (4.0.4)
+  - TMTumblrSDK/APIClient (4.0.4):
     - JXHTTP
-    - TMTumblrSDK/APIClient/Authentication (= 4.0.3)
-  - TMTumblrSDK/APIClient/Authentication (4.0.3):
+    - TMTumblrSDK/APIClient/Authentication (= 4.0.4)
+  - TMTumblrSDK/APIClient/Authentication (4.0.4):
     - JXHTTP
     - TMTumblrSDK/Core
-  - TMTumblrSDK/AppClient (4.0.3):
+  - TMTumblrSDK/AppClient (4.0.4):
     - TMTumblrSDK/Core
-  - TMTumblrSDK/Core (4.0.3):
+  - TMTumblrSDK/Core (4.0.4):
     - Spectacles (~> 1.0)
 
 DEPENDENCIES:
@@ -27,9 +27,9 @@ DEPENDENCIES:
   - TMTumblrSDK
 
 SPEC CHECKSUMS:
-  Flurry-iOS-SDK: 054befae0fa0244fb000985bfe757d70f87a9f60
+  Flurry-iOS-SDK: 9822fe709195f0e3ae3e52c785eee9ff651ff648
   JXHTTP: c37120f210cd2dfcb3470d70239f5253335e2f1a
   Spectacles: 8dc60711140320653724560e2d6bbb8a8f0940e4
-  TMTumblrSDK: a9ba0761d098cf6389cfbbe8d915736f01758609
+  TMTumblrSDK: 7b253e968a31f515aee0ee5f7e5faa8b7b0d0470
 
 COCOAPODS: 0.39.0
