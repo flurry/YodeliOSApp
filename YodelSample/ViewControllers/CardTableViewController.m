@@ -112,6 +112,7 @@
     [self.rowObjects removeAllObjects];
     
     NSUInteger postCount = tumblrItems.count;
+    NSUInteger tumblrCount = 0;
     NSUInteger adsRequired = [Util numAdsRequiredForContentAmount:postCount];
     NSUInteger adsToShowCount = MIN(adsRequired, self.adItems.count);
     
@@ -122,9 +123,10 @@
         if([Util isAdIndex:i] && numAdsInserted < self.adItems.count) {
             [self.rowObjects addObject:[self.adItems objectAtIndex:numAdsInserted]];
             numAdsInserted++;
-        } else {
-            NSUInteger tumblrIndex = i - numAdsInserted;
+        } else if(tumblrCount < postCount){
+            NSUInteger tumblrIndex = tumblrCount;
             [self.rowObjects addObject:[tumblrItems objectAtIndex:tumblrIndex]];
+            tumblrCount++;
         }
     }
     
@@ -228,6 +230,8 @@
     return roundf(size.height + CARD_CELL_MARGIN);
 }
 
+#pragma mark - UITableViewDelegate
+
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     NSString *cellType = @"CardCell";
@@ -261,8 +265,6 @@
     
     return cardCell;
 }
-
-#pragma mark - UITableViewDelegate
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     id rowObject = [self.rowObjects objectAtIndex:indexPath.row];
@@ -303,8 +305,6 @@
             adPosition = [@(i) stringValue];
         }
     }
-    
-    [AnalyticsWrapper logEvent:@"stream_ad_click" withParameters:@{@"ad_placement":adPosition}];
 }
 
 - (void) adNativeDidLogImpression:(FlurryAdNative *)nativeAd
@@ -314,10 +314,11 @@
     {
         adType = @"nativeVideo";
     }
-    [AnalyticsWrapper logEvent:@"stream_ad_displayed" withParameters:@{@"ad_space":nativeAd.space,
-                                                                @"type":adType,
-                                                                @"model":[Util getDeviceModel],
-                                                                @"network":@"Flurry"}];
+    [AnalyticsWrapper logEvent:@"stream_ad_displayed"
+                withParameters:@{@"ad_space":nativeAd.space,
+                                 @"type":adType,
+                                 @"model":[Util getDeviceModel],
+                                 @"network":@"Flurry"}];
     
 }
 
@@ -338,11 +339,12 @@
         }
     }
     
-    [AnalyticsWrapper logEvent:@"ad_clicked" withParameters:@{@"ad_space":nativeAd.space,
-                                                              @"model":[Util getDeviceModel],
-                                                              @"network":@"Flurry",
-                                                              @"type":adType,
-                                                              @"ad_placement":adPosition}];
+    [AnalyticsWrapper logEvent:@"stream_ad_clicked"
+                withParameters:@{@"ad_space":nativeAd.space,
+                                 @"model":[Util getDeviceModel],
+                                 @"network":@"Flurry",
+                                 @"type":adType,
+                                 @"ad_placement":adPosition}];
 }
 
 
