@@ -22,6 +22,7 @@
 #import "ContentItem.h"
 #import "TumblrFetcher.h"
 #import "TMAPIClient.h"
+#import "AnalyticsWrapper.h"
 
 @implementation TumblrFetcher
 
@@ -77,6 +78,7 @@
                 callback(nil,nil,parseError);
             }
         } else {
+            [AnalyticsWrapper logError:@"TumlbrFetch" message:@"Fetch failed" error:error];
             callback(nil, nil, error);
         }
     }];

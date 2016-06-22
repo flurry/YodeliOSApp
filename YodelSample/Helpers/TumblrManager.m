@@ -22,6 +22,7 @@
 #import "TumblrFetcher.h"
 #import "Configuration.h"
 #import "ContentItem.h"
+#import "AnalyticsWrapper.h"
 
 @interface TumblrManager ()
 
@@ -76,6 +77,7 @@ static const NSUInteger CONCURRENT_DOWNLOAD_COUNT = 2;      // Number of operati
         [self.downloadOperationQueue cancelAllOperations];
         self.itemsFetching = [[NSMutableArray alloc] init];
         self.itemsReady = [[NSMutableArray alloc] init];
+        [AnalyticsWrapper logEvent:@"FetchingTumblrContent"];
         [self performSelectorInBackground:@selector(loadContent) withObject:nil];
     }
 }

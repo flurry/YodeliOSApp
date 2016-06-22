@@ -51,4 +51,9 @@
     [Flurry logEvent:event withParameters:parameters];
 }
 
++(void)logError:(NSString *)name message:(NSString *)message error:(NSError *)error
+{
+    [Flurry logError:name message:message error:error];
+}
+
 @end

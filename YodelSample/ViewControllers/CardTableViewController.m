@@ -119,6 +119,10 @@
     NSUInteger totalRows =  postCount + adsToShowCount;
     NSUInteger numAdsInserted = 0;
     
+    [AnalyticsWrapper logEvent:@"stream_content_show"
+                withParameters:@{@"tumblrPosts":[NSString stringWithFormat:@"%lu", postCount],
+                                 @"ads":[NSString stringWithFormat:@"%lu", adsToShowCount]}];
+    
     for(NSUInteger i=0; i<totalRows; i++) {
         if([Util isAdIndex:i] && numAdsInserted < self.adItems.count) {
             [self.rowObjects addObject:[self.adItems objectAtIndex:numAdsInserted]];
