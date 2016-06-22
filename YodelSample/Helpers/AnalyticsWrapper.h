@@ -25,4 +25,5 @@
 +(void)logEvent:(NSString*)event withContentItem:(ContentItem*)item;
 +(void)logEvent:(NSString*)event withParameters:(NSDictionary*)parameters;
 +(void)logEvent:(NSString*)event withParameters:(NSMutableDictionary*)parameters andContentItem:(ContentItem*)item;
++(void)logError:(NSString *)name message:(NSString *)message error:(NSError *)error;
 @end

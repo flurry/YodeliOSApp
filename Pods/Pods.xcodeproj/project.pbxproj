@@ -1,3930 +1,1244 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>037C0CA694176A3C0915F62C9D20B3E6</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>B3D1D13E0C6553800746CB8FD61CF946</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Targets Support Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>045594F51959002343C78079D4C59A34</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>B3115E509209793364F3FC710DAA9199</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>04BDAB42869D9090A0C6C924ABEBE572</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9ED569DD27F588AA9A276CE6BE2186BF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>052A17875CB827423D627183396CEB60</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>RELEASE=1</string>
-				</array>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-				<key>SYMROOT</key>
-				<string>${SRCROOT}/../build</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>053308A509778FEF4754A9A436EA9C6F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>FlurryAdNative.h</string>
-			<key>path</key>
-			<string>FlurryAds/FlurryAdNative/FlurryAdNative.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0A52C95758DB2774ACE90EDA494D6694</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2A9D3347A076218F65D123296C40C776</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>0B6D46F19A1B1A35E6E47F476D46B6F2</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>44C6BC7EC32AF65B4D3C28BDBAD8765B</string>
-				<string>F5C76F60B942DB5EF2AE719342AFFEDC</string>
-				<string>30ECFBF235563D7545C9FCE5A2500BFA</string>
-				<string>8BDB24EF0307E77778F3CF06C1026043</string>
-				<string>28E1EA6D81009655C0BF95907571726F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0BD192052EABAC281CD5C0600ED8CB77</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EC22D9BFB1132F9EB06728B1279DCAF1</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>0C6904EF5F1526993DA315EB18AFD99A</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>EC2BF6C1980613EE55258F7B4F63C946</string>
-			<key>buildPhases</key>
-			<array>
-				<string>826976755BEF41B0C8F13140C4351EF1</string>
-				<string>F5F12FA759355350D8B805116A0A44A2</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>A2888CA8EEAA7B85A33039AFE1291778</string>
-				<string>B329EC2ED9597CEB62F588A25EBBD467</string>
-				<string>18459FBB70018CBB7DC0CDD2D1EE03CB</string>
-				<string>879D428BEEE8264A2BE1F2E52959B025</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>productName</key>
-			<string>Pods</string>
-			<key>productReference</key>
-			<string>30ECFBF235563D7545C9FCE5A2500BFA</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>0CC8DDFD09373373EDA3E2365EC0BC7A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2C7CC22120B7246E85E8098D8B3120CB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>0F30F1D4AD17C4FD24FECE448DDB5EB0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E42B70D1FEE86280F015357A5B7E9375</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>0F709D4F35CA8F53C0FDEC53F74C5A88</key>
-		<dict>
-			<key>fileRef</key>
-			<string>469E0FF33D5C6218DD311FE0AF9077E9</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>10834806BD7B412BC24F347361FA2C8E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1107C4F44E5BCFFF9194F1788A6D56BE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>TMPodspec.m</string>
-			<key>path</key>
-			<string>Pod/Classes/TMPodspec.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>117F41761DAD72C7D56D883B7E22C947</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FFC2B41894C712AD718ECCFCB973B9EE</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>1483F965BC37AD13B967562DF184C859</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>UIActivityTumblr.png</string>
-			<key>path</key>
-			<string>TMTumblrSDK/Activity/UIActivityTumblr.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1495B1801FAC10744D81CA53476F98CA</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D9ABAD98AC3F2A7FDB2AF9B0549CF4D0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>153A0A2BCA575A61408C2753469D2A71</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>229FD4ECFFB2672798EC51CBAC55C65C</string>
-				<string>C32A8459150381F467486243C4AB95F0</string>
-				<string>98D186589DBE270A9CEACE3335BD31E7</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>../Target Support Files/Spectacles</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>15B8E11E650E4439BF3BE2D48EE3F718</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E109193915CC04229E3379D0001F5495</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>15CA3D6B742BC0DD589FBECBA54AD646</key>
-		<dict>
-			<key>fileRef</key>
-			<string>24353EF64B038C1C14480DD8BE2A2041</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>15F06393B3EB56856580967D27583EE4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Flurry-iOS-SDK.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>16258470D6AD08809E342CB5F83BA768</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>JXHTTPDataBody.h</string>
-			<key>path</key>
-			<string>JXHTTP/JXHTTPDataBody.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>17554DE12B70FD261099F91362514D5F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>JXHTTPMultipartBody.h</string>
-			<key>path</key>
-			<string>JXHTTP/JXHTTPMultipartBody.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>17E467E48EC2CDF7DDB3873DAADB637D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6A08DCBB37E0D2E3D502F65124EBBD39</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>18459FBB70018CBB7DC0CDD2D1EE03CB</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>Spectacles</string>
-			<key>target</key>
-			<string>30A2BE5B765999F808AC93F76F11A2C6</string>
-			<key>targetProxy</key>
-			<string>23C1EC1A1A7CE45F489CA8D5B9C328C6</string>
-		</dict>
-		<key>185DCCE31FB5FE10404ABB47CAEC419D</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>D3B80F56AB60C526CEE7C39311C34480</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/TMTumblrSDK/TMTumblrSDK-prefix.pch</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRIVATE_HEADERS_FOLDER_PATH</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string></string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>18EEDC3716F21A702E77FCCFBD032A8F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Flurry-iOS-SDK-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>190064D38271F3D22AB06A0B1E89F57E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>Flurry.h</string>
-			<key>path</key>
-			<string>Flurry/Flurry.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>19CD65D2C191FAC5C6A00BB9AE941EDB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8DDD3B0C9AA133A2DF501700F23D9566</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>19E77BF1B3D8B605125087888C61DED4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>JXBackgroundTaskManager.h</string>
-			<key>path</key>
-			<string>JXHTTP/JXBackgroundTaskManager.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1A970189C99D2050B9DDE8778C4D8198</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>TMAPIClient.m</string>
-			<key>path</key>
-			<string>TMTumblrSDK/APIClient/TMAPIClient.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1ABA76EE6A4D8C47442455983E2E767E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BA55B66666D49C497F4A83B2C0A99FF1</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>1ABEF4F098F8E762E6FC624561BA41E0</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>6A08DCBB37E0D2E3D502F65124EBBD39</string>
-				<string>24353EF64B038C1C14480DD8BE2A2041</string>
-				<string>560BC3B8CE25F5FE4C72002990757E7B</string>
-				<string>A36EA9820681DA05BBF5D8B3EA19CD70</string>
-				<string>B4F857AC962035C80B0EE25C433E21B8</string>
-				<string>3284705141D0282762F8A4B2A84C509D</string>
-				<string>4AFDAEAFB076666D54D29D98DCA278F3</string>
-				<string>644F4056D0BED532DFDF126603203F72</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>iOS</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1B1D18BC919FE42A86CC4825A46C65BB</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>78BC5654B7157FCA64B001563B87272C</string>
-			<key>remoteInfo</key>
-			<string>TMTumblrSDK</string>
-		</dict>
-		<key>1BE84A6EEDB86A4A0E5D67A93823283D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A36EA9820681DA05BBF5D8B3EA19CD70</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>1D7B532BF2493E1F1CAC5D57B6C26E15</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>229FD4ECFFB2672798EC51CBAC55C65C</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Spectacles/Spectacles-prefix.pch</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRIVATE_HEADERS_FOLDER_PATH</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string></string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>1E75ECA691A7A28962E96F8569038653</key>
-		<dict>
-			<key>fileRef</key>
-			<string>49580C4E4F446B8FE17AD851A5658E94</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>1E9A957FAD85748FA14A218F23822C48</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>2C0466BE450A1736FC08B19345AF84DC</string>
-				<string>F3D0303F25AABD00B40536C8AF350984</string>
-				<string>473AE2C2E59CD6C2E26B6CBD477743B6</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>1F37980C22AA1680C4CE1063507E71E2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>FlurryAdBannerDelegate.h</string>
-			<key>path</key>
-			<string>FlurryAds/FlurryAdBanner/FlurryAdBannerDelegate.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>213F4CD4F118BCCC33EAA201FCC9C570</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>JXHTTPJSONBody.h</string>
-			<key>path</key>
-			<string>JXHTTP/JXHTTPJSONBody.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2149FB535578E4A4065E4DB1F6BD857A</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>E2799223C165E825C9004139F02F1EDE</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>21A801C4EF3A4C171148C161D1187863</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>353E67B395DA7D0BAE3B8605C2A3343C</string>
-				<string>B4E5B61CA862A043C81199377AB4059C</string>
-				<string>57D554DB26FC3C3E8A81597A06F71D78</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>../Target Support Files/JXHTTP</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>21E36F58C2BB3E71E75DA11D1B9E46F0</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>TMTumblrAuthenticator.h</string>
-			<key>path</key>
-			<string>TMTumblrSDK/Authentication/TMTumblrAuthenticator.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>229FD4ECFFB2672798EC51CBAC55C65C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Spectacles.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>22DBFD71319A75BB368159D33E79C041</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B4F857AC962035C80B0EE25C433E21B8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>23C1EC1A1A7CE45F489CA8D5B9C328C6</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>30A2BE5B765999F808AC93F76F11A2C6</string>
-			<key>remoteInfo</key>
-			<string>Spectacles</string>
-		</dict>
-		<key>24353EF64B038C1C14480DD8BE2A2041</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>CoreGraphics.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/CoreGraphics.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>24EDE9B062725E5487CE9234E6F931C2</key>
-		<dict>
-			<key>fileRef</key>
-			<string>85E056B030D7749437BE558A5D5349E8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>253E531EAC9EFFD3D68DFF4B34E66548</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>D9ABAD98AC3F2A7FDB2AF9B0549CF4D0</string>
-				<string>1A970189C99D2050B9DDE8778C4D8198</string>
-				<string>88AC856FCC0A19F0512A70BA50FE0A4B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>APIClient</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>269B0EE7EFD09580A247451AC3A39DE0</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>FlurryAdNativeDelegate.h</string>
-			<key>path</key>
-			<string>FlurryAds/FlurryAdNative/FlurryAdNativeDelegate.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>272643F56613CA0D336AE3DBF19DC404</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2747F3C5F2D40FA2A0C03AFDD66DE665</key>
-		<dict>
-			<key>fileRef</key>
-			<string>213F4CD4F118BCCC33EAA201FCC9C570</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>28637F2D03FB2DFA7141E9EECCEF991C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>FlurryAdTargeting.h</string>
-			<key>path</key>
-			<string>FlurryAds/Shared/FlurryAdTargeting.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>28E1EA6D81009655C0BF95907571726F</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>libTMTumblrSDK.a</string>
-			<key>path</key>
-			<string>libTMTumblrSDK.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>29409AD920C657E3C419A121693784D5</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>185DCCE31FB5FE10404ABB47CAEC419D</string>
-				<string>66D3B8C5869162892BC95F2B6789CA16</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>2A9D3347A076218F65D123296C40C776</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>TMSDKFunctions.m</string>
-			<key>path</key>
-			<string>TMTumblrSDK/Core/TMSDKFunctions.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2ADFEFD86E68998CB00A4A2690EFBA37</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B916C9CF2087F1AD68C99E2A97AB8865</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>2AEC2A2B00386F7FFA95B96EDCF24AB7</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>3CC3D348F4D9AFBDE5E3E15C23541506</string>
-				<string>F110550B6A053A0EDB5897B7472613B9</string>
-				<string>0A52C95758DB2774ACE90EDA494D6694</string>
-				<string>D9766613D1F8C4E87522212954BE0A91</string>
-				<string>A972C574D38FEC7A65D947C2317165D9</string>
-				<string>78FF00D0D91F313AD65A2A152591F3CD</string>
-				<string>4471FFAF1376E676777B1F30FE6585B0</string>
-				<string>0F709D4F35CA8F53C0FDEC53F74C5A88</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>2C0466BE450A1736FC08B19345AF84DC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B8D5447E0FED761E6B5AB373BEC3823C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2C7CC22120B7246E85E8098D8B3120CB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>FlurryAdDelegate.h</string>
-			<key>path</key>
-			<string>FlurryAds/StaticAPI/FlurryAdDelegate.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2D8E8EC45A3A1A1D94AE762CB5028504</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>B37F0F91F85060E28F1DAAB522DC7EC1</string>
-				<string>052A17875CB827423D627183396CEB60</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>2EBCF019385DFBB63FE1A8DD1FBB8954</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>TMOAuth.h</string>
-			<key>path</key>
-			<string>TMTumblrSDK/Authentication/TMOAuth.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2ED8C134CC30512857DE2FB33F619F80</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>TMTumblrAppClient.h</string>
-			<key>path</key>
-			<string>TMTumblrSDK/AppClient/TMTumblrAppClient.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>30A2BE5B765999F808AC93F76F11A2C6</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>4DDA59B449BA74F0F2350717A9E9E244</string>
-			<key>buildPhases</key>
-			<array>
-				<string>FF8DA170BD6E9A1422E74E1AE8A07B46</string>
-				<string>A6E862B93303B5548896F0C0C4489292</string>
-				<string>2149FB535578E4A4065E4DB1F6BD857A</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Spectacles</string>
-			<key>productName</key>
-			<string>Spectacles</string>
-			<key>productReference</key>
-			<string>8BDB24EF0307E77778F3CF06C1026043</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>30ECFBF235563D7545C9FCE5A2500BFA</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>libPods.a</string>
-			<key>path</key>
-			<string>libPods.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>30FCA8B29B247162B405041B29BE8BF7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3284705141D0282762F8A4B2A84C509D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>311B8DC1B195D13313B746DA717502CC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>UIActivityTumblr~ipad@2x.png</string>
-			<key>path</key>
-			<string>TMTumblrSDK/Activity/UIActivityTumblr~ipad@2x.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3284705141D0282762F8A4B2A84C509D</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Security.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Security.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>353E67B395DA7D0BAE3B8605C2A3343C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>JXHTTP.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>360BDE210526D6823B74F8164DAC7A06</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>353E67B395DA7D0BAE3B8605C2A3343C</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/JXHTTP/JXHTTP-prefix.pch</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRIVATE_HEADERS_FOLDER_PATH</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string></string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>37DB56D75062CC75FCB0966E1C6E8A8E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>392AD7668AFF02503497AB625C81FD31</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7718F2560131EE00E70F843780A6B526</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>39353D244F66C654150D7A018AC7B6F5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B6D3CBDA3226FE9D513C011B4A73ECEE</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>3B8AE8E23D82C3F8EBAC4C310D91F1EB</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>4433FFA5AC438A5511168810A158A907</string>
-				<string>81DD49D76050B31A882A246E1F822E40</string>
-				<string>43C9E1091D66054629A0F91827716DEA</string>
-				<string>89CE698AE8E91261C046771529FE488E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3C35FF8851162877C797718BE057DDDF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7F927847360A57931D2DBF54CDA99EF1</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>3CC3D348F4D9AFBDE5E3E15C23541506</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1A970189C99D2050B9DDE8778C4D8198</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>4244FB780C2BF8CCBF7D80084C6134E8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2EBCF019385DFBB63FE1A8DD1FBB8954</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>43C9E1091D66054629A0F91827716DEA</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>FE43B101A704E1562240AED0823023C9</string>
-				<string>1107C4F44E5BCFFF9194F1788A6D56BE</string>
-				<string>153A0A2BCA575A61408C2753469D2A71</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Spectacles</string>
-			<key>path</key>
-			<string>Spectacles</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4433FFA5AC438A5511168810A158A907</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>746B80B941AD3EC8BA911939E2A22CB9</string>
-				<string>73F6E815B69142A40205D9EF28FD087B</string>
-				<string>4E2BD583C6B5D96383FA44BC7DCBF22C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Flurry-iOS-SDK</string>
-			<key>path</key>
-			<string>Flurry-iOS-SDK</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4471FFAF1376E676777B1F30FE6585B0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4A8C26FE3C2CC86C4FB4C37CB033B7CD</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>44C6BC7EC32AF65B4D3C28BDBAD8765B</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>libFlurry-iOS-SDK.a</string>
-			<key>path</key>
-			<string>libFlurry-iOS-SDK.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>469E0FF33D5C6218DD311FE0AF9077E9</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>TMTumblrSDK-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>473AE2C2E59CD6C2E26B6CBD477743B6</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FEE654D226959860166C0D0CD36B078E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fno-objc-arc</string>
-			</dict>
-		</dict>
-		<key>47A02FBD38B144CF787AB6AB13372F15</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>FlurryAdInterstitialDelegate.h</string>
-			<key>path</key>
-			<string>FlurryAds/FlurryAdInterstitial/FlurryAdInterstitialDelegate.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>47CF448C19A8B148F841BFABE4D4A23B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>FlurryAds.h</string>
-			<key>path</key>
-			<string>FlurryAds/StaticAPI/FlurryAds.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>484E77F1293248B55DD75EECECCBAB35</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>E76A902DF022B1EA5B3E39B0176A838C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>48DACCF50A5732DBF8912C3F492AEA2E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>696F1B8F4958235F173C652DF1B41B47</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>490F7321DFA186A4442FBB85218ACD03</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>4E762F23EC34ED4A6FF3312D84E33A40</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>49580C4E4F446B8FE17AD851A5658E94</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>JXOperation.m</string>
-			<key>path</key>
-			<string>JXHTTP/JXOperation.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4A8C26FE3C2CC86C4FB4C37CB033B7CD</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>TMTumblrAuthenticator.m</string>
-			<key>path</key>
-			<string>TMTumblrSDK/Authentication/TMTumblrAuthenticator.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4AFDAEAFB076666D54D29D98DCA278F3</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>SystemConfiguration.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/SystemConfiguration.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>4B85A4E09C2791AD132CF53ED84636E9</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>73958E45B653CC336E7AC0A064237B37</string>
-				<string>19CD65D2C191FAC5C6A00BB9AE941EDB</string>
-				<string>7712C6A5E3E14813E241F913F04BD3FC</string>
-				<string>AF504D8A0F905CC4DC8DC5000690FD85</string>
-				<string>392AD7668AFF02503497AB625C81FD31</string>
-				<string>2747F3C5F2D40FA2A0C03AFDD66DE665</string>
-				<string>F0C5F9D5720117984936655ABDF2A42C</string>
-				<string>566F290B185C42AE9D033BECD6CC2582</string>
-				<string>63428C80B56B7AB4E5FD62AD812C2F8E</string>
-				<string>8BAA841E13438FD0A6BB7A277CDCD036</string>
-				<string>39353D244F66C654150D7A018AC7B6F5</string>
-				<string>0BD192052EABAC281CD5C0600ED8CB77</string>
-				<string>EF1E6AC4E6A544E4AC437179D27B7453</string>
-				<string>24EDE9B062725E5487CE9234E6F931C2</string>
-				<string>15B8E11E650E4439BF3BE2D48EE3F718</string>
-				<string>ADC5E5CDDD234239FF2EAEB57D5A1371</string>
-				<string>1ABA76EE6A4D8C47442455983E2E767E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>4D38F56288B454638B98D7FC712864F2</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B4E5B61CA862A043C81199377AB4059C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4DDA59B449BA74F0F2350717A9E9E244</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>DB9736E697AF1FB2D274C95A5014F042</string>
-				<string>1D7B532BF2493E1F1CAC5D57B6C26E15</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>4DEA85630CBF2037E2587C8346FE6C75</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>TMTumblrAppClient.m</string>
-			<key>path</key>
-			<string>TMTumblrSDK/AppClient/TMTumblrAppClient.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4E2BD583C6B5D96383FA44BC7DCBF22C</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>15F06393B3EB56856580967D27583EE4</string>
-				<string>B8D5447E0FED761E6B5AB373BEC3823C</string>
-				<string>18EEDC3716F21A702E77FCCFBD032A8F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>../Target Support Files/Flurry-iOS-SDK</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4E762F23EC34ED4A6FF3312D84E33A40</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4F8B282C7B454EDD6E31DDD12B05FC51</key>
-		<dict>
-			<key>fileRef</key>
-			<string>608A43AA40FD0121AEFB444D2C3B0EA2</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>52000DAC14B0762B989936D2EF92A4F1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>archive.ar</string>
-			<key>name</key>
-			<string>libFlurryAds_7.6.0.a</string>
-			<key>path</key>
-			<string>FlurryAds/libFlurryAds_7.6.0.a</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>52023A9BA0034CCA599FE57B1E4AFE3A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>JXHTTPFileBody.h</string>
-			<key>path</key>
-			<string>JXHTTP/JXHTTPFileBody.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>560BC3B8CE25F5FE4C72002990757E7B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>CoreMedia.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/CoreMedia.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>566F290B185C42AE9D033BECD6CC2582</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D2CFEDF04B09F274222E89251ABAF39C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>57D554DB26FC3C3E8A81597A06F71D78</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>JXHTTP-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>57FD3A149C38823E7027A28DC7C502AE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>UIActivityTumblr@2x~ipad.png</string>
-			<key>path</key>
-			<string>TMTumblrSDK/Activity/UIActivityTumblr@2x~ipad.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>59A86170C7DD1E52C201777B3DBDB0E1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>TMTumblrActivity.m</string>
-			<key>path</key>
-			<string>TMTumblrSDK/Activity/TMTumblrActivity.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5A45BF3A641C5FB0B1D5ED1CDA4319FA</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1107C4F44E5BCFFF9194F1788A6D56BE</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>5C271D8D320B378A02E6081B16F8CCA8</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>FlurryAdBanner.h</string>
-			<key>path</key>
-			<string>FlurryAds/FlurryAdBanner/FlurryAdBanner.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5DAA7D5034BEA335A69EA56F42FA0804</key>
-		<dict>
-			<key>fileRef</key>
-			<string>269B0EE7EFD09580A247451AC3A39DE0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>5EFC8D221B35CB67D253FA1ACBE6E7BD</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>FlurryAdsEmpty.m</string>
-			<key>path</key>
-			<string>FlurryAds/FlurryAdsEmpty.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5FB90845C72120D84ABDD331DC7DEB09</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>B926452BF0C8BAE616974621637E5315</string>
-			<key>buildPhases</key>
-			<array>
-				<string>1E9A957FAD85748FA14A218F23822C48</string>
-				<string>A6AA36B0519053E8CB3BCAD81BC11DD2</string>
-				<string>D3582C6C8BA45A4AC012E3C5C1CF82B5</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Flurry-iOS-SDK</string>
-			<key>productName</key>
-			<string>Flurry-iOS-SDK</string>
-			<key>productReference</key>
-			<string>44C6BC7EC32AF65B4D3C28BDBAD8765B</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>605334742AD7DEF6F0ADD4D05DAACDE3</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>JXHTTPOperation.m</string>
-			<key>path</key>
-			<string>JXHTTP/JXHTTPOperation.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>608A43AA40FD0121AEFB444D2C3B0EA2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>JXHTTPFormEncodedBody.m</string>
-			<key>path</key>
-			<string>JXHTTP/JXHTTPFormEncodedBody.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>61F3DD62261DB600855C5B84634AA60B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E3A8548A7EFC28BC8091A8BFF3108AE2</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>63428C80B56B7AB4E5FD62AD812C2F8E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6619CB3DE316007E214EE5ACE9C5693D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>6422DED02EF094F444A40DA4E7693FE8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4AFDAEAFB076666D54D29D98DCA278F3</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>644F4056D0BED532DFDF126603203F72</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>UIKit.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>6619CB3DE316007E214EE5ACE9C5693D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>JXHTTPOperation.h</string>
-			<key>path</key>
-			<string>JXHTTP/JXHTTPOperation.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>66D3B8C5869162892BC95F2B6789CA16</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>D3B80F56AB60C526CEE7C39311C34480</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/TMTumblrSDK/TMTumblrSDK-prefix.pch</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRIVATE_HEADERS_FOLDER_PATH</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string></string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>66E94C8C7DDF07B0BE9D6B14A7E0AD1F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>91CCBD9CE23E218757E03653DF408752</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>6709CDC1F976C5BFE4B078B7BC60B656</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>785DE1B73E74C244DF8445BB28972EE2</string>
-				<string>360BDE210526D6823B74F8164DAC7A06</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>676A5BD91669889984F23D22EBC9E151</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>B0144952FC8B7B32E77E313BE1F32BA9</string>
-			<key>remoteInfo</key>
-			<string>JXHTTP</string>
-		</dict>
-		<key>679CABE80D8C5176E12336C473608CA9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C508BFF47D18FFE79162925CE2AA954E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>67CA01A649DC7A3032250C99E7E44222</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>30A2BE5B765999F808AC93F76F11A2C6</string>
-			<key>remoteInfo</key>
-			<string>Spectacles</string>
-		</dict>
-		<key>6911BECA35E7518D864239B7E898EEF3</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-frameworks.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>696F1B8F4958235F173C652DF1B41B47</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>JXHTTPDataBody.m</string>
-			<key>path</key>
-			<string>JXHTTP/JXHTTPDataBody.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6A08DCBB37E0D2E3D502F65124EBBD39</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>AVFoundation.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/AVFoundation.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>6F98750EDAB140991817C6DC96A44194</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>1495B1801FAC10744D81CA53476F98CA</string>
-				<string>4244FB780C2BF8CCBF7D80084C6134E8</string>
-				<string>3C35FF8851162877C797718BE057DDDF</string>
-				<string>66E94C8C7DDF07B0BE9D6B14A7E0AD1F</string>
-				<string>679CABE80D8C5176E12336C473608CA9</string>
-				<string>8FD790366B2AFF90C70070F21200751F</string>
-				<string>956D16EE225098944D4629D9281448CA</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>7041A850EF6F22938D91AAB9D8D543DC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D5DC98639613D803CF1FB73636D5C3E3</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>71A95B60C81AEE4C3A565322E05BEC8E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E21CC27EAEB4FA32A8F3AFFD3B346F87</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>72C0A569405CC09B47A64E607D458A4D</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>773F8CBF133804F544AE3361AD620463</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Resources</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>73958E45B653CC336E7AC0A064237B37</key>
-		<dict>
-			<key>fileRef</key>
-			<string>19E77BF1B3D8B605125087888C61DED4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>73F6E815B69142A40205D9EF28FD087B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>190064D38271F3D22AB06A0B1E89F57E</string>
-				<string>FEE654D226959860166C0D0CD36B078E</string>
-				<string>045594F51959002343C78079D4C59A34</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>FlurrySDK</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>746B80B941AD3EC8BA911939E2A22CB9</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>5C271D8D320B378A02E6081B16F8CCA8</string>
-				<string>1F37980C22AA1680C4CE1063507E71E2</string>
-				<string>2C7CC22120B7246E85E8098D8B3120CB</string>
-				<string>7E72B7714F0634421BC48C93A30A7306</string>
-				<string>D5DC98639613D803CF1FB73636D5C3E3</string>
-				<string>47A02FBD38B144CF787AB6AB13372F15</string>
-				<string>053308A509778FEF4754A9A436EA9C6F</string>
-				<string>9ED569DD27F588AA9A276CE6BE2186BF</string>
-				<string>269B0EE7EFD09580A247451AC3A39DE0</string>
-				<string>E42B70D1FEE86280F015357A5B7E9375</string>
-				<string>47CF448C19A8B148F841BFABE4D4A23B</string>
-				<string>5EFC8D221B35CB67D253FA1ACBE6E7BD</string>
-				<string>28637F2D03FB2DFA7141E9EECCEF991C</string>
-				<string>A6267D37E7E05828291B48F5F3AEF982</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>FlurryAds</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7712C6A5E3E14813E241F913F04BD3FC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>16258470D6AD08809E342CB5F83BA768</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>7718F2560131EE00E70F843780A6B526</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>JXHTTPFormEncodedBody.h</string>
-			<key>path</key>
-			<string>JXHTTP/JXHTTPFormEncodedBody.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>773F8CBF133804F544AE3361AD620463</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>TMTumblrSDK.podspec.json</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>785553737B06AFC3DA711DDEB7D56194</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>1ABEF4F098F8E762E6FC624561BA41E0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>785DE1B73E74C244DF8445BB28972EE2</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>353E67B395DA7D0BAE3B8605C2A3343C</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/JXHTTP/JXHTTP-prefix.pch</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRIVATE_HEADERS_FOLDER_PATH</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string></string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>78BC5654B7157FCA64B001563B87272C</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>29409AD920C657E3C419A121693784D5</string>
-			<key>buildPhases</key>
-			<array>
-				<string>2AEC2A2B00386F7FFA95B96EDCF24AB7</string>
-				<string>484E77F1293248B55DD75EECECCBAB35</string>
-				<string>6F98750EDAB140991817C6DC96A44194</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>989C3C31A6CA7D1D50F54F4278905F40</string>
-				<string>817EB1F223001F9C82A8C7B75444889A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>TMTumblrSDK</string>
-			<key>productName</key>
-			<string>TMTumblrSDK</string>
-			<key>productReference</key>
-			<string>28E1EA6D81009655C0BF95907571726F</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>78FF00D0D91F313AD65A2A152591F3CD</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4DEA85630CBF2037E2587C8346FE6C75</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>79C5D22BB02860A2D8F365774511738F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>TMSDKUserAgent.m</string>
-			<key>path</key>
-			<string>TMTumblrSDK/Core/TMSDKUserAgent.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7D14117103273D29F8D72C5D6CAA11C9</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>TMOAuth.m</string>
-			<key>path</key>
-			<string>TMTumblrSDK/Authentication/TMOAuth.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7DB346D0F39D3F0E887471402A8071AB</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>BA6428E9F66FD5A23C0A2E06ED26CD2F</string>
-				<string>785553737B06AFC3DA711DDEB7D56194</string>
-				<string>3B8AE8E23D82C3F8EBAC4C310D91F1EB</string>
-				<string>0B6D46F19A1B1A35E6E47F476D46B6F2</string>
-				<string>037C0CA694176A3C0915F62C9D20B3E6</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7E72B7714F0634421BC48C93A30A7306</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>FlurryAdError.h</string>
-			<key>path</key>
-			<string>FlurryAds/Shared/FlurryAdError.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7EA28E14C1B5395E62D4510E2E5B9E86</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>TMTumblrSDK-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7F927847360A57931D2DBF54CDA99EF1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>TMSDKFunctions.h</string>
-			<key>path</key>
-			<string>TMTumblrSDK/Core/TMSDKFunctions.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>80D9BFAB91AB70D0454C46018C538C3E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>560BC3B8CE25F5FE4C72002990757E7B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>817EB1F223001F9C82A8C7B75444889A</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>Spectacles</string>
-			<key>target</key>
-			<string>30A2BE5B765999F808AC93F76F11A2C6</string>
-			<key>targetProxy</key>
-			<string>67CA01A649DC7A3032250C99E7E44222</string>
-		</dict>
-		<key>81DD49D76050B31A882A246E1F822E40</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>19E77BF1B3D8B605125087888C61DED4</string>
-				<string>8DDD3B0C9AA133A2DF501700F23D9566</string>
-				<string>16258470D6AD08809E342CB5F83BA768</string>
-				<string>696F1B8F4958235F173C652DF1B41B47</string>
-				<string>52023A9BA0034CCA599FE57B1E4AFE3A</string>
-				<string>9A224DBB217FEE31AE08FF27D199A001</string>
-				<string>7718F2560131EE00E70F843780A6B526</string>
-				<string>608A43AA40FD0121AEFB444D2C3B0EA2</string>
-				<string>213F4CD4F118BCCC33EAA201FCC9C570</string>
-				<string>E682885C55F5A6989E3ABEC4EB1330B5</string>
-				<string>17554DE12B70FD261099F91362514D5F</string>
-				<string>B916C9CF2087F1AD68C99E2A97AB8865</string>
-				<string>6619CB3DE316007E214EE5ACE9C5693D</string>
-				<string>605334742AD7DEF6F0ADD4D05DAACDE3</string>
-				<string>D2CFEDF04B09F274222E89251ABAF39C</string>
-				<string>E21CC27EAEB4FA32A8F3AFFD3B346F87</string>
-				<string>D4A882C1D8116DB839BE770904D7A90B</string>
-				<string>B6D3CBDA3226FE9D513C011B4A73ECEE</string>
-				<string>ABF41BA646414E76A9EF345A99316F71</string>
-				<string>EC22D9BFB1132F9EB06728B1279DCAF1</string>
-				<string>F4805FEAD5179C87D57F7E4A289BB8E6</string>
-				<string>85E056B030D7749437BE558A5D5349E8</string>
-				<string>E109193915CC04229E3379D0001F5495</string>
-				<string>49580C4E4F446B8FE17AD851A5658E94</string>
-				<string>BC08A58373DE3601358A03C5D12CC1C7</string>
-				<string>FFC2B41894C712AD718ECCFCB973B9EE</string>
-				<string>BA55B66666D49C497F4A83B2C0A99FF1</string>
-				<string>E3A8548A7EFC28BC8091A8BFF3108AE2</string>
-				<string>21A801C4EF3A4C171148C161D1187863</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>JXHTTP</string>
-			<key>path</key>
-			<string>JXHTTP</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>826976755BEF41B0C8F13140C4351EF1</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>D73D1FAD87E4B22844A19499FB1ADFF2</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>85C9A3E9FCA026CC546BFB8122D0D672</key>
-		<dict>
-			<key>fileRef</key>
-			<string>644F4056D0BED532DFDF126603203F72</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>85E056B030D7749437BE558A5D5349E8</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>JXNetworkActivityIndicatorManager.h</string>
-			<key>path</key>
-			<string>JXHTTP/JXNetworkActivityIndicatorManager.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>879D428BEEE8264A2BE1F2E52959B025</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>TMTumblrSDK</string>
-			<key>target</key>
-			<string>78BC5654B7157FCA64B001563B87272C</string>
-			<key>targetProxy</key>
-			<string>1B1D18BC919FE42A86CC4825A46C65BB</string>
-		</dict>
-		<key>88AC856FCC0A19F0512A70BA50FE0A4B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>2EBCF019385DFBB63FE1A8DD1FBB8954</string>
-				<string>7D14117103273D29F8D72C5D6CAA11C9</string>
-				<string>21E36F58C2BB3E71E75DA11D1B9E46F0</string>
-				<string>4A8C26FE3C2CC86C4FB4C37CB033B7CD</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Authentication</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8904D6A4C4109F73CCDA064EAFB50B23</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>2ED8C134CC30512857DE2FB33F619F80</string>
-				<string>4DEA85630CBF2037E2587C8346FE6C75</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>AppClient</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>892C7586B66019936A323E17331FB30F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A36EA9820681DA05BBF5D8B3EA19CD70</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>893ADEA93C3804D7F12C0C444267A396</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>4D38F56288B454638B98D7FC712864F2</string>
-				<string>48DACCF50A5732DBF8912C3F492AEA2E</string>
-				<string>B04FAF363C4F18CA318C4F5DDD606DA4</string>
-				<string>4F8B282C7B454EDD6E31DDD12B05FC51</string>
-				<string>E04739BAC8F58D877DFE1946932B53D7</string>
-				<string>2ADFEFD86E68998CB00A4A2690EFBA37</string>
-				<string>71A95B60C81AEE4C3A565322E05BEC8E</string>
-				<string>D928CDFB2D7D3E2AD9DE3D2974391870</string>
-				<string>98D2D0B3B912627C074A061436AA0F2A</string>
-				<string>1E75ECA691A7A28962E96F8569038653</string>
-				<string>117F41761DAD72C7D56D883B7E22C947</string>
-				<string>61F3DD62261DB600855C5B84634AA60B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>89CE698AE8E91261C046771529FE488E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>E77A6F9913F1FFA5D4DCEA02335A7B19</string>
-				<string>253E531EAC9EFFD3D68DFF4B34E66548</string>
-				<string>8904D6A4C4109F73CCDA064EAFB50B23</string>
-				<string>B87D5D414C9CB784BDA9792FDF794ACB</string>
-				<string>BF01C79D43D295ECAAD73D5B65EFEE94</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>TMTumblrSDK</string>
-			<key>path</key>
-			<string>TMTumblrSDK</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8BAA841E13438FD0A6BB7A277CDCD036</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D4A882C1D8116DB839BE770904D7A90B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>8BDB24EF0307E77778F3CF06C1026043</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>libSpectacles.a</string>
-			<key>path</key>
-			<string>libSpectacles.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>8DBD6D6B371F4A99E7D13B9C592FF9BF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>190064D38271F3D22AB06A0B1E89F57E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>8DDD3B0C9AA133A2DF501700F23D9566</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>JXHTTP.h</string>
-			<key>path</key>
-			<string>JXHTTP/JXHTTP.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8FD790366B2AFF90C70070F21200751F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2ED8C134CC30512857DE2FB33F619F80</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>91CCBD9CE23E218757E03653DF408752</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>TMSDKUserAgent.h</string>
-			<key>path</key>
-			<string>TMTumblrSDK/Core/TMSDKUserAgent.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9328F1F31DDBA9FBDF25F174178F80C1</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>5FB90845C72120D84ABDD331DC7DEB09</string>
-			<key>remoteInfo</key>
-			<string>Flurry-iOS-SDK</string>
-		</dict>
-		<key>956D16EE225098944D4629D9281448CA</key>
-		<dict>
-			<key>fileRef</key>
-			<string>21E36F58C2BB3E71E75DA11D1B9E46F0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>96AE00F0744B3748A5BFD288DF13B782</key>
-		<dict>
-			<key>fileRef</key>
-			<string>053308A509778FEF4754A9A436EA9C6F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>989C3C31A6CA7D1D50F54F4278905F40</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>JXHTTP</string>
-			<key>target</key>
-			<string>B0144952FC8B7B32E77E313BE1F32BA9</string>
-			<key>targetProxy</key>
-			<string>D5F7161A4450EB06EB255BBCB3719903</string>
-		</dict>
-		<key>98C98CDFB3F20F2925F6CD1F141BB14F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>98D186589DBE270A9CEACE3335BD31E7</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Spectacles-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>98D2D0B3B912627C074A061436AA0F2A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>ABF41BA646414E76A9EF345A99316F71</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>9A224DBB217FEE31AE08FF27D199A001</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>JXHTTPFileBody.m</string>
-			<key>path</key>
-			<string>JXHTTP/JXHTTPFileBody.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9CD2CAACA14677658B40B7038045B4D6</key>
-		<dict>
-			<key>fileRef</key>
-			<string>28637F2D03FB2DFA7141E9EECCEF991C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>9E735C9749C4CB6E95782EFBE172B77D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5C271D8D320B378A02E6081B16F8CCA8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>9ED569DD27F588AA9A276CE6BE2186BF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>FlurryAdNativeAsset.h</string>
-			<key>path</key>
-			<string>FlurryAds/FlurryAdNative/FlurryAdNativeAsset.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A1A36D34413696BE466E2CA0AFF194DA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A2888CA8EEAA7B85A33039AFE1291778</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>Flurry-iOS-SDK</string>
-			<key>target</key>
-			<string>5FB90845C72120D84ABDD331DC7DEB09</string>
-			<key>targetProxy</key>
-			<string>9328F1F31DDBA9FBDF25F174178F80C1</string>
-		</dict>
-		<key>A36EA9820681DA05BBF5D8B3EA19CD70</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>A6267D37E7E05828291B48F5F3AEF982</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>52000DAC14B0762B989936D2EF92A4F1</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A6AA36B0519053E8CB3BCAD81BC11DD2</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>17E467E48EC2CDF7DDB3873DAADB637D</string>
-				<string>15CA3D6B742BC0DD589FBECBA54AD646</string>
-				<string>80D9BFAB91AB70D0454C46018C538C3E</string>
-				<string>B42333D1B505EA25C0DC9B29586EFEAE</string>
-				<string>22DBFD71319A75BB368159D33E79C041</string>
-				<string>30FCA8B29B247162B405041B29BE8BF7</string>
-				<string>6422DED02EF094F444A40DA4E7693FE8</string>
-				<string>85C9A3E9FCA026CC546BFB8122D0D672</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>A6E862B93303B5548896F0C0C4489292</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>1BE84A6EEDB86A4A0E5D67A93823283D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>A972C574D38FEC7A65D947C2317165D9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>59A86170C7DD1E52C201777B3DBDB0E1</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>AB00CC8B8ABAC491680FAF26ED1FA906</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>UIActivityTumblr~ipad.png</string>
-			<key>path</key>
-			<string>TMTumblrSDK/Activity/UIActivityTumblr~ipad.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>ABF41BA646414E76A9EF345A99316F71</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>JXHTTPOperationQueue.m</string>
-			<key>path</key>
-			<string>JXHTTP/JXHTTPOperationQueue.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>ADC5E5CDDD234239FF2EAEB57D5A1371</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BC08A58373DE3601358A03C5D12CC1C7</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>AF504D8A0F905CC4DC8DC5000690FD85</key>
-		<dict>
-			<key>fileRef</key>
-			<string>52023A9BA0034CCA599FE57B1E4AFE3A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>B0144952FC8B7B32E77E313BE1F32BA9</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>6709CDC1F976C5BFE4B078B7BC60B656</string>
-			<key>buildPhases</key>
-			<array>
-				<string>893ADEA93C3804D7F12C0C444267A396</string>
-				<string>F37731CE2A0619C69CFBCE1885AD9532</string>
-				<string>4B85A4E09C2791AD132CF53ED84636E9</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>JXHTTP</string>
-			<key>productName</key>
-			<string>JXHTTP</string>
-			<key>productReference</key>
-			<string>F5C76F60B942DB5EF2AE719342AFFEDC</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>B04FAF363C4F18CA318C4F5DDD606DA4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9A224DBB217FEE31AE08FF27D199A001</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>B3115E509209793364F3FC710DAA9199</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>archive.ar</string>
-			<key>name</key>
-			<string>libFlurry_7.6.0.a</string>
-			<key>path</key>
-			<string>Flurry/libFlurry_7.6.0.a</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B329EC2ED9597CEB62F588A25EBBD467</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>JXHTTP</string>
-			<key>target</key>
-			<string>B0144952FC8B7B32E77E313BE1F32BA9</string>
-			<key>targetProxy</key>
-			<string>676A5BD91669889984F23D22EBC9E151</string>
-		</dict>
-		<key>B37F0F91F85060E28F1DAAB522DC7EC1</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-				<key>SYMROOT</key>
-				<string>${SRCROOT}/../build</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>B3D1D13E0C6553800746CB8FD61CF946</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>37DB56D75062CC75FCB0966E1C6E8A8E</string>
-				<string>10834806BD7B412BC24F347361FA2C8E</string>
-				<string>272643F56613CA0D336AE3DBF19DC404</string>
-				<string>6911BECA35E7518D864239B7E898EEF3</string>
-				<string>A1A36D34413696BE466E2CA0AFF194DA</string>
-				<string>4E762F23EC34ED4A6FF3312D84E33A40</string>
-				<string>98C98CDFB3F20F2925F6CD1F141BB14F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>path</key>
-			<string>Target Support Files/Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B42333D1B505EA25C0DC9B29586EFEAE</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A36EA9820681DA05BBF5D8B3EA19CD70</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>B441EF7F956B4DC77711D47774531DE9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A36EA9820681DA05BBF5D8B3EA19CD70</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>B4E5B61CA862A043C81199377AB4059C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>JXHTTP-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B4F857AC962035C80B0EE25C433E21B8</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>MediaPlayer.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/MediaPlayer.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>B5758F9B56C6A4DB67DFC0202EDE61B0</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>1483F965BC37AD13B967562DF184C859</string>
-				<string>C15424287B55347B4F0DFF3C2DC55228</string>
-				<string>57FD3A149C38823E7027A28DC7C502AE</string>
-				<string>AB00CC8B8ABAC491680FAF26ED1FA906</string>
-				<string>311B8DC1B195D13313B746DA717502CC</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Resources</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B6D3CBDA3226FE9D513C011B4A73ECEE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>JXHTTPOperationQueue.h</string>
-			<key>path</key>
-			<string>JXHTTP/JXHTTPOperationQueue.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B751B8A75765E3F12F9C689865481ECB</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>15F06393B3EB56856580967D27583EE4</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Flurry-iOS-SDK/Flurry-iOS-SDK-prefix.pch</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRIVATE_HEADERS_FOLDER_PATH</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string></string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>B87D5D414C9CB784BDA9792FDF794ACB</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>7F927847360A57931D2DBF54CDA99EF1</string>
-				<string>2A9D3347A076218F65D123296C40C776</string>
-				<string>91CCBD9CE23E218757E03653DF408752</string>
-				<string>79C5D22BB02860A2D8F365774511738F</string>
-				<string>72C0A569405CC09B47A64E607D458A4D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Core</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B8D5447E0FED761E6B5AB373BEC3823C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Flurry-iOS-SDK-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B916C9CF2087F1AD68C99E2A97AB8865</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>JXHTTPMultipartBody.m</string>
-			<key>path</key>
-			<string>JXHTTP/JXHTTPMultipartBody.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B926452BF0C8BAE616974621637E5315</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>B751B8A75765E3F12F9C689865481ECB</string>
-				<string>FD2917CCD39FA6FD316BB6362A754438</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>BA55B66666D49C497F4A83B2C0A99FF1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>JXURLEncoding.h</string>
-			<key>path</key>
-			<string>JXHTTP/JXURLEncoding.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BA6428E9F66FD5A23C0A2E06ED26CD2F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>name</key>
-			<string>Podfile</string>
-			<key>path</key>
-			<string>../Podfile</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-			<key>xcLanguageSpecificationIdentifier</key>
-			<string>xcode.lang.ruby</string>
-		</dict>
-		<key>BB0642C916CADAA25D49D9D3DDA761A1</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C32A8459150381F467486243C4AB95F0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>BC08A58373DE3601358A03C5D12CC1C7</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>JXURLConnectionOperation.h</string>
-			<key>path</key>
-			<string>JXHTTP/JXURLConnectionOperation.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BF01C79D43D295ECAAD73D5B65EFEE94</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>D3B80F56AB60C526CEE7C39311C34480</string>
-				<string>469E0FF33D5C6218DD311FE0AF9077E9</string>
-				<string>7EA28E14C1B5395E62D4510E2E5B9E86</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>../Target Support Files/TMTumblrSDK</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C15424287B55347B4F0DFF3C2DC55228</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>UIActivityTumblr@2x.png</string>
-			<key>path</key>
-			<string>TMTumblrSDK/Activity/UIActivityTumblr@2x.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C2F49961273EF0A5AF9CDBBB0C58A193</key>
-		<dict>
-			<key>fileRef</key>
-			<string>47A02FBD38B144CF787AB6AB13372F15</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>C32A8459150381F467486243C4AB95F0</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Spectacles-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C508BFF47D18FFE79162925CE2AA954E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>TMTumblrActivity.h</string>
-			<key>path</key>
-			<string>TMTumblrSDK/Activity/TMTumblrActivity.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D2CFEDF04B09F274222E89251ABAF39C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>JXHTTPOperation+Convenience.h</string>
-			<key>path</key>
-			<string>JXHTTP/JXHTTPOperation+Convenience.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D3582C6C8BA45A4AC012E3C5C1CF82B5</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>8DBD6D6B371F4A99E7D13B9C592FF9BF</string>
-				<string>9E735C9749C4CB6E95782EFBE172B77D</string>
-				<string>ECCCF81D1E74823121548BC363DCF1B5</string>
-				<string>0CC8DDFD09373373EDA3E2365EC0BC7A</string>
-				<string>DDE4C7F72E613530FB817B2EE721B82E</string>
-				<string>7041A850EF6F22938D91AAB9D8D543DC</string>
-				<string>C2F49961273EF0A5AF9CDBBB0C58A193</string>
-				<string>96AE00F0744B3748A5BFD288DF13B782</string>
-				<string>04BDAB42869D9090A0C6C924ABEBE572</string>
-				<string>5DAA7D5034BEA335A69EA56F42FA0804</string>
-				<string>0F30F1D4AD17C4FD24FECE448DDB5EB0</string>
-				<string>FE1E18D8FDEE74B9E0FC14D0592C538E</string>
-				<string>9CD2CAACA14677658B40B7038045B4D6</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>D3B80F56AB60C526CEE7C39311C34480</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>TMTumblrSDK.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D41D8CD98F00B204E9800998ECF8427E</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastSwiftUpdateCheck</key>
-				<string>0700</string>
-				<key>LastUpgradeCheck</key>
-				<string>0700</string>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>2D8E8EC45A3A1A1D94AE762CB5028504</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-			</array>
-			<key>mainGroup</key>
-			<string>7DB346D0F39D3F0E887471402A8071AB</string>
-			<key>productRefGroup</key>
-			<string>0B6D46F19A1B1A35E6E47F476D46B6F2</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>5FB90845C72120D84ABDD331DC7DEB09</string>
-				<string>B0144952FC8B7B32E77E313BE1F32BA9</string>
-				<string>0C6904EF5F1526993DA315EB18AFD99A</string>
-				<string>30A2BE5B765999F808AC93F76F11A2C6</string>
-				<string>78BC5654B7157FCA64B001563B87272C</string>
-			</array>
-		</dict>
-		<key>D4A882C1D8116DB839BE770904D7A90B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>JXHTTPOperationDelegate.h</string>
-			<key>path</key>
-			<string>JXHTTP/JXHTTPOperationDelegate.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D5DC98639613D803CF1FB73636D5C3E3</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>FlurryAdInterstitial.h</string>
-			<key>path</key>
-			<string>FlurryAds/FlurryAdInterstitial/FlurryAdInterstitial.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D5F7161A4450EB06EB255BBCB3719903</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>B0144952FC8B7B32E77E313BE1F32BA9</string>
-			<key>remoteInfo</key>
-			<string>JXHTTP</string>
-		</dict>
-		<key>D73D1FAD87E4B22844A19499FB1ADFF2</key>
-		<dict>
-			<key>fileRef</key>
-			<string>272643F56613CA0D336AE3DBF19DC404</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D928CDFB2D7D3E2AD9DE3D2974391870</key>
-		<dict>
-			<key>fileRef</key>
-			<string>605334742AD7DEF6F0ADD4D05DAACDE3</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>D9766613D1F8C4E87522212954BE0A91</key>
-		<dict>
-			<key>fileRef</key>
-			<string>79C5D22BB02860A2D8F365774511738F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>D9ABAD98AC3F2A7FDB2AF9B0549CF4D0</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>TMAPIClient.h</string>
-			<key>path</key>
-			<string>TMTumblrSDK/APIClient/TMAPIClient.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DB9736E697AF1FB2D274C95A5014F042</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>229FD4ECFFB2672798EC51CBAC55C65C</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Spectacles/Spectacles-prefix.pch</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRIVATE_HEADERS_FOLDER_PATH</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string></string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>DDE4C7F72E613530FB817B2EE721B82E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7E72B7714F0634421BC48C93A30A7306</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>E04739BAC8F58D877DFE1946932B53D7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E682885C55F5A6989E3ABEC4EB1330B5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>E109193915CC04229E3379D0001F5495</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>JXOperation.h</string>
-			<key>path</key>
-			<string>JXHTTP/JXOperation.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E17B209945403BC45DC79CDB455A0404</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>98C98CDFB3F20F2925F6CD1F141BB14F</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>E21CC27EAEB4FA32A8F3AFFD3B346F87</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>JXHTTPOperation+Convenience.m</string>
-			<key>path</key>
-			<string>JXHTTP/JXHTTPOperation+Convenience.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E2799223C165E825C9004139F02F1EDE</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FE43B101A704E1562240AED0823023C9</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>E3A8548A7EFC28BC8091A8BFF3108AE2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>JXURLEncoding.m</string>
-			<key>path</key>
-			<string>JXHTTP/JXURLEncoding.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E42B70D1FEE86280F015357A5B7E9375</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>FlurryAdNativeStyle.h</string>
-			<key>path</key>
-			<string>FlurryAds/FlurryAdNative/FlurryAdNativeStyle.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E682885C55F5A6989E3ABEC4EB1330B5</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>JXHTTPJSONBody.m</string>
-			<key>path</key>
-			<string>JXHTTP/JXHTTPJSONBody.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E76A902DF022B1EA5B3E39B0176A838C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A36EA9820681DA05BBF5D8B3EA19CD70</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E77A6F9913F1FFA5D4DCEA02335A7B19</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>C508BFF47D18FFE79162925CE2AA954E</string>
-				<string>59A86170C7DD1E52C201777B3DBDB0E1</string>
-				<string>B5758F9B56C6A4DB67DFC0202EDE61B0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Activity</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EC22D9BFB1132F9EB06728B1279DCAF1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>JXHTTPOperationQueueDelegate.h</string>
-			<key>path</key>
-			<string>JXHTTP/JXHTTPOperationQueueDelegate.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EC2BF6C1980613EE55258F7B4F63C946</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>490F7321DFA186A4442FBB85218ACD03</string>
-				<string>E17B209945403BC45DC79CDB455A0404</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>ECCCF81D1E74823121548BC363DCF1B5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1F37980C22AA1680C4CE1063507E71E2</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>EF1E6AC4E6A544E4AC437179D27B7453</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F4805FEAD5179C87D57F7E4A289BB8E6</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>F0C5F9D5720117984936655ABDF2A42C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>17554DE12B70FD261099F91362514D5F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>F110550B6A053A0EDB5897B7472613B9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7D14117103273D29F8D72C5D6CAA11C9</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>F37731CE2A0619C69CFBCE1885AD9532</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>892C7586B66019936A323E17331FB30F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>F3D0303F25AABD00B40536C8AF350984</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5EFC8D221B35CB67D253FA1ACBE6E7BD</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fno-objc-arc</string>
-			</dict>
-		</dict>
-		<key>F4805FEAD5179C87D57F7E4A289BB8E6</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>JXHTTPRequestBody.h</string>
-			<key>path</key>
-			<string>JXHTTP/JXHTTPRequestBody.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F5C76F60B942DB5EF2AE719342AFFEDC</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>libJXHTTP.a</string>
-			<key>path</key>
-			<string>libJXHTTP.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>F5F12FA759355350D8B805116A0A44A2</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>B441EF7F956B4DC77711D47774531DE9</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>FD2917CCD39FA6FD316BB6362A754438</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>15F06393B3EB56856580967D27583EE4</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Flurry-iOS-SDK/Flurry-iOS-SDK-prefix.pch</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRIVATE_HEADERS_FOLDER_PATH</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string></string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>FE1E18D8FDEE74B9E0FC14D0592C538E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>47CF448C19A8B148F841BFABE4D4A23B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>FE43B101A704E1562240AED0823023C9</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>TMPodspec.h</string>
-			<key>path</key>
-			<string>Pod/Classes/TMPodspec.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FEE654D226959860166C0D0CD36B078E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>FlurryEmpty.m</string>
-			<key>path</key>
-			<string>Flurry/FlurryEmpty.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FF8DA170BD6E9A1422E74E1AE8A07B46</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>BB0642C916CADAA25D49D9D3DDA761A1</string>
-				<string>5A45BF3A641C5FB0B1D5ED1CDA4319FA</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>FFC2B41894C712AD718ECCFCB973B9EE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>JXURLConnectionOperation.m</string>
-			<key>path</key>
-			<string>JXHTTP/JXURLConnectionOperation.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>D41D8CD98F00B204E9800998ECF8427E</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		027EBF5F16AF64CA915029B664BD5978 /* TMTumblrAppClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 2ED8C134CC30512857DE2FB33F619F80 /* TMTumblrAppClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04BDAB42869D9090A0C6C924ABEBE572 /* FlurryAdNativeAsset.h in Headers */ = {isa = PBXBuildFile; fileRef = 9ED569DD27F588AA9A276CE6BE2186BF /* FlurryAdNativeAsset.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A1C0C0C99EB36EE46A6A4D4A797E36E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8CC96E7D2DCEE95E2A647622B56BDBE /* Foundation.framework */; };
+		0AB8506333CA97EAB8859BC1FC267C0B /* TMOAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D14117103273D29F8D72C5D6CAA11C9 /* TMOAuth.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0BD192052EABAC281CD5C0600ED8CB77 /* JXHTTPOperationQueueDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = EC22D9BFB1132F9EB06728B1279DCAF1 /* JXHTTPOperationQueueDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0CC8DDFD09373373EDA3E2365EC0BC7A /* FlurryAdDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C7CC22120B7246E85E8098D8B3120CB /* FlurryAdDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F30F1D4AD17C4FD24FECE448DDB5EB0 /* FlurryAdNativeStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = E42B70D1FEE86280F015357A5B7E9375 /* FlurryAdNativeStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117F41761DAD72C7D56D883B7E22C947 /* JXURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = FFC2B41894C712AD718ECCFCB973B9EE /* JXURLConnectionOperation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		1214E5B6D99519F8A490A7CB39E6640D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8CC96E7D2DCEE95E2A647622B56BDBE /* Foundation.framework */; };
+		1351C46CC988C6A5AB58E95AEAB7769D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEF6A42EFE7C92C77C13B97F492C2234 /* UIKit.framework */; };
+		15B8E11E650E4439BF3BE2D48EE3F718 /* JXOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = E109193915CC04229E3379D0001F5495 /* JXOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1935371746B580B1C607F2A7A4243771 /* TMSDKFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A9D3347A076218F65D123296C40C776 /* TMSDKFunctions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		19CD65D2C191FAC5C6A00BB9AE941EDB /* JXHTTP.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DDD3B0C9AA133A2DF501700F23D9566 /* JXHTTP.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1ABA76EE6A4D8C47442455983E2E767E /* JXURLEncoding.h in Headers */ = {isa = PBXBuildFile; fileRef = BA55B66666D49C497F4A83B2C0A99FF1 /* JXURLEncoding.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E75ECA691A7A28962E96F8569038653 /* JXOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 49580C4E4F446B8FE17AD851A5658E94 /* JXOperation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		213EEFAF8A933AF332CB0DE27872E438 /* TMSDKUserAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C5D22BB02860A2D8F365774511738F /* TMSDKUserAgent.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		24EDE9B062725E5487CE9234E6F931C2 /* JXNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 85E056B030D7749437BE558A5D5349E8 /* JXNetworkActivityIndicatorManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		25F4C9855405D7DBB23CFE138F87BEE5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8CC96E7D2DCEE95E2A647622B56BDBE /* Foundation.framework */; };
+		2747F3C5F2D40FA2A0C03AFDD66DE665 /* JXHTTPJSONBody.h in Headers */ = {isa = PBXBuildFile; fileRef = 213F4CD4F118BCCC33EAA201FCC9C570 /* JXHTTPJSONBody.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2ADFEFD86E68998CB00A4A2690EFBA37 /* JXHTTPMultipartBody.m in Sources */ = {isa = PBXBuildFile; fileRef = B916C9CF2087F1AD68C99E2A97AB8865 /* JXHTTPMultipartBody.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2C0466BE450A1736FC08B19345AF84DC /* Flurry-iOS-SDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B8D5447E0FED761E6B5AB373BEC3823C /* Flurry-iOS-SDK-dummy.m */; };
+		306CD7554C03D7ADD97ED8E2D984BCBA /* TMTumblrActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 59A86170C7DD1E52C201777B3DBDB0E1 /* TMTumblrActivity.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		363E9C81B5E67D48837EDC6C6C8A34DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8CC96E7D2DCEE95E2A647622B56BDBE /* Foundation.framework */; };
+		392AD7668AFF02503497AB625C81FD31 /* JXHTTPFormEncodedBody.h in Headers */ = {isa = PBXBuildFile; fileRef = 7718F2560131EE00E70F843780A6B526 /* JXHTTPFormEncodedBody.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		39353D244F66C654150D7A018AC7B6F5 /* JXHTTPOperationQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = B6D3CBDA3226FE9D513C011B4A73ECEE /* JXHTTPOperationQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		427FB61603854190345A7105D324554A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F44C7E8104DB13ECD703C14785C7C31 /* AVFoundation.framework */; };
+		440C4814512F8A125B6772D3249124EF /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6CD3DE5A8EA4E394E6B99E0D365878D /* SystemConfiguration.framework */; };
+		473AE2C2E59CD6C2E26B6CBD477743B6 /* FlurryEmpty.m in Sources */ = {isa = PBXBuildFile; fileRef = FEE654D226959860166C0D0CD36B078E /* FlurryEmpty.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		481C237D12D945F773748E0176203C0C /* TMTumblrAuthenticator.h in Headers */ = {isa = PBXBuildFile; fileRef = 21E36F58C2BB3E71E75DA11D1B9E46F0 /* TMTumblrAuthenticator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		48DACCF50A5732DBF8912C3F492AEA2E /* JXHTTPDataBody.m in Sources */ = {isa = PBXBuildFile; fileRef = 696F1B8F4958235F173C652DF1B41B47 /* JXHTTPDataBody.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		49EA1771A4E68D3F37641FE94C58D74A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8CC96E7D2DCEE95E2A647622B56BDBE /* Foundation.framework */; };
+		4D38F56288B454638B98D7FC712864F2 /* JXHTTP-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E5B61CA862A043C81199377AB4059C /* JXHTTP-dummy.m */; };
+		4F8B282C7B454EDD6E31DDD12B05FC51 /* JXHTTPFormEncodedBody.m in Sources */ = {isa = PBXBuildFile; fileRef = 608A43AA40FD0121AEFB444D2C3B0EA2 /* JXHTTPFormEncodedBody.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		51707605804132413C47803D47C4C7F5 /* TMSDKFunctions.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F927847360A57931D2DBF54CDA99EF1 /* TMSDKFunctions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		566F290B185C42AE9D033BECD6CC2582 /* JXHTTPOperation+Convenience.h in Headers */ = {isa = PBXBuildFile; fileRef = D2CFEDF04B09F274222E89251ABAF39C /* JXHTTPOperation+Convenience.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5DAA7D5034BEA335A69EA56F42FA0804 /* FlurryAdNativeDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 269B0EE7EFD09580A247451AC3A39DE0 /* FlurryAdNativeDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61F3DD62261DB600855C5B84634AA60B /* JXURLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = E3A8548A7EFC28BC8091A8BFF3108AE2 /* JXURLEncoding.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		63428C80B56B7AB4E5FD62AD812C2F8E /* JXHTTPOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 6619CB3DE316007E214EE5ACE9C5693D /* JXHTTPOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6925A5259961928926A24F702FAC3925 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1AB04F244C28ADDD4955547BD7D401C /* CoreMedia.framework */; };
+		693B9C2F17FC6436A395C9DC8BA7E555 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F84ED822BBD6078FC69A4AD2FE159D9 /* MediaPlayer.framework */; };
+		7041A850EF6F22938D91AAB9D8D543DC /* FlurryAdInterstitial.h in Headers */ = {isa = PBXBuildFile; fileRef = D5DC98639613D803CF1FB73636D5C3E3 /* FlurryAdInterstitial.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		71A95B60C81AEE4C3A565322E05BEC8E /* JXHTTPOperation+Convenience.m in Sources */ = {isa = PBXBuildFile; fileRef = E21CC27EAEB4FA32A8F3AFFD3B346F87 /* JXHTTPOperation+Convenience.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		73958E45B653CC336E7AC0A064237B37 /* JXBackgroundTaskManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 19E77BF1B3D8B605125087888C61DED4 /* JXBackgroundTaskManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7712C6A5E3E14813E241F913F04BD3FC /* JXHTTPDataBody.h in Headers */ = {isa = PBXBuildFile; fileRef = 16258470D6AD08809E342CB5F83BA768 /* JXHTTPDataBody.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		846A19161FD26CE3B1813F39DD2BAA2E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 936F994218D3B5FC32A39E969FDB338A /* CoreGraphics.framework */; };
+		85FC3C760CEAE670C414724B0EE2C743 /* TMPodspec.m in Sources */ = {isa = PBXBuildFile; fileRef = 1107C4F44E5BCFFF9194F1788A6D56BE /* TMPodspec.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		863B3F6E5B4BA54D3982E90CEF5496E2 /* Pods-YodelSample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D5466DC4D09EFAAE24A8A91B840486 /* Pods-YodelSample-dummy.m */; };
+		8BAA841E13438FD0A6BB7A277CDCD036 /* JXHTTPOperationDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = D4A882C1D8116DB839BE770904D7A90B /* JXHTTPOperationDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D35644D0E153FBC8CE5F8EF1F8EA780 /* TMTumblrAuthenticator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A8C26FE3C2CC86C4FB4C37CB033B7CD /* TMTumblrAuthenticator.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		8DBD6D6B371F4A99E7D13B9C592FF9BF /* Flurry.h in Headers */ = {isa = PBXBuildFile; fileRef = 190064D38271F3D22AB06A0B1E89F57E /* Flurry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96AE00F0744B3748A5BFD288DF13B782 /* FlurryAdNative.h in Headers */ = {isa = PBXBuildFile; fileRef = 053308A509778FEF4754A9A436EA9C6F /* FlurryAdNative.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98D2D0B3B912627C074A061436AA0F2A /* JXHTTPOperationQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF41BA646414E76A9EF345A99316F71 /* JXHTTPOperationQueue.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		9CD2CAACA14677658B40B7038045B4D6 /* FlurryAdTargeting.h in Headers */ = {isa = PBXBuildFile; fileRef = 28637F2D03FB2DFA7141E9EECCEF991C /* FlurryAdTargeting.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E735C9749C4CB6E95782EFBE172B77D /* FlurryAdBanner.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C271D8D320B378A02E6081B16F8CCA8 /* FlurryAdBanner.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F1E3ABE06116EF84A0B472206980050 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF727D86F965F11E4CDCACFF3C01DCAF /* Security.framework */; };
+		ADC5E5CDDD234239FF2EAEB57D5A1371 /* JXURLConnectionOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = BC08A58373DE3601358A03C5D12CC1C7 /* JXURLConnectionOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF504D8A0F905CC4DC8DC5000690FD85 /* JXHTTPFileBody.h in Headers */ = {isa = PBXBuildFile; fileRef = 52023A9BA0034CCA599FE57B1E4AFE3A /* JXHTTPFileBody.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B04FAF363C4F18CA318C4F5DDD606DA4 /* JXHTTPFileBody.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A224DBB217FEE31AE08FF27D199A001 /* JXHTTPFileBody.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C2F49961273EF0A5AF9CDBBB0C58A193 /* FlurryAdInterstitialDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 47A02FBD38B144CF787AB6AB13372F15 /* FlurryAdInterstitialDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CCACDEABB8D8B998AB848BC8BE3EFD02 /* TMAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A970189C99D2050B9DDE8778C4D8198 /* TMAPIClient.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D1935B462AB128A79DDDB1105DD22971 /* TMAPIClient.h in Headers */ = {isa = PBXBuildFile; fileRef = D9ABAD98AC3F2A7FDB2AF9B0549CF4D0 /* TMAPIClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3B672D009BEBB82D296F5903520E1D4 /* TMTumblrAppClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DEA85630CBF2037E2587C8346FE6C75 /* TMTumblrAppClient.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D900B690D787AE0CC6A8AA9353FFF826 /* TMOAuth.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EBCF019385DFBB63FE1A8DD1FBB8954 /* TMOAuth.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D928CDFB2D7D3E2AD9DE3D2974391870 /* JXHTTPOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 605334742AD7DEF6F0ADD4D05DAACDE3 /* JXHTTPOperation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		DCCAC312B73DDB0650117E18BD803BC2 /* TMTumblrActivity.h in Headers */ = {isa = PBXBuildFile; fileRef = C508BFF47D18FFE79162925CE2AA954E /* TMTumblrActivity.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDB63C3521141C7639F3ED467DE1BE58 /* TMTumblrSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 469E0FF33D5C6218DD311FE0AF9077E9 /* TMTumblrSDK-dummy.m */; };
+		DDE4C7F72E613530FB817B2EE721B82E /* FlurryAdError.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E72B7714F0634421BC48C93A30A7306 /* FlurryAdError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E04739BAC8F58D877DFE1946932B53D7 /* JXHTTPJSONBody.m in Sources */ = {isa = PBXBuildFile; fileRef = E682885C55F5A6989E3ABEC4EB1330B5 /* JXHTTPJSONBody.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E8FBE9025DB5FB2A82CCEFFB1600F529 /* TMPodspec.h in Headers */ = {isa = PBXBuildFile; fileRef = FE43B101A704E1562240AED0823023C9 /* TMPodspec.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ECCCF81D1E74823121548BC363DCF1B5 /* FlurryAdBannerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F37980C22AA1680C4CE1063507E71E2 /* FlurryAdBannerDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF1E6AC4E6A544E4AC437179D27B7453 /* JXHTTPRequestBody.h in Headers */ = {isa = PBXBuildFile; fileRef = F4805FEAD5179C87D57F7E4A289BB8E6 /* JXHTTPRequestBody.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0A360FAC46C2D787C791CB219F621A1 /* TMSDKUserAgent.h in Headers */ = {isa = PBXBuildFile; fileRef = 91CCBD9CE23E218757E03653DF408752 /* TMSDKUserAgent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0C5F9D5720117984936655ABDF2A42C /* JXHTTPMultipartBody.h in Headers */ = {isa = PBXBuildFile; fileRef = 17554DE12B70FD261099F91362514D5F /* JXHTTPMultipartBody.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3D0303F25AABD00B40536C8AF350984 /* FlurryAdsEmpty.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EFC8D221B35CB67D253FA1ACBE6E7BD /* FlurryAdsEmpty.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F93999F352C0A736AF03814E44EF54BE /* Spectacles-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C32A8459150381F467486243C4AB95F0 /* Spectacles-dummy.m */; };
+		FE1E18D8FDEE74B9E0FC14D0592C538E /* FlurryAds.h in Headers */ = {isa = PBXBuildFile; fileRef = 47CF448C19A8B148F841BFABE4D4A23B /* FlurryAds.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C008045F9536F1C0D6547827B51687D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0144952FC8B7B32E77E313BE1F32BA9;
+			remoteInfo = JXHTTP;
+		};
+		67E471C1A49A3050FB294CD9AECE97D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0144952FC8B7B32E77E313BE1F32BA9;
+			remoteInfo = JXHTTP;
+		};
+		8539395FEDD1A0FE91385C0E96EC1B81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4B1CAE084438C221D8715018CD17110;
+			remoteInfo = Spectacles;
+		};
+		8EB99946C91FC92FEC9DF4EB04C21EEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5FB90845C72120D84ABDD331DC7DEB09;
+			remoteInfo = "Flurry-iOS-SDK";
+		};
+		B8BB045E46AD39E0F4CF2CDB839B609F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4B1CAE084438C221D8715018CD17110;
+			remoteInfo = Spectacles;
+		};
+		D51C574E2389436A683CA9A3A8533CDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2691DDD9693F5494686E970561C849C8;
+			remoteInfo = TMTumblrSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		007EC2CB58A7A821AC7165DD77583295 /* Pods-YodelSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YodelSample.debug.xcconfig"; sourceTree = "<group>"; };
+		053308A509778FEF4754A9A436EA9C6F /* FlurryAdNative.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlurryAdNative.h; path = FlurryAds/FlurryAdNative/FlurryAdNative.h; sourceTree = "<group>"; };
+		1107C4F44E5BCFFF9194F1788A6D56BE /* TMPodspec.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMPodspec.m; path = Pod/Classes/TMPodspec.m; sourceTree = "<group>"; };
+		1483F965BC37AD13B967562DF184C859 /* UIActivityTumblr.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = UIActivityTumblr.png; path = TMTumblrSDK/Activity/UIActivityTumblr.png; sourceTree = "<group>"; };
+		15F06393B3EB56856580967D27583EE4 /* Flurry-iOS-SDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Flurry-iOS-SDK.xcconfig"; sourceTree = "<group>"; };
+		16258470D6AD08809E342CB5F83BA768 /* JXHTTPDataBody.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXHTTPDataBody.h; path = JXHTTP/JXHTTPDataBody.h; sourceTree = "<group>"; };
+		17554DE12B70FD261099F91362514D5F /* JXHTTPMultipartBody.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXHTTPMultipartBody.h; path = JXHTTP/JXHTTPMultipartBody.h; sourceTree = "<group>"; };
+		177E6A8585C758335A07336663FBC7EB /* libSpectacles.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSpectacles.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		18EEDC3716F21A702E77FCCFBD032A8F /* Flurry-iOS-SDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Flurry-iOS-SDK-prefix.pch"; sourceTree = "<group>"; };
+		190064D38271F3D22AB06A0B1E89F57E /* Flurry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Flurry.h; path = Flurry/Flurry.h; sourceTree = "<group>"; };
+		19E77BF1B3D8B605125087888C61DED4 /* JXBackgroundTaskManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXBackgroundTaskManager.h; path = JXHTTP/JXBackgroundTaskManager.h; sourceTree = "<group>"; };
+		1A6C4B654FFE456B6D8BA57E7579AC02 /* libJXHTTP.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libJXHTTP.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A970189C99D2050B9DDE8778C4D8198 /* TMAPIClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMAPIClient.m; path = TMTumblrSDK/APIClient/TMAPIClient.m; sourceTree = "<group>"; };
+		1D8C94AC37A4BB940CB42836F3BC8FCE /* libFlurry-iOS-SDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libFlurry-iOS-SDK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E3CB2DB86E95A15976A33ACD6629E1A /* Pods-YodelSample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YodelSample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1F37980C22AA1680C4CE1063507E71E2 /* FlurryAdBannerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlurryAdBannerDelegate.h; path = FlurryAds/FlurryAdBanner/FlurryAdBannerDelegate.h; sourceTree = "<group>"; };
+		213F4CD4F118BCCC33EAA201FCC9C570 /* JXHTTPJSONBody.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXHTTPJSONBody.h; path = JXHTTP/JXHTTPJSONBody.h; sourceTree = "<group>"; };
+		21E36F58C2BB3E71E75DA11D1B9E46F0 /* TMTumblrAuthenticator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMTumblrAuthenticator.h; path = TMTumblrSDK/Authentication/TMTumblrAuthenticator.h; sourceTree = "<group>"; };
+		229FD4ECFFB2672798EC51CBAC55C65C /* Spectacles.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Spectacles.xcconfig; sourceTree = "<group>"; };
+		269B0EE7EFD09580A247451AC3A39DE0 /* FlurryAdNativeDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlurryAdNativeDelegate.h; path = FlurryAds/FlurryAdNative/FlurryAdNativeDelegate.h; sourceTree = "<group>"; };
+		28637F2D03FB2DFA7141E9EECCEF991C /* FlurryAdTargeting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlurryAdTargeting.h; path = FlurryAds/Shared/FlurryAdTargeting.h; sourceTree = "<group>"; };
+		2A9D3347A076218F65D123296C40C776 /* TMSDKFunctions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMSDKFunctions.m; path = TMTumblrSDK/Core/TMSDKFunctions.m; sourceTree = "<group>"; };
+		2C7CC22120B7246E85E8098D8B3120CB /* FlurryAdDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlurryAdDelegate.h; path = FlurryAds/StaticAPI/FlurryAdDelegate.h; sourceTree = "<group>"; };
+		2EBCF019385DFBB63FE1A8DD1FBB8954 /* TMOAuth.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMOAuth.h; path = TMTumblrSDK/Authentication/TMOAuth.h; sourceTree = "<group>"; };
+		2ED8C134CC30512857DE2FB33F619F80 /* TMTumblrAppClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMTumblrAppClient.h; path = TMTumblrSDK/AppClient/TMTumblrAppClient.h; sourceTree = "<group>"; };
+		311B8DC1B195D13313B746DA717502CC /* UIActivityTumblr~ipad@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "UIActivityTumblr~ipad@2x.png"; path = "TMTumblrSDK/Activity/UIActivityTumblr~ipad@2x.png"; sourceTree = "<group>"; };
+		353E67B395DA7D0BAE3B8605C2A3343C /* JXHTTP.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JXHTTP.xcconfig; sourceTree = "<group>"; };
+		3C06941E59668B2B0C2166F9D24D714E /* libFlurry_7.6.4.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libFlurry_7.6.4.a; path = Flurry/libFlurry_7.6.4.a; sourceTree = "<group>"; };
+		3EDB730EB3C60CDDEAB656AE9551277B /* Pods-YodelSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YodelSample.release.xcconfig"; sourceTree = "<group>"; };
+		469E0FF33D5C6218DD311FE0AF9077E9 /* TMTumblrSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TMTumblrSDK-dummy.m"; sourceTree = "<group>"; };
+		47A02FBD38B144CF787AB6AB13372F15 /* FlurryAdInterstitialDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlurryAdInterstitialDelegate.h; path = FlurryAds/FlurryAdInterstitial/FlurryAdInterstitialDelegate.h; sourceTree = "<group>"; };
+		47CF448C19A8B148F841BFABE4D4A23B /* FlurryAds.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlurryAds.h; path = FlurryAds/StaticAPI/FlurryAds.h; sourceTree = "<group>"; };
+		49580C4E4F446B8FE17AD851A5658E94 /* JXOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXOperation.m; path = JXHTTP/JXOperation.m; sourceTree = "<group>"; };
+		4A8C26FE3C2CC86C4FB4C37CB033B7CD /* TMTumblrAuthenticator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMTumblrAuthenticator.m; path = TMTumblrSDK/Authentication/TMTumblrAuthenticator.m; sourceTree = "<group>"; };
+		4DEA85630CBF2037E2587C8346FE6C75 /* TMTumblrAppClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMTumblrAppClient.m; path = TMTumblrSDK/AppClient/TMTumblrAppClient.m; sourceTree = "<group>"; };
+		52023A9BA0034CCA599FE57B1E4AFE3A /* JXHTTPFileBody.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXHTTPFileBody.h; path = JXHTTP/JXHTTPFileBody.h; sourceTree = "<group>"; };
+		57D554DB26FC3C3E8A81597A06F71D78 /* JXHTTP-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JXHTTP-prefix.pch"; sourceTree = "<group>"; };
+		57FD3A149C38823E7027A28DC7C502AE /* UIActivityTumblr@2x~ipad.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "UIActivityTumblr@2x~ipad.png"; path = "TMTumblrSDK/Activity/UIActivityTumblr@2x~ipad.png"; sourceTree = "<group>"; };
+		5837C05630B5B5AF1C9A69587D5B497B /* Pods-YodelSample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YodelSample-frameworks.sh"; sourceTree = "<group>"; };
+		59A86170C7DD1E52C201777B3DBDB0E1 /* TMTumblrActivity.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMTumblrActivity.m; path = TMTumblrSDK/Activity/TMTumblrActivity.m; sourceTree = "<group>"; };
+		5C271D8D320B378A02E6081B16F8CCA8 /* FlurryAdBanner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlurryAdBanner.h; path = FlurryAds/FlurryAdBanner/FlurryAdBanner.h; sourceTree = "<group>"; };
+		5EFC8D221B35CB67D253FA1ACBE6E7BD /* FlurryAdsEmpty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FlurryAdsEmpty.m; path = FlurryAds/FlurryAdsEmpty.m; sourceTree = "<group>"; };
+		5F84ED822BBD6078FC69A4AD2FE159D9 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/MediaPlayer.framework; sourceTree = DEVELOPER_DIR; };
+		605334742AD7DEF6F0ADD4D05DAACDE3 /* JXHTTPOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXHTTPOperation.m; path = JXHTTP/JXHTTPOperation.m; sourceTree = "<group>"; };
+		608A43AA40FD0121AEFB444D2C3B0EA2 /* JXHTTPFormEncodedBody.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXHTTPFormEncodedBody.m; path = JXHTTP/JXHTTPFormEncodedBody.m; sourceTree = "<group>"; };
+		6619CB3DE316007E214EE5ACE9C5693D /* JXHTTPOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXHTTPOperation.h; path = JXHTTP/JXHTTPOperation.h; sourceTree = "<group>"; };
+		696F1B8F4958235F173C652DF1B41B47 /* JXHTTPDataBody.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXHTTPDataBody.m; path = JXHTTP/JXHTTPDataBody.m; sourceTree = "<group>"; };
+		75899D54F3B7EF50B4558F9A75251D67 /* Pods-YodelSample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YodelSample-acknowledgements.plist"; sourceTree = "<group>"; };
+		7718F2560131EE00E70F843780A6B526 /* JXHTTPFormEncodedBody.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXHTTPFormEncodedBody.h; path = JXHTTP/JXHTTPFormEncodedBody.h; sourceTree = "<group>"; };
+		773F8CBF133804F544AE3361AD620463 /* TMTumblrSDK.podspec.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; path = TMTumblrSDK.podspec.json; sourceTree = "<group>"; };
+		79C5D22BB02860A2D8F365774511738F /* TMSDKUserAgent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMSDKUserAgent.m; path = TMTumblrSDK/Core/TMSDKUserAgent.m; sourceTree = "<group>"; };
+		7D14117103273D29F8D72C5D6CAA11C9 /* TMOAuth.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMOAuth.m; path = TMTumblrSDK/Authentication/TMOAuth.m; sourceTree = "<group>"; };
+		7E72B7714F0634421BC48C93A30A7306 /* FlurryAdError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlurryAdError.h; path = FlurryAds/Shared/FlurryAdError.h; sourceTree = "<group>"; };
+		7EA28E14C1B5395E62D4510E2E5B9E86 /* TMTumblrSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TMTumblrSDK-prefix.pch"; sourceTree = "<group>"; };
+		7F44C7E8104DB13ECD703C14785C7C31 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		7F927847360A57931D2DBF54CDA99EF1 /* TMSDKFunctions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMSDKFunctions.h; path = TMTumblrSDK/Core/TMSDKFunctions.h; sourceTree = "<group>"; };
+		85E056B030D7749437BE558A5D5349E8 /* JXNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXNetworkActivityIndicatorManager.h; path = JXHTTP/JXNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
+		8DDD3B0C9AA133A2DF501700F23D9566 /* JXHTTP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXHTTP.h; path = JXHTTP/JXHTTP.h; sourceTree = "<group>"; };
+		91CCBD9CE23E218757E03653DF408752 /* TMSDKUserAgent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMSDKUserAgent.h; path = TMTumblrSDK/Core/TMSDKUserAgent.h; sourceTree = "<group>"; };
+		936F994218D3B5FC32A39E969FDB338A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		98D186589DBE270A9CEACE3335BD31E7 /* Spectacles-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Spectacles-prefix.pch"; sourceTree = "<group>"; };
+		9A224DBB217FEE31AE08FF27D199A001 /* JXHTTPFileBody.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXHTTPFileBody.m; path = JXHTTP/JXHTTPFileBody.m; sourceTree = "<group>"; };
+		9ED569DD27F588AA9A276CE6BE2186BF /* FlurryAdNativeAsset.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlurryAdNativeAsset.h; path = FlurryAds/FlurryAdNative/FlurryAdNativeAsset.h; sourceTree = "<group>"; };
+		AB00CC8B8ABAC491680FAF26ED1FA906 /* UIActivityTumblr~ipad.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "UIActivityTumblr~ipad.png"; path = "TMTumblrSDK/Activity/UIActivityTumblr~ipad.png"; sourceTree = "<group>"; };
+		ABF41BA646414E76A9EF345A99316F71 /* JXHTTPOperationQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXHTTPOperationQueue.m; path = JXHTTP/JXHTTPOperationQueue.m; sourceTree = "<group>"; };
+		B4E5B61CA862A043C81199377AB4059C /* JXHTTP-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JXHTTP-dummy.m"; sourceTree = "<group>"; };
+		B6CD3DE5A8EA4E394E6B99E0D365878D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		B6D3CBDA3226FE9D513C011B4A73ECEE /* JXHTTPOperationQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXHTTPOperationQueue.h; path = JXHTTP/JXHTTPOperationQueue.h; sourceTree = "<group>"; };
+		B8D5447E0FED761E6B5AB373BEC3823C /* Flurry-iOS-SDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Flurry-iOS-SDK-dummy.m"; sourceTree = "<group>"; };
+		B916C9CF2087F1AD68C99E2A97AB8865 /* JXHTTPMultipartBody.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXHTTPMultipartBody.m; path = JXHTTP/JXHTTPMultipartBody.m; sourceTree = "<group>"; };
+		BA55B66666D49C497F4A83B2C0A99FF1 /* JXURLEncoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXURLEncoding.h; path = JXHTTP/JXURLEncoding.h; sourceTree = "<group>"; };
+		BC08A58373DE3601358A03C5D12CC1C7 /* JXURLConnectionOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXURLConnectionOperation.h; path = JXHTTP/JXURLConnectionOperation.h; sourceTree = "<group>"; };
+		C01166ABBF6E368886EABB57C85B17FB /* libFlurryAds_7.6.4.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libFlurryAds_7.6.4.a; path = FlurryAds/libFlurryAds_7.6.4.a; sourceTree = "<group>"; };
+		C15424287B55347B4F0DFF3C2DC55228 /* UIActivityTumblr@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "UIActivityTumblr@2x.png"; path = "TMTumblrSDK/Activity/UIActivityTumblr@2x.png"; sourceTree = "<group>"; };
+		C1AB04F244C28ADDD4955547BD7D401C /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/CoreMedia.framework; sourceTree = DEVELOPER_DIR; };
+		C32A8459150381F467486243C4AB95F0 /* Spectacles-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Spectacles-dummy.m"; sourceTree = "<group>"; };
+		C508BFF47D18FFE79162925CE2AA954E /* TMTumblrActivity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMTumblrActivity.h; path = TMTumblrSDK/Activity/TMTumblrActivity.h; sourceTree = "<group>"; };
+		D2CFEDF04B09F274222E89251ABAF39C /* JXHTTPOperation+Convenience.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "JXHTTPOperation+Convenience.h"; path = "JXHTTP/JXHTTPOperation+Convenience.h"; sourceTree = "<group>"; };
+		D3B80F56AB60C526CEE7C39311C34480 /* TMTumblrSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TMTumblrSDK.xcconfig; sourceTree = "<group>"; };
+		D4A882C1D8116DB839BE770904D7A90B /* JXHTTPOperationDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXHTTPOperationDelegate.h; path = JXHTTP/JXHTTPOperationDelegate.h; sourceTree = "<group>"; };
+		D5DC98639613D803CF1FB73636D5C3E3 /* FlurryAdInterstitial.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlurryAdInterstitial.h; path = FlurryAds/FlurryAdInterstitial/FlurryAdInterstitial.h; sourceTree = "<group>"; };
+		D8CC96E7D2DCEE95E2A647622B56BDBE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D9ABAD98AC3F2A7FDB2AF9B0549CF4D0 /* TMAPIClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMAPIClient.h; path = TMTumblrSDK/APIClient/TMAPIClient.h; sourceTree = "<group>"; };
+		E109193915CC04229E3379D0001F5495 /* JXOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXOperation.h; path = JXHTTP/JXOperation.h; sourceTree = "<group>"; };
+		E21CC27EAEB4FA32A8F3AFFD3B346F87 /* JXHTTPOperation+Convenience.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "JXHTTPOperation+Convenience.m"; path = "JXHTTP/JXHTTPOperation+Convenience.m"; sourceTree = "<group>"; };
+		E3A8548A7EFC28BC8091A8BFF3108AE2 /* JXURLEncoding.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXURLEncoding.m; path = JXHTTP/JXURLEncoding.m; sourceTree = "<group>"; };
+		E42B70D1FEE86280F015357A5B7E9375 /* FlurryAdNativeStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlurryAdNativeStyle.h; path = FlurryAds/FlurryAdNative/FlurryAdNativeStyle.h; sourceTree = "<group>"; };
+		E682885C55F5A6989E3ABEC4EB1330B5 /* JXHTTPJSONBody.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXHTTPJSONBody.m; path = JXHTTP/JXHTTPJSONBody.m; sourceTree = "<group>"; };
+		E8D5466DC4D09EFAAE24A8A91B840486 /* Pods-YodelSample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YodelSample-dummy.m"; sourceTree = "<group>"; };
+		EC22D9BFB1132F9EB06728B1279DCAF1 /* JXHTTPOperationQueueDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXHTTPOperationQueueDelegate.h; path = JXHTTP/JXHTTPOperationQueueDelegate.h; sourceTree = "<group>"; };
+		ECFCBBA9D98F374DE127C282475E768A /* libTMTumblrSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTMTumblrSDK.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3B50D05E6CE4548C22EA89775F9CC7D /* Pods-YodelSample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YodelSample-resources.sh"; sourceTree = "<group>"; };
+		F4805FEAD5179C87D57F7E4A289BB8E6 /* JXHTTPRequestBody.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXHTTPRequestBody.h; path = JXHTTP/JXHTTPRequestBody.h; sourceTree = "<group>"; };
+		FE43B101A704E1562240AED0823023C9 /* TMPodspec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMPodspec.h; path = Pod/Classes/TMPodspec.h; sourceTree = "<group>"; };
+		FE79BEA15A72F000C827655224E6096F /* libPods-YodelSample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YodelSample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEE654D226959860166C0D0CD36B078E /* FlurryEmpty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FlurryEmpty.m; path = Flurry/FlurryEmpty.m; sourceTree = "<group>"; };
+		FEF6A42EFE7C92C77C13B97F492C2234 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		FF727D86F965F11E4CDCACFF3C01DCAF /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		FFC2B41894C712AD718ECCFCB973B9EE /* JXURLConnectionOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXURLConnectionOperation.m; path = JXHTTP/JXURLConnectionOperation.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28931524A6877F64A416800B6C2C4150 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25F4C9855405D7DBB23CFE138F87BEE5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		391433FE325E71127E6DCA7B2127DD0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A1C0C0C99EB36EE46A6A4D4A797E36E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		929E173F775081A3740BB6AD65C928E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				363E9C81B5E67D48837EDC6C6C8A34DD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6AA36B0519053E8CB3BCAD81BC11DD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				427FB61603854190345A7105D324554A /* AVFoundation.framework in Frameworks */,
+				846A19161FD26CE3B1813F39DD2BAA2E /* CoreGraphics.framework in Frameworks */,
+				6925A5259961928926A24F702FAC3925 /* CoreMedia.framework in Frameworks */,
+				1214E5B6D99519F8A490A7CB39E6640D /* Foundation.framework in Frameworks */,
+				693B9C2F17FC6436A395C9DC8BA7E555 /* MediaPlayer.framework in Frameworks */,
+				9F1E3ABE06116EF84A0B472206980050 /* Security.framework in Frameworks */,
+				440C4814512F8A125B6772D3249124EF /* SystemConfiguration.framework in Frameworks */,
+				1351C46CC988C6A5AB58E95AEAB7769D /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F37731CE2A0619C69CFBCE1885AD9532 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49EA1771A4E68D3F37641FE94C58D74A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		153A0A2BCA575A61408C2753469D2A71 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				229FD4ECFFB2672798EC51CBAC55C65C /* Spectacles.xcconfig */,
+				C32A8459150381F467486243C4AB95F0 /* Spectacles-dummy.m */,
+				98D186589DBE270A9CEACE3335BD31E7 /* Spectacles-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Spectacles";
+			sourceTree = "<group>";
+		};
+		21A801C4EF3A4C171148C161D1187863 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				353E67B395DA7D0BAE3B8605C2A3343C /* JXHTTP.xcconfig */,
+				B4E5B61CA862A043C81199377AB4059C /* JXHTTP-dummy.m */,
+				57D554DB26FC3C3E8A81597A06F71D78 /* JXHTTP-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JXHTTP";
+			sourceTree = "<group>";
+		};
+		253E531EAC9EFFD3D68DFF4B34E66548 /* APIClient */ = {
+			isa = PBXGroup;
+			children = (
+				D9ABAD98AC3F2A7FDB2AF9B0549CF4D0 /* TMAPIClient.h */,
+				1A970189C99D2050B9DDE8778C4D8198 /* TMAPIClient.m */,
+				88AC856FCC0A19F0512A70BA50FE0A4B /* Authentication */,
+			);
+			name = APIClient;
+			sourceTree = "<group>";
+		};
+		27EA516291736A32DC91F63A773E072D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D8C94AC37A4BB940CB42836F3BC8FCE /* libFlurry-iOS-SDK.a */,
+				1A6C4B654FFE456B6D8BA57E7579AC02 /* libJXHTTP.a */,
+				FE79BEA15A72F000C827655224E6096F /* libPods-YodelSample.a */,
+				177E6A8585C758335A07336663FBC7EB /* libSpectacles.a */,
+				ECFCBBA9D98F374DE127C282475E768A /* libTMTumblrSDK.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B8AE8E23D82C3F8EBAC4C310D91F1EB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4433FFA5AC438A5511168810A158A907 /* Flurry-iOS-SDK */,
+				81DD49D76050B31A882A246E1F822E40 /* JXHTTP */,
+				43C9E1091D66054629A0F91827716DEA /* Spectacles */,
+				89CE698AE8E91261C046771529FE488E /* TMTumblrSDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		43C9E1091D66054629A0F91827716DEA /* Spectacles */ = {
+			isa = PBXGroup;
+			children = (
+				FE43B101A704E1562240AED0823023C9 /* TMPodspec.h */,
+				1107C4F44E5BCFFF9194F1788A6D56BE /* TMPodspec.m */,
+				153A0A2BCA575A61408C2753469D2A71 /* Support Files */,
+			);
+			path = Spectacles;
+			sourceTree = "<group>";
+		};
+		4433FFA5AC438A5511168810A158A907 /* Flurry-iOS-SDK */ = {
+			isa = PBXGroup;
+			children = (
+				746B80B941AD3EC8BA911939E2A22CB9 /* FlurryAds */,
+				73F6E815B69142A40205D9EF28FD087B /* FlurrySDK */,
+				4E2BD583C6B5D96383FA44BC7DCBF22C /* Support Files */,
+			);
+			path = "Flurry-iOS-SDK";
+			sourceTree = "<group>";
+		};
+		4E2BD583C6B5D96383FA44BC7DCBF22C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				15F06393B3EB56856580967D27583EE4 /* Flurry-iOS-SDK.xcconfig */,
+				B8D5447E0FED761E6B5AB373BEC3823C /* Flurry-iOS-SDK-dummy.m */,
+				18EEDC3716F21A702E77FCCFBD032A8F /* Flurry-iOS-SDK-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Flurry-iOS-SDK";
+			sourceTree = "<group>";
+		};
+		72C0A569405CC09B47A64E607D458A4D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				773F8CBF133804F544AE3361AD620463 /* TMTumblrSDK.podspec.json */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		73F6E815B69142A40205D9EF28FD087B /* FlurrySDK */ = {
+			isa = PBXGroup;
+			children = (
+				190064D38271F3D22AB06A0B1E89F57E /* Flurry.h */,
+				FEE654D226959860166C0D0CD36B078E /* FlurryEmpty.m */,
+				9C6D5E895A951A240B019FD103093AD1 /* Frameworks */,
+			);
+			name = FlurrySDK;
+			sourceTree = "<group>";
+		};
+		746B80B941AD3EC8BA911939E2A22CB9 /* FlurryAds */ = {
+			isa = PBXGroup;
+			children = (
+				5C271D8D320B378A02E6081B16F8CCA8 /* FlurryAdBanner.h */,
+				1F37980C22AA1680C4CE1063507E71E2 /* FlurryAdBannerDelegate.h */,
+				2C7CC22120B7246E85E8098D8B3120CB /* FlurryAdDelegate.h */,
+				7E72B7714F0634421BC48C93A30A7306 /* FlurryAdError.h */,
+				D5DC98639613D803CF1FB73636D5C3E3 /* FlurryAdInterstitial.h */,
+				47A02FBD38B144CF787AB6AB13372F15 /* FlurryAdInterstitialDelegate.h */,
+				053308A509778FEF4754A9A436EA9C6F /* FlurryAdNative.h */,
+				9ED569DD27F588AA9A276CE6BE2186BF /* FlurryAdNativeAsset.h */,
+				269B0EE7EFD09580A247451AC3A39DE0 /* FlurryAdNativeDelegate.h */,
+				E42B70D1FEE86280F015357A5B7E9375 /* FlurryAdNativeStyle.h */,
+				47CF448C19A8B148F841BFABE4D4A23B /* FlurryAds.h */,
+				5EFC8D221B35CB67D253FA1ACBE6E7BD /* FlurryAdsEmpty.m */,
+				28637F2D03FB2DFA7141E9EECCEF991C /* FlurryAdTargeting.h */,
+				E3CCA64A6738A50E84BF36F0C2E3DCA2 /* Frameworks */,
+			);
+			name = FlurryAds;
+			sourceTree = "<group>";
+		};
+		785553737B06AFC3DA711DDEB7D56194 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9F8AE09490A7CA8EEC33BE68C12E6393 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				785553737B06AFC3DA711DDEB7D56194 /* Frameworks */,
+				3B8AE8E23D82C3F8EBAC4C310D91F1EB /* Pods */,
+				27EA516291736A32DC91F63A773E072D /* Products */,
+				FC5DE55B83D2C022A5D8DB7CFCC9EF97 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		81DD49D76050B31A882A246E1F822E40 /* JXHTTP */ = {
+			isa = PBXGroup;
+			children = (
+				19E77BF1B3D8B605125087888C61DED4 /* JXBackgroundTaskManager.h */,
+				8DDD3B0C9AA133A2DF501700F23D9566 /* JXHTTP.h */,
+				16258470D6AD08809E342CB5F83BA768 /* JXHTTPDataBody.h */,
+				696F1B8F4958235F173C652DF1B41B47 /* JXHTTPDataBody.m */,
+				52023A9BA0034CCA599FE57B1E4AFE3A /* JXHTTPFileBody.h */,
+				9A224DBB217FEE31AE08FF27D199A001 /* JXHTTPFileBody.m */,
+				7718F2560131EE00E70F843780A6B526 /* JXHTTPFormEncodedBody.h */,
+				608A43AA40FD0121AEFB444D2C3B0EA2 /* JXHTTPFormEncodedBody.m */,
+				213F4CD4F118BCCC33EAA201FCC9C570 /* JXHTTPJSONBody.h */,
+				E682885C55F5A6989E3ABEC4EB1330B5 /* JXHTTPJSONBody.m */,
+				17554DE12B70FD261099F91362514D5F /* JXHTTPMultipartBody.h */,
+				B916C9CF2087F1AD68C99E2A97AB8865 /* JXHTTPMultipartBody.m */,
+				6619CB3DE316007E214EE5ACE9C5693D /* JXHTTPOperation.h */,
+				605334742AD7DEF6F0ADD4D05DAACDE3 /* JXHTTPOperation.m */,
+				D2CFEDF04B09F274222E89251ABAF39C /* JXHTTPOperation+Convenience.h */,
+				E21CC27EAEB4FA32A8F3AFFD3B346F87 /* JXHTTPOperation+Convenience.m */,
+				D4A882C1D8116DB839BE770904D7A90B /* JXHTTPOperationDelegate.h */,
+				B6D3CBDA3226FE9D513C011B4A73ECEE /* JXHTTPOperationQueue.h */,
+				ABF41BA646414E76A9EF345A99316F71 /* JXHTTPOperationQueue.m */,
+				EC22D9BFB1132F9EB06728B1279DCAF1 /* JXHTTPOperationQueueDelegate.h */,
+				F4805FEAD5179C87D57F7E4A289BB8E6 /* JXHTTPRequestBody.h */,
+				85E056B030D7749437BE558A5D5349E8 /* JXNetworkActivityIndicatorManager.h */,
+				E109193915CC04229E3379D0001F5495 /* JXOperation.h */,
+				49580C4E4F446B8FE17AD851A5658E94 /* JXOperation.m */,
+				BC08A58373DE3601358A03C5D12CC1C7 /* JXURLConnectionOperation.h */,
+				FFC2B41894C712AD718ECCFCB973B9EE /* JXURLConnectionOperation.m */,
+				BA55B66666D49C497F4A83B2C0A99FF1 /* JXURLEncoding.h */,
+				E3A8548A7EFC28BC8091A8BFF3108AE2 /* JXURLEncoding.m */,
+				21A801C4EF3A4C171148C161D1187863 /* Support Files */,
+			);
+			path = JXHTTP;
+			sourceTree = "<group>";
+		};
+		88AC856FCC0A19F0512A70BA50FE0A4B /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				2EBCF019385DFBB63FE1A8DD1FBB8954 /* TMOAuth.h */,
+				7D14117103273D29F8D72C5D6CAA11C9 /* TMOAuth.m */,
+				21E36F58C2BB3E71E75DA11D1B9E46F0 /* TMTumblrAuthenticator.h */,
+				4A8C26FE3C2CC86C4FB4C37CB033B7CD /* TMTumblrAuthenticator.m */,
+			);
+			name = Authentication;
+			sourceTree = "<group>";
+		};
+		8904D6A4C4109F73CCDA064EAFB50B23 /* AppClient */ = {
+			isa = PBXGroup;
+			children = (
+				2ED8C134CC30512857DE2FB33F619F80 /* TMTumblrAppClient.h */,
+				4DEA85630CBF2037E2587C8346FE6C75 /* TMTumblrAppClient.m */,
+			);
+			name = AppClient;
+			sourceTree = "<group>";
+		};
+		89CE698AE8E91261C046771529FE488E /* TMTumblrSDK */ = {
+			isa = PBXGroup;
+			children = (
+				E77A6F9913F1FFA5D4DCEA02335A7B19 /* Activity */,
+				253E531EAC9EFFD3D68DFF4B34E66548 /* APIClient */,
+				8904D6A4C4109F73CCDA064EAFB50B23 /* AppClient */,
+				B87D5D414C9CB784BDA9792FDF794ACB /* Core */,
+				BF01C79D43D295ECAAD73D5B65EFEE94 /* Support Files */,
+			);
+			path = TMTumblrSDK;
+			sourceTree = "<group>";
+		};
+		9C6D5E895A951A240B019FD103093AD1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C06941E59668B2B0C2166F9D24D714E /* libFlurry_7.6.4.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9F8AE09490A7CA8EEC33BE68C12E6393 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				7F44C7E8104DB13ECD703C14785C7C31 /* AVFoundation.framework */,
+				936F994218D3B5FC32A39E969FDB338A /* CoreGraphics.framework */,
+				C1AB04F244C28ADDD4955547BD7D401C /* CoreMedia.framework */,
+				D8CC96E7D2DCEE95E2A647622B56BDBE /* Foundation.framework */,
+				5F84ED822BBD6078FC69A4AD2FE159D9 /* MediaPlayer.framework */,
+				FF727D86F965F11E4CDCACFF3C01DCAF /* Security.framework */,
+				B6CD3DE5A8EA4E394E6B99E0D365878D /* SystemConfiguration.framework */,
+				FEF6A42EFE7C92C77C13B97F492C2234 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		B5758F9B56C6A4DB67DFC0202EDE61B0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1483F965BC37AD13B967562DF184C859 /* UIActivityTumblr.png */,
+				C15424287B55347B4F0DFF3C2DC55228 /* UIActivityTumblr@2x.png */,
+				57FD3A149C38823E7027A28DC7C502AE /* UIActivityTumblr@2x~ipad.png */,
+				AB00CC8B8ABAC491680FAF26ED1FA906 /* UIActivityTumblr~ipad.png */,
+				311B8DC1B195D13313B746DA717502CC /* UIActivityTumblr~ipad@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B87D5D414C9CB784BDA9792FDF794ACB /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				7F927847360A57931D2DBF54CDA99EF1 /* TMSDKFunctions.h */,
+				2A9D3347A076218F65D123296C40C776 /* TMSDKFunctions.m */,
+				91CCBD9CE23E218757E03653DF408752 /* TMSDKUserAgent.h */,
+				79C5D22BB02860A2D8F365774511738F /* TMSDKUserAgent.m */,
+				72C0A569405CC09B47A64E607D458A4D /* Resources */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		BF01C79D43D295ECAAD73D5B65EFEE94 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3B80F56AB60C526CEE7C39311C34480 /* TMTumblrSDK.xcconfig */,
+				469E0FF33D5C6218DD311FE0AF9077E9 /* TMTumblrSDK-dummy.m */,
+				7EA28E14C1B5395E62D4510E2E5B9E86 /* TMTumblrSDK-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TMTumblrSDK";
+			sourceTree = "<group>";
+		};
+		D63C78E936093AA345CDF9459ABDCF71 /* Pods-YodelSample */ = {
+			isa = PBXGroup;
+			children = (
+				1E3CB2DB86E95A15976A33ACD6629E1A /* Pods-YodelSample-acknowledgements.markdown */,
+				75899D54F3B7EF50B4558F9A75251D67 /* Pods-YodelSample-acknowledgements.plist */,
+				E8D5466DC4D09EFAAE24A8A91B840486 /* Pods-YodelSample-dummy.m */,
+				5837C05630B5B5AF1C9A69587D5B497B /* Pods-YodelSample-frameworks.sh */,
+				F3B50D05E6CE4548C22EA89775F9CC7D /* Pods-YodelSample-resources.sh */,
+				007EC2CB58A7A821AC7165DD77583295 /* Pods-YodelSample.debug.xcconfig */,
+				3EDB730EB3C60CDDEAB656AE9551277B /* Pods-YodelSample.release.xcconfig */,
+			);
+			name = "Pods-YodelSample";
+			path = "Target Support Files/Pods-YodelSample";
+			sourceTree = "<group>";
+		};
+		E3CCA64A6738A50E84BF36F0C2E3DCA2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C01166ABBF6E368886EABB57C85B17FB /* libFlurryAds_7.6.4.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E77A6F9913F1FFA5D4DCEA02335A7B19 /* Activity */ = {
+			isa = PBXGroup;
+			children = (
+				C508BFF47D18FFE79162925CE2AA954E /* TMTumblrActivity.h */,
+				59A86170C7DD1E52C201777B3DBDB0E1 /* TMTumblrActivity.m */,
+				B5758F9B56C6A4DB67DFC0202EDE61B0 /* Resources */,
+			);
+			name = Activity;
+			sourceTree = "<group>";
+		};
+		FC5DE55B83D2C022A5D8DB7CFCC9EF97 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D63C78E936093AA345CDF9459ABDCF71 /* Pods-YodelSample */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4B85A4E09C2791AD132CF53ED84636E9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73958E45B653CC336E7AC0A064237B37 /* JXBackgroundTaskManager.h in Headers */,
+				19CD65D2C191FAC5C6A00BB9AE941EDB /* JXHTTP.h in Headers */,
+				7712C6A5E3E14813E241F913F04BD3FC /* JXHTTPDataBody.h in Headers */,
+				AF504D8A0F905CC4DC8DC5000690FD85 /* JXHTTPFileBody.h in Headers */,
+				392AD7668AFF02503497AB625C81FD31 /* JXHTTPFormEncodedBody.h in Headers */,
+				2747F3C5F2D40FA2A0C03AFDD66DE665 /* JXHTTPJSONBody.h in Headers */,
+				F0C5F9D5720117984936655ABDF2A42C /* JXHTTPMultipartBody.h in Headers */,
+				566F290B185C42AE9D033BECD6CC2582 /* JXHTTPOperation+Convenience.h in Headers */,
+				63428C80B56B7AB4E5FD62AD812C2F8E /* JXHTTPOperation.h in Headers */,
+				8BAA841E13438FD0A6BB7A277CDCD036 /* JXHTTPOperationDelegate.h in Headers */,
+				39353D244F66C654150D7A018AC7B6F5 /* JXHTTPOperationQueue.h in Headers */,
+				0BD192052EABAC281CD5C0600ED8CB77 /* JXHTTPOperationQueueDelegate.h in Headers */,
+				EF1E6AC4E6A544E4AC437179D27B7453 /* JXHTTPRequestBody.h in Headers */,
+				24EDE9B062725E5487CE9234E6F931C2 /* JXNetworkActivityIndicatorManager.h in Headers */,
+				15B8E11E650E4439BF3BE2D48EE3F718 /* JXOperation.h in Headers */,
+				ADC5E5CDDD234239FF2EAEB57D5A1371 /* JXURLConnectionOperation.h in Headers */,
+				1ABA76EE6A4D8C47442455983E2E767E /* JXURLEncoding.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E45F4D5AC4BB9B93FF06C387AE1BF77 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1935B462AB128A79DDDB1105DD22971 /* TMAPIClient.h in Headers */,
+				D900B690D787AE0CC6A8AA9353FFF826 /* TMOAuth.h in Headers */,
+				51707605804132413C47803D47C4C7F5 /* TMSDKFunctions.h in Headers */,
+				F0A360FAC46C2D787C791CB219F621A1 /* TMSDKUserAgent.h in Headers */,
+				DCCAC312B73DDB0650117E18BD803BC2 /* TMTumblrActivity.h in Headers */,
+				027EBF5F16AF64CA915029B664BD5978 /* TMTumblrAppClient.h in Headers */,
+				481C237D12D945F773748E0176203C0C /* TMTumblrAuthenticator.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3582C6C8BA45A4AC012E3C5C1CF82B5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DBD6D6B371F4A99E7D13B9C592FF9BF /* Flurry.h in Headers */,
+				9E735C9749C4CB6E95782EFBE172B77D /* FlurryAdBanner.h in Headers */,
+				ECCCF81D1E74823121548BC363DCF1B5 /* FlurryAdBannerDelegate.h in Headers */,
+				0CC8DDFD09373373EDA3E2365EC0BC7A /* FlurryAdDelegate.h in Headers */,
+				DDE4C7F72E613530FB817B2EE721B82E /* FlurryAdError.h in Headers */,
+				7041A850EF6F22938D91AAB9D8D543DC /* FlurryAdInterstitial.h in Headers */,
+				C2F49961273EF0A5AF9CDBBB0C58A193 /* FlurryAdInterstitialDelegate.h in Headers */,
+				96AE00F0744B3748A5BFD288DF13B782 /* FlurryAdNative.h in Headers */,
+				04BDAB42869D9090A0C6C924ABEBE572 /* FlurryAdNativeAsset.h in Headers */,
+				5DAA7D5034BEA335A69EA56F42FA0804 /* FlurryAdNativeDelegate.h in Headers */,
+				0F30F1D4AD17C4FD24FECE448DDB5EB0 /* FlurryAdNativeStyle.h in Headers */,
+				FE1E18D8FDEE74B9E0FC14D0592C538E /* FlurryAds.h in Headers */,
+				9CD2CAACA14677658B40B7038045B4D6 /* FlurryAdTargeting.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9B10331C234526E29F53E78A9580086 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8FBE9025DB5FB2A82CCEFFB1600F529 /* TMPodspec.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2691DDD9693F5494686E970561C849C8 /* TMTumblrSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FF64C2C6D19AF0B470551C4D0413CEF /* Build configuration list for PBXNativeTarget "TMTumblrSDK" */;
+			buildPhases = (
+				74B9FFC5C7228C17522D191CA3462FB3 /* Sources */,
+				929E173F775081A3740BB6AD65C928E4 /* Frameworks */,
+				4E45F4D5AC4BB9B93FF06C387AE1BF77 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6DA8FA132932C62F5620EBA98DD2E1BA /* PBXTargetDependency */,
+				CE25F213C893BCDFFDBED1D8D31CC8BB /* PBXTargetDependency */,
+			);
+			name = TMTumblrSDK;
+			productName = TMTumblrSDK;
+			productReference = ECFCBBA9D98F374DE127C282475E768A /* libTMTumblrSDK.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		5FB90845C72120D84ABDD331DC7DEB09 /* Flurry-iOS-SDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B926452BF0C8BAE616974621637E5315 /* Build configuration list for PBXNativeTarget "Flurry-iOS-SDK" */;
+			buildPhases = (
+				1E9A957FAD85748FA14A218F23822C48 /* Sources */,
+				A6AA36B0519053E8CB3BCAD81BC11DD2 /* Frameworks */,
+				D3582C6C8BA45A4AC012E3C5C1CF82B5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Flurry-iOS-SDK";
+			productName = "Flurry-iOS-SDK";
+			productReference = 1D8C94AC37A4BB940CB42836F3BC8FCE /* libFlurry-iOS-SDK.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A4B1CAE084438C221D8715018CD17110 /* Spectacles */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE6958FA9474891ED3E25EE700A2E9CF /* Build configuration list for PBXNativeTarget "Spectacles" */;
+			buildPhases = (
+				1F5142028298D41950D7C3A3BD2BE5A9 /* Sources */,
+				28931524A6877F64A416800B6C2C4150 /* Frameworks */,
+				D9B10331C234526E29F53E78A9580086 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Spectacles;
+			productName = Spectacles;
+			productReference = 177E6A8585C758335A07336663FBC7EB /* libSpectacles.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B0144952FC8B7B32E77E313BE1F32BA9 /* JXHTTP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6709CDC1F976C5BFE4B078B7BC60B656 /* Build configuration list for PBXNativeTarget "JXHTTP" */;
+			buildPhases = (
+				893ADEA93C3804D7F12C0C444267A396 /* Sources */,
+				F37731CE2A0619C69CFBCE1885AD9532 /* Frameworks */,
+				4B85A4E09C2791AD132CF53ED84636E9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JXHTTP;
+			productName = JXHTTP;
+			productReference = 1A6C4B654FFE456B6D8BA57E7579AC02 /* libJXHTTP.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C1295805E2F09E20F834ABD3CE42EE86 /* Pods-YodelSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E42CC8C338D19E1635F1119092B042F /* Build configuration list for PBXNativeTarget "Pods-YodelSample" */;
+			buildPhases = (
+				FC0C1E4E851932819812C524F6D7E88B /* Sources */,
+				391433FE325E71127E6DCA7B2127DD0A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41B9B07A2926E460C61C83828855D27B /* PBXTargetDependency */,
+				FB6999D0F2B28BEEB90B596ACB43AB28 /* PBXTargetDependency */,
+				DBC9CE788026D5943207806F9DCC36D7 /* PBXTargetDependency */,
+				48CA610E05D28F590EDD4160E7765CAD /* PBXTargetDependency */,
+			);
+			name = "Pods-YodelSample";
+			productName = "Pods-YodelSample";
+			productReference = FE79BEA15A72F000C827655224E6096F /* libPods-YodelSample.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 27EA516291736A32DC91F63A773E072D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5FB90845C72120D84ABDD331DC7DEB09 /* Flurry-iOS-SDK */,
+				B0144952FC8B7B32E77E313BE1F32BA9 /* JXHTTP */,
+				C1295805E2F09E20F834ABD3CE42EE86 /* Pods-YodelSample */,
+				A4B1CAE084438C221D8715018CD17110 /* Spectacles */,
+				2691DDD9693F5494686E970561C849C8 /* TMTumblrSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E9A957FAD85748FA14A218F23822C48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C0466BE450A1736FC08B19345AF84DC /* Flurry-iOS-SDK-dummy.m in Sources */,
+				F3D0303F25AABD00B40536C8AF350984 /* FlurryAdsEmpty.m in Sources */,
+				473AE2C2E59CD6C2E26B6CBD477743B6 /* FlurryEmpty.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F5142028298D41950D7C3A3BD2BE5A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F93999F352C0A736AF03814E44EF54BE /* Spectacles-dummy.m in Sources */,
+				85FC3C760CEAE670C414724B0EE2C743 /* TMPodspec.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74B9FFC5C7228C17522D191CA3462FB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCACDEABB8D8B998AB848BC8BE3EFD02 /* TMAPIClient.m in Sources */,
+				0AB8506333CA97EAB8859BC1FC267C0B /* TMOAuth.m in Sources */,
+				1935371746B580B1C607F2A7A4243771 /* TMSDKFunctions.m in Sources */,
+				213EEFAF8A933AF332CB0DE27872E438 /* TMSDKUserAgent.m in Sources */,
+				306CD7554C03D7ADD97ED8E2D984BCBA /* TMTumblrActivity.m in Sources */,
+				D3B672D009BEBB82D296F5903520E1D4 /* TMTumblrAppClient.m in Sources */,
+				8D35644D0E153FBC8CE5F8EF1F8EA780 /* TMTumblrAuthenticator.m in Sources */,
+				DDB63C3521141C7639F3ED467DE1BE58 /* TMTumblrSDK-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		893ADEA93C3804D7F12C0C444267A396 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D38F56288B454638B98D7FC712864F2 /* JXHTTP-dummy.m in Sources */,
+				48DACCF50A5732DBF8912C3F492AEA2E /* JXHTTPDataBody.m in Sources */,
+				B04FAF363C4F18CA318C4F5DDD606DA4 /* JXHTTPFileBody.m in Sources */,
+				4F8B282C7B454EDD6E31DDD12B05FC51 /* JXHTTPFormEncodedBody.m in Sources */,
+				E04739BAC8F58D877DFE1946932B53D7 /* JXHTTPJSONBody.m in Sources */,
+				2ADFEFD86E68998CB00A4A2690EFBA37 /* JXHTTPMultipartBody.m in Sources */,
+				71A95B60C81AEE4C3A565322E05BEC8E /* JXHTTPOperation+Convenience.m in Sources */,
+				D928CDFB2D7D3E2AD9DE3D2974391870 /* JXHTTPOperation.m in Sources */,
+				98D2D0B3B912627C074A061436AA0F2A /* JXHTTPOperationQueue.m in Sources */,
+				1E75ECA691A7A28962E96F8569038653 /* JXOperation.m in Sources */,
+				117F41761DAD72C7D56D883B7E22C947 /* JXURLConnectionOperation.m in Sources */,
+				61F3DD62261DB600855C5B84634AA60B /* JXURLEncoding.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC0C1E4E851932819812C524F6D7E88B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				863B3F6E5B4BA54D3982E90CEF5496E2 /* Pods-YodelSample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		41B9B07A2926E460C61C83828855D27B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Flurry-iOS-SDK";
+			target = 5FB90845C72120D84ABDD331DC7DEB09 /* Flurry-iOS-SDK */;
+			targetProxy = 8EB99946C91FC92FEC9DF4EB04C21EEF /* PBXContainerItemProxy */;
+		};
+		48CA610E05D28F590EDD4160E7765CAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TMTumblrSDK;
+			target = 2691DDD9693F5494686E970561C849C8 /* TMTumblrSDK */;
+			targetProxy = D51C574E2389436A683CA9A3A8533CDD /* PBXContainerItemProxy */;
+		};
+		6DA8FA132932C62F5620EBA98DD2E1BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JXHTTP;
+			target = B0144952FC8B7B32E77E313BE1F32BA9 /* JXHTTP */;
+			targetProxy = 67E471C1A49A3050FB294CD9AECE97D0 /* PBXContainerItemProxy */;
+		};
+		CE25F213C893BCDFFDBED1D8D31CC8BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Spectacles;
+			target = A4B1CAE084438C221D8715018CD17110 /* Spectacles */;
+			targetProxy = B8BB045E46AD39E0F4CF2CDB839B609F /* PBXContainerItemProxy */;
+		};
+		DBC9CE788026D5943207806F9DCC36D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Spectacles;
+			target = A4B1CAE084438C221D8715018CD17110 /* Spectacles */;
+			targetProxy = 8539395FEDD1A0FE91385C0E96EC1B81 /* PBXContainerItemProxy */;
+		};
+		FB6999D0F2B28BEEB90B596ACB43AB28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JXHTTP;
+			target = B0144952FC8B7B32E77E313BE1F32BA9 /* JXHTTP */;
+			targetProxy = 3C008045F9536F1C0D6547827B51687D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3A4C8A5920F897DD2DC809A7FB2E3AF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EDB730EB3C60CDDEAB656AE9551277B /* Pods-YodelSample.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		3D051A07A39D73DC5AA2DFB12968981D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 353E67B395DA7D0BAE3B8605C2A3343C /* JXHTTP.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JXHTTP/JXHTTP-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		3FA2475660FFC880302AD18E29B2E5FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4A5FB8775218689D4F98D02087C1BD3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15F06393B3EB56856580967D27583EE4 /* Flurry-iOS-SDK.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Flurry-iOS-SDK/Flurry-iOS-SDK-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4BDEF715595ED0B56DA9B32F3106867F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 007EC2CB58A7A821AC7165DD77583295 /* Pods-YodelSample.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5E705DA2DF71E49A661CD16224F430FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 353E67B395DA7D0BAE3B8605C2A3343C /* JXHTTP.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JXHTTP/JXHTTP-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		723E2B5C528C8A8885C9571E74A81703 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15F06393B3EB56856580967D27583EE4 /* Flurry-iOS-SDK.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Flurry-iOS-SDK/Flurry-iOS-SDK-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A2284430DF99649EAD1CEB3E7071E9EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 229FD4ECFFB2672798EC51CBAC55C65C /* Spectacles.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Spectacles/Spectacles-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A5B8CE0529F8CE3BE8EAABB6F938880C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3B80F56AB60C526CEE7C39311C34480 /* TMTumblrSDK.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TMTumblrSDK/TMTumblrSDK-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		CC656EAE34F5B58D7B81A8ABDF9ADDE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3B80F56AB60C526CEE7C39311C34480 /* TMTumblrSDK.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TMTumblrSDK/TMTumblrSDK-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D24824F68F00E9AD375228934C18E3BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 229FD4ECFFB2672798EC51CBAC55C65C /* Spectacles.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Spectacles/Spectacles-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F325026B55060D3B22BEC0BAB5FA7344 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E42CC8C338D19E1635F1119092B042F /* Build configuration list for PBXNativeTarget "Pods-YodelSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BDEF715595ED0B56DA9B32F3106867F /* Debug */,
+				3A4C8A5920F897DD2DC809A7FB2E3AF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FA2475660FFC880302AD18E29B2E5FC /* Debug */,
+				F325026B55060D3B22BEC0BAB5FA7344 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FF64C2C6D19AF0B470551C4D0413CEF /* Build configuration list for PBXNativeTarget "TMTumblrSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5B8CE0529F8CE3BE8EAABB6F938880C /* Debug */,
+				CC656EAE34F5B58D7B81A8ABDF9ADDE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6709CDC1F976C5BFE4B078B7BC60B656 /* Build configuration list for PBXNativeTarget "JXHTTP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E705DA2DF71E49A661CD16224F430FC /* Debug */,
+				3D051A07A39D73DC5AA2DFB12968981D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B926452BF0C8BAE616974621637E5315 /* Build configuration list for PBXNativeTarget "Flurry-iOS-SDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A5FB8775218689D4F98D02087C1BD3F /* Debug */,
+				723E2B5C528C8A8885C9571E74A81703 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE6958FA9474891ED3E25EE700A2E9CF /* Build configuration list for PBXNativeTarget "Spectacles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D24824F68F00E9AD375228934C18E3BC /* Debug */,
+				A2284430DF99649EAD1CEB3E7071E9EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

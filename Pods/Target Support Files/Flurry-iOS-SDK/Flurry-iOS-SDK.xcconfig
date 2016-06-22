@@ -1,6 +1,10 @@
+CONFIGURATION_BUILD_DIR = $PODS_CONFIGURATION_BUILD_DIR/Flurry-iOS-SDK
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
 HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/Flurry-iOS-SDK" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/Flurry-iOS-SDK" "${PODS_ROOT}/Headers/Public/JXHTTP" "${PODS_ROOT}/Headers/Public/Spectacles" "${PODS_ROOT}/Headers/Public/TMTumblrSDK"
 LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Flurry-iOS-SDK/FlurryAds" $(inherited) "${PODS_ROOT}/Flurry-iOS-SDK/Flurry"
-OTHER_LDFLAGS = -l"FlurryAds_7.6.0" -l"Flurry_7.6.0" -l"z" -framework "AVFoundation" -framework "CoreGraphics" -framework "CoreMedia" -framework "Foundation" -framework "MediaPlayer" -framework "Security" -framework "SystemConfiguration" -framework "UIKit" -weak_framework "AdSupport" -weak_framework "StoreKit" -weak_framework "WatchConnectivity"
+OTHER_LDFLAGS = -l"FlurryAds_7.6.4" -l"Flurry_7.6.4" -l"z" -framework "AVFoundation" -framework "CoreGraphics" -framework "CoreMedia" -framework "Foundation" -framework "MediaPlayer" -framework "Security" -framework "SystemConfiguration" -framework "UIKit" -weak_framework "AdSupport" -weak_framework "StoreKit" -weak_framework "WatchConnectivity"
+PODS_BUILD_DIR = $BUILD_DIR
+PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_ROOT = ${SRCROOT}
+PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.${PRODUCT_NAME:rfc1034identifier}
 SKIP_INSTALL = YES
